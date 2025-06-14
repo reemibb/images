@@ -1,0 +1,2846 @@
+{
+  "announcements": {
+    "-OPPVqr7hgS8GbuxM0x6": {
+      "message": "from 10 am to 2 pm",
+      "timestamp": 1746349026055,
+      "title": "Maintenance"
+    },
+    "-OSA44_ZTJ2xVValypcD": {
+      "message": "qwertyuij",
+      "timestamp": 1749311314535,
+      "title": "student Announcemnt"
+    },
+    "-OSA4ALR7UyQP7TbXvWC": {
+      "message": "jnjnj",
+      "timestamp": 1749311338143,
+      "title": "cttfj"
+    }
+  },
+  "announcements_by_role": {
+    "company": {
+      "-OPPYBSi2PEjKFUVGhl5": {
+        "message": "...",
+        "timestamp": 1746349638699,
+        "title": "Company Announcement"
+      },
+      "-OQ4q7M4TFTMt1YS-YSK": {
+        "message": "hello",
+        "timestamp": 1747076025640,
+        "title": "maintenance"
+      },
+      "-OQ4s0snaE-aHzVF4uUg": {
+        "message": "ahahah",
+        "timestamp": 1747076523404,
+        "title": "rayaha"
+      },
+      "-OQ75g6EKGLn4-f-pNoO": {
+        "message": "j ktyxtk",
+        "timestamp": 1747113920942,
+        "title": "igoviv"
+      },
+      "-OQo5ci_QRjCW6sNyGX1": {
+        "message": "reem has just applied to your project \"another project\".",
+        "timestamp": 1747852099720,
+        "title": "New Application Received"
+      },
+      "-OQoAdez8jLKW97UqLvf": {
+        "message": "reem has just applied to your project \"another project\".\n\n[View Applicants]",
+        "timestamp": 1747853414274,
+        "title": "New Application Received"
+      },
+      "-OQrDfPMIaVddZHJzPrM": {
+        "message": "reem has just applied to your project \"Project For Announce\".\n\n[View Applicants]",
+        "timestamp": 1747904542513,
+        "title": "New Application Received"
+      },
+      "-OQrEy6O75wUVsGUb17Z": {
+        "message": "reem has just applied to your project \"Project For Announce\".\n\n[View Applicants]",
+        "timestamp": 1747904881267,
+        "title": "New Application Received"
+      },
+      "-OQrEyHBBonPQVGIF21q": {
+        "message": "reem has just applied to your project \"Project For Announce\".\n\n[View Applicants]",
+        "timestamp": 1747904881958,
+        "title": "New Application Received"
+      },
+      "-OQrJQFQckH2CKboXar5": {
+        "message": "reem has just applied to your project \"Project For Announce\".\n\n[View Applicants]",
+        "timestamp": 1747906049268,
+        "title": "New Application Received"
+      },
+      "-OQrPpsi1DF2KTKvjhZm": {
+        "message": "reem has just applied to your project \"Project For Announce\".\n\n[View Applicants]",
+        "timestamp": 1747907731143,
+        "title": "New Application Received"
+      },
+      "-OQrRnugHPIbV_320ma5": {
+        "message": "reem has just applied to your project \"another project\".\n\n[View Applicants]",
+        "timestamp": 1747908247362,
+        "title": "New Application Received"
+      },
+      "-OQrg75KMHjoK2nMLNEq": {
+        "message": "reem has just applied to your project \"bara project\".\n\n[View Applicants]",
+        "timestamp": 1747912262179,
+        "title": "New Application Received"
+      },
+      "-OQxhMXWmH3JRR6xntEh": {
+        "message": "Nour Elzein has just applied to your project \"bara project\".\n\n[View Applicants]",
+        "timestamp": 1748013250729,
+        "title": "New Application Received"
+      },
+      "-OQxvve8rBccoSF054pi": {
+        "message": "Nour Elzein has just applied to your project \"website\".\n\n[View Applicants]",
+        "timestamp": 1748017068606,
+        "title": "New Application Received"
+      },
+      "-ORH0jdDDpNxcWqMhd86": {
+        "message": "reem has just applied to your project \"website\".\n\n[View Applicants]",
+        "timestamp": 1748354136291,
+        "title": "New Application Received"
+      },
+      "-ORH1LCT9r6PHhTnPsST": {
+        "message": "reem has just applied to your project \"bara project\".\n\n[View Applicants]",
+        "timestamp": 1748354294259,
+        "title": "New Application Received"
+      },
+      "-ORH22_DDUeCREeSRLSE": {
+        "message": "reem has just applied to your project \"another project\".\n\n[View Applicants]",
+        "timestamp": 1748354480099,
+        "title": "New Application Received"
+      },
+      "-ORHD54DLKlYFyCq-yji": {
+        "message": "reem has just applied to your project \"website\".\n\n[View Applicants]",
+        "timestamp": 1748357373925,
+        "title": "New Application Received"
+      },
+      "-ORHTklVDictqb3lKAbn": {
+        "message": "Nour Elzein has just applied to your project \"jowa project\".\n\n[View Applicants]",
+        "timestamp": 1748361735954,
+        "title": "New Application Received"
+      },
+      "-ORHlO8jKvSEFSXIkRQN": {
+        "message": "Nour Elzein has just applied to your project \"website2\".\n\n[View Applicants]",
+        "timestamp": 1748366623902,
+        "title": "New Application Received"
+      },
+      "-ORLMN8TZ0xeB1jfAxVn": {
+        "message": "ajajaj",
+        "timestamp": 1748426919040,
+        "title": "Company"
+      },
+      "-ORa4DrnZtpwFmk2B_0K": {
+        "message": "Nour Elzein has just applied to your project \"project\".\n\n[View Applicants]",
+        "timestamp": 1748690585990,
+        "title": "New Application Received"
+      },
+      "-ORa4hKTRiRO3YiOVK5a": {
+        "message": "Nour has just applied to your project \"project\".\n\n[View Applicants]",
+        "timestamp": 1748690710769,
+        "title": "New Application Received"
+      },
+      "-ORa51ZXe0EKvctNiPe7": {
+        "message": "Batoul has just applied to your project \"project\".\n\n[View Applicants]",
+        "timestamp": 1748690797749,
+        "title": "New Application Received"
+      },
+      "-ORbMnD9X_cAy2zDI1dM": {
+        "message": "Batoul has just applied to your project \"jowa project\".\n\n[View Applicants]",
+        "timestamp": 1748712237370,
+        "title": "New Application Received"
+      },
+      "-ORgP_F_R1pXi3cg-qND": {
+        "message": "reem has just applied to your project \"feedback test\".\n\n[View Applicants]",
+        "timestamp": 1748796855112,
+        "title": "New Application Received"
+      },
+      "-ORmH3sRC2RQ3_XPhT_J": {
+        "message": "Nour Elzein has just applied to your project \"test\".\n\n[View Applicants]",
+        "timestamp": 1748895287829,
+        "title": "New Application Received"
+      },
+      "-ORpF0kfaO3jaMMmt1Zd": {
+        "message": "Nour has just applied to your project \"test\".\n\n[View Applicants]",
+        "timestamp": 1748945083481,
+        "title": "New Application Received"
+      },
+      "-OS9VrI_90JeOMyFdq6x": {
+        "message": "Batoul has just applied to your project \"project2\".\n\n[View Applicants]",
+        "timestamp": 1749301806857,
+        "title": "New Application Received"
+      },
+      "-OS9WcaK_8BhNPJ8rCm7": {
+        "message": "Nour Elzein has just applied to your project \"project2\".\n\n[View Applicants]",
+        "timestamp": 1749302008758,
+        "title": "New Application Received"
+      },
+      "-OSKfD_DFk-CVNGD3HGm": {
+        "message": "reem has just applied to your project \"Ai project\".\n\n[View Applicants]",
+        "timestamp": 1749489083541,
+        "title": "New Application Received"
+      },
+      "-OSKfEgfROOT6v_YCfoY": {
+        "message": "reem has just applied to your project \"Ai project\".\n\n[View Applicants]",
+        "timestamp": 1749489088114,
+        "title": "New Application Received"
+      }
+    },
+    "student": {
+      "-OPQFqHQxVwNusuJL669": {
+        "message": "...",
+        "timestamp": 1746361606803,
+        "title": "Student Announcement"
+      },
+      "-OR2lKOBZiwe3db6XAqS": {
+        "applicant_status": "Accepted",
+        "message": "Congratulations! Your application for \"quiztest\" at \"tech\" has been accepted.\n\n[View Details]",
+        "recipientId": "ltDtnyIumkUgsQfDRG8alJdhmvR2",
+        "timestamp": 1748114956130,
+        "title": "Application Accepted"
+      },
+      "-OR2lXfkRjG7tER7g75j": {
+        "applicant_status": "Shortlisted",
+        "message": "Your interview for \"bara project\" with \"tech\" is scheduled on May 25, 2025 at 10:30 AM\".\n\n[View Applicants]",
+        "recipientId": "D7baDaHRK1h7xzfshVY4vWzLtRj2",
+        "timestamp": 1748115010566,
+        "title": "Interview Scheduled"
+      },
+      "-OR2oNn8X1XRfmEufGSs": {
+        "applicant_status": "Shortlisted",
+        "message": "📅 Your interview for \"bara project\" with \"tech\" has been rescheduled to May 29, 2025 at 09:42 AM.\n\n[View Details]",
+        "recipientId": "D7baDaHRK1h7xzfshVY4vWzLtRj2",
+        "timestamp": 1748115756487,
+        "title": "Interview Rescheduled"
+      },
+      "-OR2oRgYyAaZZO7zBLRG": {
+        "applicant_status": "Under Review",
+        "message": "❌ Your interview for \"bara project\" with \"tech\" has been cancelled. Your application is now under review.\n\n[View Status]",
+        "recipientId": "D7baDaHRK1h7xzfshVY4vWzLtRj2",
+        "timestamp": 1748115772449,
+        "title": "Interview Cancelled"
+      },
+      "-OR2oYX8YSuHuvOUJ33I": {
+        "applicant_status": "Shortlisted",
+        "message": "📅 Your interview for \"bara project\" with \"tech\" is scheduled on May 24, 2025 at 10:43 PM.\n\n[View Details]",
+        "recipientId": "D7baDaHRK1h7xzfshVY4vWzLtRj2",
+        "timestamp": 1748115800455,
+        "title": "Interview Scheduled"
+      },
+      "-OR5ubVHGWm8SoT2jnkm": {
+        "applicant_status": "Shortlisted",
+        "message": "📅 Your interview for \"another project\" with \"tech\" is scheduled on May 31, 2025 at 12:00 PM.\n\n[View Details]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1748167719085,
+        "title": "Interview Scheduled"
+      },
+      "-OR5urbyXu4vgWdWnpEp": {
+        "applicant_status": "Shortlisted",
+        "message": "📅 Your interview for \"bara project\" with \"tech\" is scheduled on May 29, 2025 at 01:00 PM.\n\n[View Details]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1748167785113,
+        "title": "Interview Scheduled"
+      },
+      "-OR7MWXSn02RBfG484uO": {
+        "applicant_status": "Rejected",
+        "message": "😔 Your application for \"another project\" at \"tech\" has been reviewed. Better luck next time!\n\n[View Other Opportunities]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1748192074645,
+        "title": "Application Rejected"
+      },
+      "-OR7MpqzVN0IuC_GBJkf": {
+        "applicant_status": "Shortlisted",
+        "interviewMethod": "Zoom",
+        "interviewType": "Online",
+        "message": "📅 Your interview for \"another project\" with \"tech\" is scheduled on May 31, 2025 at 01:00 PM.\n\n📱 Interview Type: Online (Zoom Meeting)\n🔗 Zoom Link: zoom.url.link\n\n[View Details]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1748192157879,
+        "title": "Interview Scheduled"
+      },
+      "-OR7MyX3r-cG9tVatbLg": {
+        "applicant_status": "Rejected",
+        "message": "😔 Your application for \"bara project\" at \"tech\" has been reviewed. Better luck next time!\n\n[View Other Opportunities]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1748192193404,
+        "title": "Application Rejected"
+      },
+      "-OR7N67S8HwgtYf8fwtX": {
+        "applicant_status": "Shortlisted",
+        "interviewMethod": "",
+        "interviewType": "In-person",
+        "message": "📅 Your interview for \"bara project\" with \"tech\" is scheduled on May 30, 2025 at 02:00 PM.\n\n🏢 Interview Type: In-person\n📍 Location: location of interview\n\n[View Details]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1748192228628,
+        "title": "Interview Scheduled"
+      },
+      "-OR7Oibin0khdSVl3-TB": {
+        "applicant_status": "Shortlisted",
+        "interviewMethod": "Zoom",
+        "interviewType": "Online",
+        "message": "📅 Your interview for \"bara project\" with \"tech\" is scheduled on May 31, 2025 at 11:00 AM.\n\n📱 Interview Type: Online (Zoom Meeting)\n🔗 Zoom Link: zoom.link.url\n\n[View Details]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1748192652518,
+        "title": "Interview Scheduled"
+      },
+      "-OR7Oq9I03e91Hk27MQw": {
+        "applicant_status": "Shortlisted",
+        "interviewMethod": "",
+        "interviewType": "In-person",
+        "message": "📅 Your interview for \"another project\" with \"tech\" is scheduled on May 29, 2025 at 02:00 PM.\n\n🏢 Interview Type: In-person\n📍 Location: beirut\n\n[View Details]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1748192683403,
+        "title": "Interview Scheduled"
+      },
+      "-OR7ktPwKZ2L1sd_9yrx": {
+        "applicant_status": "Shortlisted",
+        "interviewMethod": "Chat",
+        "interviewType": "Online",
+        "message": "📅 Your interview for \"another project\" with \"tech\" is scheduled on May 25, 2025 at 09:46 PM.\n\n📱 Interview Type: Online (Chat)\n💬 Please be available for chat at the scheduled time.\n\n[View Details]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1748198726018,
+        "title": "Interview Scheduled"
+      },
+      "-OR7lW_5N_tq-6ZeNG-u": {
+        "applicant_status": "Shortlisted",
+        "message": "📅 Your interview details for \"another project\" with \"tech\" have been updated.\n\n📆 Date: May 25, 2025\n⏰ Time: 10:48 PM\n🌐 Mode: Online\n\n[View Details]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1748198890508,
+        "title": "Interview Details Updated"
+      },
+      "-OR7rHgFwZqa_Mzqaomh": {
+        "applicant_status": "Shortlisted",
+        "message": "📅 Your interview details for \"another project\" with \"tech\" have been updated.\n\n📆 Date: May 25, 2025\n⏰ Time: 10:14 PM\n🌐 Mode: Online\n\n[View Details]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1748200402420,
+        "title": "Interview Details Updated"
+      },
+      "-OR7ryZ7e5bzq-OrjL5c": {
+        "applicant_status": "Shortlisted",
+        "interviewMethod": "Chat",
+        "interviewType": "Online",
+        "message": "📅 Your interview for \"another project\" with \"tech\" is scheduled on May 25, 2025 at 10:17 PM.\n\n📱 Interview Type: Online (Chat)\n💬 Please be available for chat at the scheduled time.\n\n[View Details]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1748200582124,
+        "title": "Interview Scheduled"
+      },
+      "-ORACVayOPHJ2KFlZnJ9": {
+        "applicant_status": "Shortlisted",
+        "interviewMethod": "Chat",
+        "interviewType": "Online",
+        "message": "📅 Your interview for \"Web Development\" with \"tech\" is scheduled on May 26, 2025 at 09:10 AM.\n\n📱 Interview Type: Online (Chat)\n💬 Please be available for chat at the scheduled time.\n\n[View Details]",
+        "recipientId": "ltDtnyIumkUgsQfDRG8alJdhmvR2",
+        "timestamp": 1748239781588,
+        "title": "Interview Scheduled"
+      },
+      "-ORAzTKu1se3RuoRdWAo": {
+        "applicant_status": "Shortlisted",
+        "message": "📅 Your interview details for \"another project\" with \"tech\" have been updated.\n\n📆 Date: May 25, 2025\n⏰ Time: 12:47 PM\n🌐 Mode: Online\n\n[View Details]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1748252878551,
+        "title": "Interview Details Updated"
+      },
+      "-ORAzZnhON4wd7Cl26OD": {
+        "applicant_status": "Shortlisted",
+        "message": "📅 Your interview details for \"another project\" with \"tech\" have been updated.\n\n📆 Date: May 25, 2025\n⏰ Time: 12:49 PM\n🌐 Mode: Online\n\n[View Details]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1748252905034,
+        "title": "Interview Details Updated"
+      },
+      "-ORF_SPJxWkWLtBtGKaS": {
+        "applicant_status": "Shortlisted",
+        "interviewMethod": "",
+        "interviewType": "In-person",
+        "message": "📅 Your interview for \"bara project\" with \"tech\" is scheduled on May 27, 2025 at 12:00 PM.\n\n🏢 Interview Type: In-person\n📍 Location: beirut\n\n[View Details]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1748329944732,
+        "title": "Interview Scheduled"
+      },
+      "-ORH1eZRmzEMa41auXhO": {
+        "applicant_status": "Rejected",
+        "message": "😔 Your application for \"bara project\" at \"tech\" has been reviewed. Better luck next time!\n\n[View Other Opportunities]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1748354377649,
+        "title": "Application Rejected"
+      },
+      "-ORHHONJChX5h5tYKPqE": {
+        "applicant_status": "Shortlisted",
+        "message": "📅 Your interview for \"Web Development\" with \"tech\" has been rescheduled to May 27, 2025 at 06:08 PM.\n\n[View Details]",
+        "recipientId": "ltDtnyIumkUgsQfDRG8alJdhmvR2",
+        "timestamp": 1748358508057,
+        "title": "Interview Rescheduled"
+      },
+      "-ORL1RP82ccq46Xgn1qR": {
+        "applicant_status": "Accepted",
+        "message": "🎉 Congratulations! Your application for \"bara project\" at \"tech\" has been accepted.\n\n[View Details]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1748421430647,
+        "title": "Application Accepted"
+      },
+      "-ORLTr8c0XiZ1vo6hRVK": {
+        "applicant_status": "Shortlisted",
+        "interviewMethod": "Chat",
+        "interviewType": "Online",
+        "message": "📅 Your interview for \"bara project\" with \"tech\" is scheduled on May 28, 2025 at 01:42 PM.\n\n📱 Interview Type: Online (Chat)\n💬 Please be available for chat at the scheduled time.\n\n[View Details]",
+        "recipientId": "D7baDaHRK1h7xzfshVY4vWzLtRj2",
+        "timestamp": 1748428881094,
+        "title": "Interview Scheduled"
+      },
+      "-ORLq2frKhKb3_rgIdyW": {
+        "applicant_status": "Shortlisted",
+        "interviewMethod": "Zoom",
+        "interviewType": "Online",
+        "message": "📅 Your interview for \"Project For Announce\" with \"tech\" is scheduled on May 28, 2025 at 03:25 PM.\n\n📱 Interview Type: Online (Zoom Meeting)\n🔗 Zoom Link: zoom.link.com\n\n[View Details]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1748434959226,
+        "title": "Interview Scheduled"
+      },
+      "-ORLuV-tjoPFaPvWQPAg": {
+        "applicant_status": "Shortlisted",
+        "interviewMethod": "Chat",
+        "interviewType": "Online",
+        "message": "📅 Your interview for \"bara project\" with \"tech\" is scheduled on May 28, 2025 at 04:41 PM.\n\n📱 Interview Type: Online (Chat)\n💬 Please be available for chat at the scheduled time.\n\n[View Details]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1748436123929,
+        "title": "Interview Scheduled"
+      },
+      "-ORLuawG-zwwf-MU-Fnf": {
+        "applicant_status": "Shortlisted",
+        "interviewMethod": "",
+        "interviewType": "In-person",
+        "message": "📅 Your interview for \"bara project\" with \"tech\" is scheduled on May 28, 2025 at 05:42 PM.\n\n🏢 Interview Type: In-person\n📍 Location: beirut\n\n[View Details]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1748436152306,
+        "title": "Interview Scheduled"
+      },
+      "-ORLwij-lvcL8G1ADUrr": {
+        "applicant_status": "Shortlisted",
+        "interviewMethod": "Chat",
+        "interviewType": "Online",
+        "message": "📅 Your interview for \"another project\" with \"tech\" is scheduled on May 30, 2025 at 03:51 PM.\n\n📱 Interview Type: Online (Chat)\n💬 Please be available for chat at the scheduled time.\n\n[View Details]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1748436715317,
+        "title": "Interview Scheduled"
+      },
+      "-ORMsx7HBUxwOYXRzrih": {
+        "applicant_status": "Accepted",
+        "message": "🎉 Congratulations! Your application for \"bara project\" at \"tech\" has been accepted.\n\n[View Details]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1748452497006,
+        "title": "Application Accepted"
+      },
+      "-ORPpcMjWtBauanQjV6n": {
+        "applicant_status": "Accepted",
+        "message": "🎉 Congratulations! Your application for \"jowa project\" at \"tech\" has been accepted.\n\n[View Details]",
+        "recipientId": "D7baDaHRK1h7xzfshVY4vWzLtRj2",
+        "timestamp": 1748501955700,
+        "title": "Application Accepted"
+      },
+      "-ORa0FabHh5IwTL5koDK": {
+        "applicant_status": "Accepted",
+        "message": "🎉 Congratulations! Your application for \"bara project\" at \"tech\" has been accepted.\n\n[View Details]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1748689555901,
+        "title": "Application Accepted"
+      },
+      "-ORa0HLTy_C-vEanAqzd": {
+        "applicant_status": "Accepted",
+        "message": "🎉 Congratulations! Your application for \"bara project\" at \"tech\" has been accepted.\n\n[View Details]",
+        "recipientId": "D7baDaHRK1h7xzfshVY4vWzLtRj2",
+        "timestamp": 1748689563060,
+        "title": "Application Accepted"
+      },
+      "-ORa4OkX_kRbWF3eyRda": {
+        "applicant_status": "Accepted",
+        "message": "🎉 Congratulations! Your application for \"project\" at \"tech\" has been accepted.\n\n[View Details]",
+        "recipientId": "D7baDaHRK1h7xzfshVY4vWzLtRj2",
+        "timestamp": 1748690641975,
+        "title": "Application Accepted"
+      },
+      "-ORa5EmoKxmqJCRQia5_": {
+        "applicant_status": "Accepted",
+        "message": "🎉 Congratulations! Your application for \"project\" at \"tech\" has been accepted.\n\n[View Details]",
+        "recipientId": "ltDtnyIumkUgsQfDRG8alJdhmvR2",
+        "timestamp": 1748690863306,
+        "title": "Application Accepted"
+      },
+      "-ORa5Go5uar7n5YKfCA9": {
+        "applicant_status": "Accepted",
+        "message": "🎉 Congratulations! Your application for \"project\" at \"tech\" has been accepted.\n\n[View Details]",
+        "recipientId": "JjKsmDRPprWX79iQZJkWHGwObzR2",
+        "timestamp": 1748690871580,
+        "title": "Application Accepted"
+      },
+      "-ORa5OsoGRuA_iv5R_l0": {
+        "applicant_status": "Rejected",
+        "message": "😔 Your application for \"project\" at \"tech\" has been reviewed. Better luck next time!\n\n[View Other Opportunities]",
+        "recipientId": "D7baDaHRK1h7xzfshVY4vWzLtRj2",
+        "timestamp": 1748690904650,
+        "title": "Application Rejected"
+      },
+      "-ORagMq8aqq9hEcLGYCp": {
+        "applicant_status": "Accepted",
+        "message": "🎉 Congratulations! Your application for \"website2\" at \"tech\" has been accepted.\n\n[View Details]",
+        "recipientId": "D7baDaHRK1h7xzfshVY4vWzLtRj2",
+        "timestamp": 1748700854413,
+        "title": "Application Accepted"
+      },
+      "-ORagUvfY2_9Ad3P5lya": {
+        "applicant_status": "Rejected",
+        "message": "😔 Your application for \"bara project\" at \"tech\" has been reviewed. Better luck next time!\n\n[View Other Opportunities]",
+        "recipientId": "D7baDaHRK1h7xzfshVY4vWzLtRj2",
+        "timestamp": 1748700887535,
+        "title": "Application Rejected"
+      },
+      "-ORmHFT8-cWabSbmHM2f": {
+        "applicant_status": "Accepted",
+        "message": "🎉 Congratulations! Your application for \"test\" at \"company1\" has been accepted.\n\n[View Details]",
+        "recipientId": "D7baDaHRK1h7xzfshVY4vWzLtRj2",
+        "timestamp": 1748895338962,
+        "title": "Application Accepted"
+      },
+      "-ORpF7OIRZkA_I24be7S": {
+        "applicant_status": "Accepted",
+        "message": "🎉 Congratulations! Your application for \"test\" at \"company1\" has been accepted.\n\n[View Details]",
+        "recipientId": "ltDtnyIumkUgsQfDRG8alJdhmvR2",
+        "timestamp": 1748945114460,
+        "title": "Application Accepted"
+      },
+      "-OS9Vy6mNWbX9v3sndH9": {
+        "applicant_status": "Shortlisted",
+        "interviewMethod": "Chat",
+        "interviewType": "Online",
+        "message": "📅 Your interview for \"project2\" with \"company1\" is scheduled on June 7, 2025 at 04:10 PM.\n\n📱 Interview Type: Online (Chat)\n💬 Please be available for chat at the scheduled time.\n\n[View Details]",
+        "recipientId": "JjKsmDRPprWX79iQZJkWHGwObzR2",
+        "timestamp": 1749301850515,
+        "title": "Interview Scheduled"
+      },
+      "-OS9WK7S9M0kB3MNQge_": {
+        "applicant_status": "Accepted",
+        "message": "🎉 Congratulations! Your application for \"project2\" at \"company1\" has been accepted.\n\n[View Details]",
+        "recipientId": "JjKsmDRPprWX79iQZJkWHGwObzR2",
+        "timestamp": 1749301944766,
+        "title": "Application Accepted"
+      },
+      "-OS9Wh6JnQRSsK2ZF64N": {
+        "applicant_status": "Accepted",
+        "message": "🎉 Congratulations! Your application for \"project2\" at \"company1\" has been accepted.\n\n[View Details]",
+        "recipientId": "D7baDaHRK1h7xzfshVY4vWzLtRj2",
+        "timestamp": 1749302042997,
+        "title": "Application Accepted"
+      },
+      "-OSY6NbVF9v_BfOZaZKm": {
+        "applicant_status": "Shortlisted",
+        "message": "📅 Your interview details for \"another project\" with \"tech\" have been updated.\n\n📆 Date: June 12, 2025\n⏰ Time: 01:45 PM\n🌐 Mode: Online\n\n[View Details]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1749714567916,
+        "title": "Interview Details Updated"
+      },
+      "-OSY6wai7OJ0WAHronyY": {
+        "applicant_status": "Accepted",
+        "message": "🎉 Congratulations! Your application for \"feedback test\" at \"tech\" has been accepted.\n\n[View Details]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1749714715322,
+        "title": "Application Accepted"
+      },
+      "-OSY714ojQcYZ9XgkQbp": {
+        "applicant_status": "Shortlisted",
+        "interviewMethod": "Chat",
+        "interviewType": "Online",
+        "message": "📅 Your interview for \"feedback test\" with \"tech\" is scheduled on June 19, 2025 at 10:55 AM.\n\n📱 Interview Type: Online (Chat)\n💬 Please be available for chat at the scheduled time.\n\n[View Details]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1749714737792,
+        "title": "Interview Scheduled"
+      }
+    },
+    "students": {
+      "-OSA44fcU6_wGDHMMFdD": {
+        "message": "qwertyuij",
+        "timestamp": 1749311314535,
+        "title": "student Announcemnt"
+      }
+    }
+  },
+  "applications": {
+    "-OQiuGAcuMZMbOlUEAxY": {
+      "appliedDate": 1747764974610,
+      "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "projectId": "-OQhRIxcOBB8ClB7gWJc",
+      "status": "Pending",
+      "userId": "D7baDaHRK1h7xzfshVY4vWzLtRj2"
+    },
+    "-OQixHY0w16vx40O5OvA": {
+      "appliedDate": 1747765766692,
+      "companyId": "2W0XvFsqWBZtIKby84fa3aBdTxJ2",
+      "projectId": "-OQiwzue9v5LjkfNwmhq",
+      "status": "Pending",
+      "userId": "ltDtnyIumkUgsQfDRG8alJdhmvR2"
+    },
+    "-OQlu36Bil9EIJCdCF1V": {
+      "appliedDate": 1747815246423,
+      "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "lastUpdated": 1748114955212,
+      "projectId": "-OQj1NoRaUfMm_fo_ebu",
+      "quizGrade": 0,
+      "status": "Accepted",
+      "userId": "ltDtnyIumkUgsQfDRG8alJdhmvR2"
+    },
+    "-OQm07CJKdJZhHNpNbDj": {
+      "appliedDate": 1747817098354,
+      "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "interviewDate": "May 27, 2025",
+      "interviewLocation": "",
+      "interviewMethod": "Chat",
+      "interviewTime": "06:08 PM",
+      "interviewType": "Online",
+      "lastUpdated": 1748358507149,
+      "projectId": "-OQjBdRgfjR_fXo0GOA1",
+      "quizGrade": 0,
+      "status": "Shortlisted",
+      "userId": "ltDtnyIumkUgsQfDRG8alJdhmvR2",
+      "zoomLink": ""
+    },
+    "-OQnrDsaGnnD-VaisTZ-": {
+      "appliedDate": 1747848053299,
+      "companyId": "2W0XvFsqWBZtIKby84fa3aBdTxJ2",
+      "projectId": "-OQmE5ZheqvzB0Pv3qgE",
+      "status": "Pending",
+      "userId": "ltDtnyIumkUgsQfDRG8alJdhmvR2"
+    },
+    "-OQnvCwORUaoJpjIScN-": {
+      "appliedDate": 1747849106424,
+      "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "interviewDate": "May 28, 2025",
+      "interviewLocation": "",
+      "interviewMethod": "Zoom",
+      "interviewTime": "03:25 PM",
+      "interviewType": "Online",
+      "lastUpdated": 1748457577740,
+      "projectId": "-OQnuqBxIN55NISgVamM",
+      "status": "Accepted",
+      "userId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+      "zoomLink": "zoom.link.com"
+    },
+    "-OQxhMEF_S0kU6R-Gi5H": {
+      "appliedDate": 1748013249495,
+      "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "interviewDate": "May 28, 2025",
+      "interviewLocation": "",
+      "interviewMethod": "Chat",
+      "interviewTime": "01:42 PM",
+      "interviewType": "Online",
+      "lastUpdated": 1748700884638,
+      "projectId": "-OQr9sl4sAzwpYotNQfq",
+      "reapplication": false,
+      "status": "Rejected",
+      "userId": "D7baDaHRK1h7xzfshVY4vWzLtRj2",
+      "zoomLink": ""
+    },
+    "-OQxvvOeY7msfhH2av2c": {
+      "appliedDate": 1748017067549,
+      "companyId": "2W0XvFsqWBZtIKby84fa3aBdTxJ2",
+      "projectId": "-OQmE5ZheqvzB0Pv3qgE",
+      "reapplication": false,
+      "status": "Pending",
+      "userId": "D7baDaHRK1h7xzfshVY4vWzLtRj2"
+    },
+    "-ORH1KeITt2xDs37AuG4": {
+      "appliedDate": 1748354292007,
+      "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "interviewDate": "May 28, 2025",
+      "interviewLocation": "beirut",
+      "interviewMethod": "",
+      "interviewTime": "05:42 PM",
+      "interviewType": "In-person",
+      "lastUpdated": 1748689555008,
+      "projectId": "-OQr9sl4sAzwpYotNQfq",
+      "reapplication": false,
+      "status": "Accepted",
+      "userId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+      "zoomLink": ""
+    },
+    "-ORH224R7u5DbzWkUIfx": {
+      "appliedDate": 1748354478064,
+      "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "interviewDate": "June 12, 2025",
+      "interviewLocation": "Chat",
+      "interviewMethod": "Chat",
+      "interviewMode": "Online",
+      "interviewTime": "01:45 PM",
+      "interviewType": "Online",
+      "lastUpdated": 1749714567103,
+      "projectId": "-OQoAH_9YGhEKDC0rPmK",
+      "reapplication": false,
+      "status": "Shortlisted",
+      "userId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+      "zoomLink": ""
+    },
+    "-ORHA-WGamauty9QoffC": {
+      "appliedDate": 1748356564717,
+      "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "lastUpdated": 0,
+      "parentApplicationId": "-ORH1KeITt2xDs37AuG4",
+      "projectId": "-OQr9sl4sAzwpYotNQfq",
+      "reapplication": true,
+      "status": "Pending",
+      "userId": "az8MBRWUHYb6QiE0QBPBma582MX2"
+    },
+    "-ORHD-OJQN9Hdfsclpkh": {
+      "appliedDate": 1748357350634,
+      "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "lastUpdated": 0,
+      "parentApplicationId": "-OQnvCwORUaoJpjIScN-",
+      "projectId": "-OQnuqBxIN55NISgVamM",
+      "reapplication": true,
+      "status": "Pending",
+      "userId": "az8MBRWUHYb6QiE0QBPBma582MX2"
+    },
+    "-ORHTk_UMZmOEV9yyWlp": {
+      "appliedDate": 1748361735184,
+      "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "lastUpdated": 1748501954427,
+      "projectId": "-OQrA-Ty8IZENVHwtcJu",
+      "reapplication": false,
+      "status": "Accepted",
+      "userId": "D7baDaHRK1h7xzfshVY4vWzLtRj2"
+    },
+    "-ORHlNtii2G6VlHTPzLS": {
+      "appliedDate": 1748366622876,
+      "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "lastUpdated": 1748700852073,
+      "projectId": "-OQyD78NVyOZe5qN-xIz",
+      "reapplication": false,
+      "status": "Accepted",
+      "userId": "D7baDaHRK1h7xzfshVY4vWzLtRj2"
+    },
+    "-ORa4De3XwvbSkEymMC_": {
+      "appliedDate": 1748690585110,
+      "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "lastUpdated": 1748690903735,
+      "projectId": "-ORa3f4l3ROymnkXgJQU",
+      "reapplication": false,
+      "status": "Rejected",
+      "userId": "D7baDaHRK1h7xzfshVY4vWzLtRj2"
+    },
+    "-ORa4h2zBDzrHm5lpCxQ": {
+      "appliedDate": 1748690709649,
+      "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "lastUpdated": 1748690862372,
+      "projectId": "-ORa3f4l3ROymnkXgJQU",
+      "reapplication": false,
+      "status": "Accepted",
+      "userId": "ltDtnyIumkUgsQfDRG8alJdhmvR2"
+    },
+    "-ORbMmwNkgntcvwHLmN4": {
+      "appliedDate": 1748712236231,
+      "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "lastUpdated": 0,
+      "projectId": "-OQrA-Ty8IZENVHwtcJu",
+      "reapplication": false,
+      "status": "Pending",
+      "userId": "JjKsmDRPprWX79iQZJkWHGwObzR2"
+    },
+    "-ORgPZjpora8-Xw20bSM": {
+      "appliedDate": 1748796853014,
+      "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "interviewDate": "June 19, 2025",
+      "interviewLocation": "",
+      "interviewMethod": "Chat",
+      "interviewTime": "10:55 AM",
+      "interviewType": "Online",
+      "lastUpdated": 1749714736971,
+      "projectId": "-ORgPIkmoRf2xiQxxmiD",
+      "reapplication": false,
+      "status": "Shortlisted",
+      "userId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+      "zoomLink": ""
+    },
+    "-ORmH3aAMiMp8tCocWcV": {
+      "appliedDate": 1748895286659,
+      "companyId": "2W0XvFsqWBZtIKby84fa3aBdTxJ2",
+      "lastUpdated": 1748895337944,
+      "projectId": "-ORmGpfx3d6qLAeoqieM",
+      "reapplication": false,
+      "status": "Accepted",
+      "userId": "D7baDaHRK1h7xzfshVY4vWzLtRj2"
+    },
+    "-ORpF0ZNu0-cvmD04qNQ": {
+      "appliedDate": 1748945082693,
+      "companyId": "2W0XvFsqWBZtIKby84fa3aBdTxJ2",
+      "lastUpdated": 1748945113441,
+      "projectId": "-ORmGpfx3d6qLAeoqieM",
+      "reapplication": false,
+      "status": "Accepted",
+      "userId": "ltDtnyIumkUgsQfDRG8alJdhmvR2"
+    },
+    "-OS9Vr6phc5sLHjlfbnf": {
+      "appliedDate": 1749301806104,
+      "companyId": "2W0XvFsqWBZtIKby84fa3aBdTxJ2",
+      "interviewDate": "June 7, 2025",
+      "interviewLocation": "",
+      "interviewMethod": "Chat",
+      "interviewTime": "04:10 PM",
+      "interviewType": "Online",
+      "lastUpdated": 1749301942845,
+      "projectId": "-OS9VDro21T3faTissRP",
+      "reapplication": false,
+      "status": "Accepted",
+      "userId": "JjKsmDRPprWX79iQZJkWHGwObzR2",
+      "zoomLink": ""
+    },
+    "-OS9WcPfG_WlRqrPUVL8": {
+      "appliedDate": 1749302008011,
+      "companyId": "2W0XvFsqWBZtIKby84fa3aBdTxJ2",
+      "lastUpdated": 1749302040343,
+      "projectId": "-OS9VDro21T3faTissRP",
+      "reapplication": false,
+      "status": "Accepted",
+      "userId": "D7baDaHRK1h7xzfshVY4vWzLtRj2"
+    }
+  },
+  "categories": {
+    "Cybersecurity": true,
+    "Mobile Development": true,
+    "Web Development": true,
+    "ai": true
+  },
+  "chat_metadata": {
+    "2W0XvFsqWBZtIKby84fa3aBdTxJ2_D7baDaHRK1h7xzfshVY4vWzLtRj2": {
+      "lastMessage": "Hello",
+      "lastMessageTime": 1748895366668,
+      "lastSenderId": "2W0XvFsqWBZtIKby84fa3aBdTxJ2",
+      "participants": {
+        "2W0XvFsqWBZtIKby84fa3aBdTxJ2": true,
+        "D7baDaHRK1h7xzfshVY4vWzLtRj2": true
+      }
+    },
+    "2W0XvFsqWBZtIKby84fa3aBdTxJ2_JjKsmDRPprWX79iQZJkWHGwObzR2": {
+      "lastMessage": "hello",
+      "lastMessageTime": 1749301930724,
+      "lastSenderId": "JjKsmDRPprWX79iQZJkWHGwObzR2",
+      "participants": {
+        "2W0XvFsqWBZtIKby84fa3aBdTxJ2": true,
+        "JjKsmDRPprWX79iQZJkWHGwObzR2": true
+      }
+    },
+    "D7baDaHRK1h7xzfshVY4vWzLtRj2_aL94uVtFqcXRg3R2q6guTCgSoEC2": {
+      "archivedBy": {
+        "aL94uVtFqcXRg3R2q6guTCgSoEC2": true
+      },
+      "lastMessage": "1",
+      "lastMessageTime": 1748686741418,
+      "lastSenderId": "D7baDaHRK1h7xzfshVY4vWzLtRj2",
+      "participants": {
+        "D7baDaHRK1h7xzfshVY4vWzLtRj2": true,
+        "aL94uVtFqcXRg3R2q6guTCgSoEC2": true
+      }
+    },
+    "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2": {
+      "deletedBy": {
+        "az8MBRWUHYb6QiE0QBPBma582MX2": true
+      },
+      "lastMessage": "📷 Photo",
+      "lastMessageTime": 1748630464292,
+      "lastSenderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "participants": {
+        "aL94uVtFqcXRg3R2q6guTCgSoEC2": true,
+        "az8MBRWUHYb6QiE0QBPBma582MX2": true
+      }
+    },
+    "aL94uVtFqcXRg3R2q6guTCgSoEC2_ltDtnyIumkUgsQfDRG8alJdhmvR2": {
+      "lastMessage": "Hi",
+      "lastMessageTime": 1748358564890,
+      "lastSenderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "participants": {
+        "aL94uVtFqcXRg3R2q6guTCgSoEC2": true,
+        "ltDtnyIumkUgsQfDRG8alJdhmvR2": true
+      }
+    }
+  },
+  "chats": {
+    "2W0XvFsqWBZtIKby84fa3aBdTxJ2_D7baDaHRK1h7xzfshVY4vWzLtRj2": {
+      "messages": {
+        "-ORmHMcrJgoUIVDV9Mua": {
+          "dateHeader": "Today",
+          "fileSize": 0,
+          "formattedDate": "Jun 2, 2025",
+          "formattedTime": "23:16",
+          "messageType": "text",
+          "receiverId": "D7baDaHRK1h7xzfshVY4vWzLtRj2",
+          "senderId": "2W0XvFsqWBZtIKby84fa3aBdTxJ2",
+          "status": "sent",
+          "text": "Hello",
+          "timestamp": 1748895368321,
+          "today": true,
+          "yesterday": false
+        }
+      },
+      "typing": {
+        "2W0XvFsqWBZtIKby84fa3aBdTxJ2": false
+      }
+    },
+    "2W0XvFsqWBZtIKby84fa3aBdTxJ2_JjKsmDRPprWX79iQZJkWHGwObzR2": {
+      "messages": {
+        "-OS9WFInwj3rgPrtXhYa": {
+          "dateHeader": "Today",
+          "fileSize": 0,
+          "formattedDate": "Jun 7, 2025",
+          "formattedTime": "16:12",
+          "messageType": "text",
+          "receiverId": "JjKsmDRPprWX79iQZJkWHGwObzR2",
+          "senderId": "2W0XvFsqWBZtIKby84fa3aBdTxJ2",
+          "status": "read",
+          "text": "Hello",
+          "timestamp": 1749301925013,
+          "today": true,
+          "yesterday": false
+        },
+        "-OS9WHVD2rjgDtErZJ1G": {
+          "dateHeader": "Today",
+          "fileSize": 0,
+          "formattedDate": "Jun 7, 2025",
+          "formattedTime": "16:11",
+          "messageType": "text",
+          "receiverId": "2W0XvFsqWBZtIKby84fa3aBdTxJ2",
+          "senderId": "JjKsmDRPprWX79iQZJkWHGwObzR2",
+          "status": "read",
+          "text": "hello",
+          "timestamp": 1749301918258,
+          "today": true,
+          "yesterday": false
+        }
+      },
+      "typing": {
+        "2W0XvFsqWBZtIKby84fa3aBdTxJ2": false,
+        "JjKsmDRPprWX79iQZJkWHGwObzR2": false
+      }
+    },
+    "D7baDaHRK1h7xzfshVY4vWzLtRj2_aL94uVtFqcXRg3R2q6guTCgSoEC2": {
+      "typing": {
+        "D7baDaHRK1h7xzfshVY4vWzLtRj2": false,
+        "aL94uVtFqcXRg3R2q6guTCgSoEC2": false
+      }
+    },
+    "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2": {
+      "messages": {
+        "-ORFcIjReAxjPXiF7aOO": {
+          "dateHeader": "Today",
+          "fileSize": 0,
+          "formattedDate": "May 27, 2025",
+          "formattedTime": "10:24",
+          "messageType": "text",
+          "receiverId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+          "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+          "status": "read",
+          "text": "Hello",
+          "timestamp": 1748330693331,
+          "today": true,
+          "yesterday": false
+        },
+        "-ORFgTNGWEjtqpOUvUjL": {
+          "dateHeader": "Today",
+          "fileName": "9e5c8c12-412f-4821-9f62-53485de198b1-1_all_110.jpg",
+          "fileSize": 81127,
+          "fileUrl": "https://i.ibb.co/cK1jJ4Y3/a737df002a73.jpg",
+          "formattedDate": "May 27, 2025",
+          "formattedTime": "10:43",
+          "messageType": "image",
+          "receiverId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+          "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+          "status": "read",
+          "text": "9e5c8c12-412f-4821-9f62-53485de198b1-1_all_110.jpg",
+          "timestamp": 1748331786044,
+          "today": true,
+          "yesterday": false
+        },
+        "-ORFgZRo6yNGMba6_IHQ": {
+          "dateHeader": "Today",
+          "fileName": "cv_az8MBRWUHYb6QiE0QBPBma582MX2.pdf",
+          "fileSize": 1042157,
+          "fileUrl": "https://dl.dropboxusercontent.com/scl/fi/vkyg1l5ohyr5jtbl6ishe/1748331797378_cv_az8MBRWUHYb6QiE0QBPBma582MX2.pdf?rlkey=odvtkavy9ygrm8r5wxgpj0evo&dl=0",
+          "formattedDate": "May 27, 2025",
+          "formattedTime": "10:43",
+          "messageType": "file",
+          "receiverId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+          "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+          "status": "read",
+          "text": "cv_az8MBRWUHYb6QiE0QBPBma582MX2.pdf",
+          "timestamp": 1748331810911,
+          "today": true,
+          "yesterday": false
+        },
+        "-ORKz3_wtFmEiUPbv9GA": {
+          "dateHeader": "Today",
+          "fileSize": 0,
+          "formattedDate": "May 28, 2025",
+          "formattedTime": "11:22",
+          "messageType": "text",
+          "receiverId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+          "senderId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+          "status": "read",
+          "text": "Hello",
+          "timestamp": 1748420546667,
+          "today": true,
+          "yesterday": false
+        },
+        "-ORKz5F8B8tsj6uhEAWt": {
+          "dateHeader": "Today",
+          "fileSize": 0,
+          "formattedDate": "May 28, 2025",
+          "formattedTime": "11:22",
+          "messageType": "text",
+          "receiverId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+          "senderId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+          "status": "read",
+          "text": "Thank you",
+          "timestamp": 1748420553463,
+          "today": true,
+          "yesterday": false
+        },
+        "-ORPzPeF28TjjFTVNaWc": {
+          "dateHeader": "Today",
+          "fileSize": 0,
+          "formattedDate": "May 29, 2025",
+          "formattedTime": "10:42",
+          "messageType": "text",
+          "receiverId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+          "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+          "status": "read",
+          "text": "Hello",
+          "timestamp": 1748504523371,
+          "today": true,
+          "yesterday": false
+        },
+        "-ORQIpV2mn9g1JHzwNhh": {
+          "dateHeader": "Today",
+          "fileSize": 0,
+          "formattedDate": "May 29, 2025",
+          "formattedTime": "12:11",
+          "messageType": "text",
+          "receiverId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+          "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+          "status": "read",
+          "text": "Test",
+          "timestamp": 1748509876017,
+          "today": true,
+          "yesterday": false
+        },
+        "-ORRZOO-bCoMUOowLtEM": {
+          "dateHeader": "Today",
+          "fileSize": 0,
+          "formattedDate": "May 29, 2025",
+          "formattedTime": "18:03",
+          "messageType": "text",
+          "receiverId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+          "senderId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+          "status": "read",
+          "text": "Test",
+          "timestamp": 1748530992344,
+          "today": true,
+          "yesterday": false
+        },
+        "-ORV9mWQlzc4cYxPSXWq": {
+          "dateHeader": "Today",
+          "fileSize": 0,
+          "formattedDate": "May 30, 2025",
+          "formattedTime": "10:49",
+          "messageType": "text",
+          "receiverId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+          "senderId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+          "status": "read",
+          "text": "Hi",
+          "timestamp": 1748591388068,
+          "today": true,
+          "yesterday": false
+        },
+        "-ORX0oZLD2jC2hzasMia": {
+          "dateHeader": "Today",
+          "fileSize": 0,
+          "formattedDate": "May 30, 2025",
+          "formattedTime": "19:29",
+          "messageType": "text",
+          "receiverId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+          "senderId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+          "status": "read",
+          "text": "Hii",
+          "timestamp": 1748622591182,
+          "today": true,
+          "yesterday": false
+        },
+        "-ORX8pqklRbNwvFEdAD2": {
+          "dateHeader": "Today",
+          "fileSize": 0,
+          "formattedDate": "May 30, 2025",
+          "formattedTime": "20:04",
+          "messageType": "text",
+          "receiverId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+          "senderId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+          "status": "read",
+          "text": "Hello",
+          "timestamp": 1748624693885,
+          "today": true,
+          "yesterday": false
+        },
+        "-ORXUqQFB9oziztITh-V": {
+          "dateHeader": "Today",
+          "fileName": "IMG_20250530_214040_501.jpg",
+          "fileSize": 2262774,
+          "fileUrl": "https://i.ibb.co/wZncmDGQ/d6e9bc707811.jpg",
+          "formattedDate": "May 30, 2025",
+          "formattedTime": "21:41",
+          "messageType": "image",
+          "receiverId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+          "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+          "status": "read",
+          "text": "IMG_20250530_214040_501.jpg",
+          "timestamp": 1748630464292,
+          "today": true,
+          "yesterday": false
+        },
+        "-ORgWUqxvVIluBpD8lTN": {
+          "dateHeader": "Today",
+          "fileSize": 0,
+          "formattedDate": "Jun 1, 2025",
+          "formattedTime": "20:24",
+          "messageType": "system",
+          "receiverId": "system",
+          "senderId": "system",
+          "status": "read",
+          "text": "A message was deleted",
+          "timestamp": 1748798668089,
+          "today": true,
+          "yesterday": false
+        },
+        "-ORgWWnV3c2O1wqYobuJ": {
+          "dateHeader": "Today",
+          "fileSize": 0,
+          "formattedDate": "Jun 1, 2025",
+          "formattedTime": "20:24",
+          "messageType": "system",
+          "receiverId": "system",
+          "senderId": "system",
+          "status": "read",
+          "text": "A message was deleted",
+          "timestamp": 1748798676060,
+          "today": true,
+          "yesterday": false
+        },
+        "-ORgWZE_pspYPEapA7Zt": {
+          "dateHeader": "Today",
+          "fileSize": 0,
+          "formattedDate": "Jun 1, 2025",
+          "formattedTime": "20:24",
+          "messageType": "system",
+          "receiverId": "system",
+          "senderId": "system",
+          "status": "read",
+          "text": "A message was deleted",
+          "timestamp": 1748798686049,
+          "today": true,
+          "yesterday": false
+        },
+        "-ORgYC6kmy819ayMaoiS": {
+          "dateHeader": "Today",
+          "fileSize": 0,
+          "formattedDate": "Jun 1, 2025",
+          "formattedTime": "20:31",
+          "messageType": "system",
+          "receiverId": "system",
+          "senderId": "system",
+          "status": "read",
+          "text": "A message was deleted",
+          "timestamp": 1748799115513,
+          "today": true,
+          "yesterday": false
+        }
+      },
+      "typing": {
+        "aL94uVtFqcXRg3R2q6guTCgSoEC2": false,
+        "az8MBRWUHYb6QiE0QBPBma582MX2": false
+      }
+    },
+    "aL94uVtFqcXRg3R2q6guTCgSoEC2_ltDtnyIumkUgsQfDRG8alJdhmvR2": {
+      "messages": {
+        "-ORHHbdpUmAPG0zcFZLf": {
+          "dateHeader": "Today",
+          "fileSize": 0,
+          "formattedDate": "May 27, 2025",
+          "formattedTime": "18:09",
+          "messageType": "text",
+          "receiverId": "ltDtnyIumkUgsQfDRG8alJdhmvR2",
+          "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+          "status": "read",
+          "text": "Hi",
+          "timestamp": 1748358566522,
+          "today": true,
+          "yesterday": false
+        },
+        "-ORHHcUhNr3RltlUkReV": {
+          "dateHeader": "Today",
+          "fileSize": 0,
+          "formattedDate": "May 27, 2025",
+          "formattedTime": "18:09",
+          "messageType": "text",
+          "receiverId": "ltDtnyIumkUgsQfDRG8alJdhmvR2",
+          "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+          "status": "read",
+          "text": "Hi",
+          "timestamp": 1748358569970,
+          "today": true,
+          "yesterday": false
+        }
+      },
+      "typing": {
+        "aL94uVtFqcXRg3R2q6guTCgSoEC2": false,
+        "ltDtnyIumkUgsQfDRG8alJdhmvR2": false
+      }
+    }
+  },
+  "company_feedback": {
+    "-ORg9vwRvIeXC7K7dXNY": {
+      "comment": "",
+      "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "projectId": "-OQyD78NVyOZe5qN-xIz",
+      "projectTitle": "website2",
+      "rating": 3,
+      "studentId": "D7baDaHRK1h7xzfshVY4vWzLtRj2",
+      "studentName": "Nour Elzein",
+      "timestamp": 1748792754357
+    },
+    "-ORpEb2ZlWa-xh3ioX2U": {
+      "comment": "",
+      "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "projectId": "-OQj1NoRaUfMm_fo_ebu",
+      "projectTitle": "quiztest",
+      "rating": 5,
+      "studentId": "ltDtnyIumkUgsQfDRG8alJdhmvR2",
+      "studentName": "Nour",
+      "studentProfileUrl": "https://i.ibb.co/4RmLq6j0/bd576d9dc819.jpg",
+      "timestamp": 1748944974098
+    },
+    "-OS9X4nAjuH-qc4i7JgZ": {
+      "comment": "It was a successful experience.",
+      "companyId": "2W0XvFsqWBZtIKby84fa3aBdTxJ2",
+      "projectId": "-OS9VDro21T3faTissRP",
+      "projectTitle": "project2",
+      "rating": 5,
+      "studentId": "D7baDaHRK1h7xzfshVY4vWzLtRj2",
+      "studentName": "Nour Elzein",
+      "studentProfileUrl": "https://i.ibb.co/0jxPzfTY/af7d82cb9a5e.jpg",
+      "timestamp": 1749302128364
+    },
+    "-OS9XGaRZjwDgCYP1QYR": {
+      "comment": "",
+      "companyId": "2W0XvFsqWBZtIKby84fa3aBdTxJ2",
+      "projectId": "-OS9VDro21T3faTissRP",
+      "projectTitle": "project2",
+      "rating": 1,
+      "studentId": "JjKsmDRPprWX79iQZJkWHGwObzR2",
+      "studentName": "Batoul",
+      "timestamp": 1749302176701
+    }
+  },
+  "notifications": {
+    "08cfjcoquRdwjMUPJXmb9D4MaQE3": {
+      "-OSA44m5nrRDMpui2NAz": {
+        "message": "qwertyuij",
+        "read": false,
+        "timestamp": 1749311314535,
+        "title": "student Announcemnt",
+        "type": "announcement"
+      }
+    },
+    "2W0XvFsqWBZtIKby84fa3aBdTxJ2": {
+      "-OS9WHa031XG5-7Igfki": {
+        "chatId": "2W0XvFsqWBZtIKby84fa3aBdTxJ2_JjKsmDRPprWX79iQZJkWHGwObzR2",
+        "message": "hello",
+        "projectId": "-OS9VDro21T3faTissRP",
+        "read": false,
+        "senderId": "JjKsmDRPprWX79iQZJkWHGwObzR2",
+        "senderName": "Batoul",
+        "timestamp": 1749301931080,
+        "title": "New message from Batoul",
+        "type": "chat_message"
+      }
+    },
+    "D7baDaHRK1h7xzfshVY4vWzLtRj2": {
+      "-ORLU4KqnqCSCZ26v0PY": {
+        "chatId": "D7baDaHRK1h7xzfshVY4vWzLtRj2_aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "message": "Hello",
+        "read": true,
+        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "senderName": "tech",
+        "timestamp": 1748428937708,
+        "title": "New message from tech",
+        "type": "chat_message"
+      },
+      "-ORPpk_tcaIcyItM5N9j": {
+        "chatId": "D7baDaHRK1h7xzfshVY4vWzLtRj2_aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "message": "Hello",
+        "read": true,
+        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "senderName": "tech",
+        "timestamp": 1748501990625,
+        "title": "New message from tech",
+        "type": "chat_message"
+      },
+      "-OR_gbTcGFbLm4dIkhDn": {
+        "chatId": "D7baDaHRK1h7xzfshVY4vWzLtRj2_aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "message": "Hello",
+        "read": true,
+        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "senderName": "tech",
+        "timestamp": 1748684143598,
+        "title": "New message from tech",
+        "type": "chat_message"
+      },
+      "-OR_jcoNpO9UFLSEBnyQ": {
+        "chatId": "D7baDaHRK1h7xzfshVY4vWzLtRj2_aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "message": "*",
+        "read": true,
+        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "senderName": "tech",
+        "timestamp": 1748684935435,
+        "title": "New message from tech",
+        "type": "chat_message"
+      },
+      "-OR_ng15fI_dxG21bRIb": {
+        "chatId": "D7baDaHRK1h7xzfshVY4vWzLtRj2_aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "message": "1",
+        "read": true,
+        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "senderName": "tech",
+        "timestamp": 1748685997136,
+        "title": "New message from tech",
+        "type": "chat_message"
+      },
+      "-OR_pKX4ISRkdY_DHNBr": {
+        "chatId": "D7baDaHRK1h7xzfshVY4vWzLtRj2_aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "message": "1",
+        "read": true,
+        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "senderName": "tech",
+        "timestamp": 1748686429284,
+        "title": "New message from tech",
+        "type": "chat_message"
+      },
+      "-ORmHMjnQkVtrEa3yS4R": {
+        "chatId": "2W0XvFsqWBZtIKby84fa3aBdTxJ2_D7baDaHRK1h7xzfshVY4vWzLtRj2",
+        "message": "Hello",
+        "read": false,
+        "senderId": "2W0XvFsqWBZtIKby84fa3aBdTxJ2",
+        "senderName": "company1",
+        "timestamp": 1748895367228,
+        "title": "New message from company1",
+        "type": "chat_message"
+      },
+      "-OSA44m5nrRDMpui2NB-": {
+        "message": "qwertyuij",
+        "read": false,
+        "timestamp": 1749311314535,
+        "title": "student Announcemnt",
+        "type": "announcement"
+      }
+    },
+    "JjKsmDRPprWX79iQZJkWHGwObzR2": {
+      "-OS9WFSD4w3pF3fNxara": {
+        "chatId": "2W0XvFsqWBZtIKby84fa3aBdTxJ2_JjKsmDRPprWX79iQZJkWHGwObzR2",
+        "message": "Hello",
+        "read": false,
+        "senderId": "2W0XvFsqWBZtIKby84fa3aBdTxJ2",
+        "senderName": "company1",
+        "timestamp": 1749301923061,
+        "title": "New message from company1",
+        "type": "chat_message"
+      },
+      "-OSA44m5nrRDMpui2NB0": {
+        "message": "qwertyuij",
+        "read": false,
+        "timestamp": 1749311314535,
+        "title": "student Announcemnt",
+        "type": "announcement"
+      }
+    },
+    "aL94uVtFqcXRg3R2q6guTCgSoEC2": {
+      "-ORKz3gZpY8Cspx8Jk73": {
+        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
+        "message": "Hello",
+        "projectId": "-OQoAH_9YGhEKDC0rPmK",
+        "read": true,
+        "senderId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "senderName": "reem",
+        "timestamp": 1748420547906,
+        "title": "New message from reem",
+        "type": "chat_message"
+      },
+      "-ORKz5MF5c4gJETRej9G": {
+        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
+        "message": "Thank you",
+        "projectId": "-OQoAH_9YGhEKDC0rPmK",
+        "read": true,
+        "senderId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "senderName": "reem",
+        "timestamp": 1748420554714,
+        "title": "New message from reem",
+        "type": "chat_message"
+      },
+      "-ORLV5Lh67qEz6cEZGHL": {
+        "chatId": "D7baDaHRK1h7xzfshVY4vWzLtRj2_aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "message": "Hi",
+        "projectId": "-OQr9sl4sAzwpYotNQfq",
+        "read": true,
+        "senderId": "D7baDaHRK1h7xzfshVY4vWzLtRj2",
+        "senderName": "Nour Elzein",
+        "timestamp": 1748429203918,
+        "title": "New message from Nour Elzein",
+        "type": "chat_message"
+      },
+      "-ORPpoFgLcdN_R9HyJVf": {
+        "chatId": "D7baDaHRK1h7xzfshVY4vWzLtRj2_aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "message": "Hello",
+        "projectId": "-OQrA-Ty8IZENVHwtcJu",
+        "read": true,
+        "senderId": "D7baDaHRK1h7xzfshVY4vWzLtRj2",
+        "senderName": "Nour Elzein",
+        "timestamp": 1748502006146,
+        "title": "New message from Nour Elzein",
+        "type": "chat_message"
+      },
+      "-ORRZOV8O6kjWUOdOhsF": {
+        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
+        "message": "Test",
+        "projectId": "-OQnuqBxIN55NISgVamM",
+        "read": true,
+        "senderId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "senderName": "reem",
+        "timestamp": 1748530994224,
+        "title": "New message from reem",
+        "type": "chat_message"
+      },
+      "-ORV9mdT-eVgbqI6w4bp": {
+        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
+        "message": "Hi",
+        "projectId": "-OQnuqBxIN55NISgVamM",
+        "read": true,
+        "senderId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "senderName": "reem",
+        "timestamp": 1748591390845,
+        "title": "New message from reem",
+        "type": "chat_message"
+      },
+      "-ORX0of_R2-XxWGOH21V": {
+        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
+        "message": "Hii",
+        "read": true,
+        "senderId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "senderName": "reem",
+        "timestamp": 1748622593781,
+        "title": "New message from reem",
+        "type": "chat_message"
+      },
+      "-ORX8pzL5Y40cY0gW-yw": {
+        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
+        "message": "Hello",
+        "read": true,
+        "senderId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "senderName": "reem",
+        "timestamp": 1748624696636,
+        "title": "New message from reem",
+        "type": "chat_message"
+      },
+      "-ORXk3JjAd1-SVH5yw3h": {
+        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
+        "message": "Wow amar",
+        "projectId": "-OQnuqBxIN55NISgVamM",
+        "read": true,
+        "senderId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "senderName": "reem",
+        "timestamp": 1748634716744,
+        "title": "New message from reem",
+        "type": "chat_message"
+      },
+      "-ORY16oh0H2byVbuFViF": {
+        "chatId": "D7baDaHRK1h7xzfshVY4vWzLtRj2_aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "message": "Hii",
+        "projectId": "-OQrA-Ty8IZENVHwtcJu",
+        "read": true,
+        "senderId": "D7baDaHRK1h7xzfshVY4vWzLtRj2",
+        "senderName": "Nour Elzein",
+        "timestamp": 1748639449355,
+        "title": "New message from Nour Elzein",
+        "type": "chat_message"
+      },
+      "-OR_o0tUTdTkzBTx5kTv": {
+        "chatId": "D7baDaHRK1h7xzfshVY4vWzLtRj2_aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "message": "2",
+        "projectId": "-OQhRIxcOBB8ClB7gWJc",
+        "read": true,
+        "senderId": "D7baDaHRK1h7xzfshVY4vWzLtRj2",
+        "senderName": "Nour Elzein",
+        "timestamp": 1748686086823,
+        "title": "New message from Nour Elzein",
+        "type": "chat_message"
+      },
+      "-OR_oJ8BvFbh5Uv3WtCn": {
+        "chatId": "D7baDaHRK1h7xzfshVY4vWzLtRj2_aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "message": "W",
+        "read": true,
+        "senderId": "D7baDaHRK1h7xzfshVY4vWzLtRj2",
+        "senderName": "Nour Elzein",
+        "timestamp": 1748686161563,
+        "title": "New message from Nour Elzein",
+        "type": "chat_message"
+      },
+      "-OR_qW8qPp298PWzOIJa": {
+        "chatId": "D7baDaHRK1h7xzfshVY4vWzLtRj2_aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "message": "Hello",
+        "projectId": "-OQhRIxcOBB8ClB7gWJc",
+        "read": true,
+        "senderId": "D7baDaHRK1h7xzfshVY4vWzLtRj2",
+        "senderName": "Nour Elzein",
+        "timestamp": 1748686739118,
+        "title": "New message from Nour Elzein",
+        "type": "chat_message"
+      },
+      "-OR_qWqzKRw5DEdoFiyy": {
+        "chatId": "D7baDaHRK1h7xzfshVY4vWzLtRj2_aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "message": "1",
+        "projectId": "-OQhRIxcOBB8ClB7gWJc",
+        "read": true,
+        "senderId": "D7baDaHRK1h7xzfshVY4vWzLtRj2",
+        "senderName": "Nour Elzein",
+        "timestamp": 1748686741916,
+        "title": "New message from Nour Elzein",
+        "type": "chat_message"
+      },
+      "-ORgYBGpN8-xeW-1XNtC": {
+        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
+        "message": "Test",
+        "projectId": "-OQnuqBxIN55NISgVamM",
+        "read": true,
+        "senderId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "senderName": "reem",
+        "timestamp": 1748799113581,
+        "title": "New message from reem",
+        "type": "chat_message"
+      }
+    },
+    "az8MBRWUHYb6QiE0QBPBma582MX2": {
+      "-ORFcIqsY1LAWxaGkg_U": {
+        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
+        "message": "Hello",
+        "read": true,
+        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "senderName": "tech",
+        "timestamp": 1748330695147,
+        "title": "New message from tech",
+        "type": "chat_message"
+      },
+      "-ORFgTUpGB6mB5WpqQL0": {
+        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
+        "message": "Sent a photo",
+        "read": true,
+        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "senderName": "tech",
+        "timestamp": 1748331787759,
+        "title": "New message from tech",
+        "type": "chat_message"
+      },
+      "-ORFgZZz-XAYL0s4gnzn": {
+        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
+        "message": "Sent an attachment: cv_az8MBRWUHYb6QiE0QBPBma582MX2.pdf",
+        "read": true,
+        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "senderName": "tech",
+        "timestamp": 1748331812857,
+        "title": "New message from tech",
+        "type": "chat_message"
+      },
+      "-ORPzQ1AJYlPQErAuzxu": {
+        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
+        "message": "Hello",
+        "read": true,
+        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "senderName": "tech",
+        "timestamp": 1748504526495,
+        "title": "New message from tech",
+        "type": "chat_message"
+      },
+      "-ORQIpbhDE5NjqN08ujH": {
+        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
+        "message": "Test",
+        "read": true,
+        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "senderName": "tech",
+        "timestamp": 1748509875531,
+        "title": "New message from tech",
+        "type": "chat_message"
+      },
+      "-ORXUqW46TmXtelBCP0Z": {
+        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
+        "message": "Sent a photo",
+        "read": true,
+        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "senderName": "tech",
+        "timestamp": 1748630465558,
+        "title": "New message from tech",
+        "type": "chat_message"
+      },
+      "-ORXV2XanVX4g7QnaDlq": {
+        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
+        "message": "Sent a photo",
+        "read": true,
+        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "senderName": "tech",
+        "timestamp": 1748630518976,
+        "title": "New message from tech",
+        "type": "chat_message"
+      },
+      "-ORXV5EBitnick9L2ipY": {
+        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
+        "message": "Sent a photo",
+        "read": true,
+        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "senderName": "tech",
+        "timestamp": 1748630530016,
+        "title": "New message from tech",
+        "type": "chat_message"
+      },
+      "-OSA44m6BuBQkSPz4GNo": {
+        "message": "qwertyuij",
+        "read": false,
+        "timestamp": 1749311314535,
+        "title": "student Announcemnt",
+        "type": "announcement"
+      }
+    },
+    "ltDtnyIumkUgsQfDRG8alJdhmvR2": {
+      "-ORHHQnVx_3aIEQtuKl5": {
+        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_ltDtnyIumkUgsQfDRG8alJdhmvR2",
+        "message": "Hello",
+        "read": true,
+        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "senderName": "tech",
+        "timestamp": 1748358512936,
+        "title": "New message from tech",
+        "type": "chat_message"
+      },
+      "-ORHHT9F0_FLWfC-rP_4": {
+        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_ltDtnyIumkUgsQfDRG8alJdhmvR2",
+        "message": "Hello",
+        "read": true,
+        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "senderName": "tech",
+        "timestamp": 1748358522585,
+        "title": "New message from tech",
+        "type": "chat_message"
+      },
+      "-ORHHUKEVydUPL1SIqSd": {
+        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_ltDtnyIumkUgsQfDRG8alJdhmvR2",
+        "message": "How are you",
+        "read": true,
+        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "senderName": "tech",
+        "timestamp": 1748358527404,
+        "title": "New message from tech",
+        "type": "chat_message"
+      },
+      "-ORHHbkgTXNO7HRGPLMh": {
+        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_ltDtnyIumkUgsQfDRG8alJdhmvR2",
+        "message": "Hi",
+        "read": true,
+        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "senderName": "tech",
+        "timestamp": 1748358561959,
+        "title": "New message from tech",
+        "type": "chat_message"
+      },
+      "-ORHHcc9HOr6aoURlW0N": {
+        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_ltDtnyIumkUgsQfDRG8alJdhmvR2",
+        "message": "Hi",
+        "read": true,
+        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "senderName": "tech",
+        "timestamp": 1748358565393,
+        "title": "New message from tech",
+        "type": "chat_message"
+      },
+      "-OSA44m6BuBQkSPz4GNp": {
+        "message": "qwertyuij",
+        "read": false,
+        "timestamp": 1749311314535,
+        "title": "student Announcemnt",
+        "type": "announcement"
+      },
+      "-OSA4ARztMd231DcrV5p": {
+        "message": "jnjnj",
+        "read": false,
+        "timestamp": 1749311338143,
+        "title": "cttfj",
+        "type": "announcement"
+      }
+    }
+  },
+  "projects": {
+    "-OQOlhi329JLElYHfz8s": {
+      "amount": "450",
+      "applicants": 0,
+      "category": "Mobile Development",
+      "companyId": "esV5z3p9nlZNtolThx4YmkNheN22",
+      "compensationType": "Paid",
+      "createdAt": 1747410410752,
+      "deadline": 1750280400000,
+      "description": "mobile application project",
+      "duration": "5-6 months",
+      "educationLevel": "Senior",
+      "skills": [
+        "Java",
+        "SQL",
+        "React",
+        "Node.js"
+      ],
+      "startDate": 1747947600000,
+      "status": "pending",
+      "studentsRequired": 5,
+      "timestamp": 1747410410356,
+      "title": "mobile"
+    },
+    "-OQdarLDDtp28ueVfkLp": {
+      "applicants": 1,
+      "category": "Mobile Development",
+      "companyId": "2W0XvFsqWBZtIKby84fa3aBdTxJ2",
+      "companyLogo": "https://i.ibb.co/bRFLx8rF/477ca362b03d.jpg",
+      "companyName": "company1",
+      "compensationType": "Unpaid",
+      "createdAt": 1747676002068,
+      "deadline": 1748466000000,
+      "description": "project",
+      "duration": "1-2 weeks",
+      "educationLevel": "Senior",
+      "location": "Remote",
+      "quiz": {
+        "instructions": "anjaja",
+        "passingScore": 50,
+        "questions": [
+          {
+            "options": [
+              {
+                "correct": true,
+                "text": "True"
+              },
+              {
+                "correct": false,
+                "text": "False"
+              }
+            ],
+            "text": "Java is a language",
+            "type": "True/False"
+          }
+        ],
+        "timeLimit": 5,
+        "title": "yeuwj"
+      },
+      "skills": [
+        "SQL",
+        "JavaScript"
+      ],
+      "startDate": 1747861200000,
+      "status": "rejected",
+      "studentsRequired": 3,
+      "timestamp": 1747676003461,
+      "title": "ahhaah"
+    },
+    "-OQe_ai52djFh4YI4mJm": {
+      "amount": 500,
+      "applicants": 2,
+      "category": "Web Development",
+      "companyId": "2W0XvFsqWBZtIKby84fa3aBdTxJ2",
+      "compensationType": "Paid",
+      "completedAt": 1748895118347,
+      "completionReason": "Deadline reached",
+      "createdAt": 1747692449064,
+      "deadline": 1748638800000,
+      "description": "web development project",
+      "duration": "1-2 weeks",
+      "educationLevel": "Any",
+      "finalAcceptedCount": 0,
+      "location": "Remote",
+      "quiz": {
+        "instructions": "don't use ai",
+        "passingScore": 50,
+        "questions": [
+          {
+            "options": [
+              {
+                "correct": true,
+                "text": "language"
+              },
+              {
+                "correct": false,
+                "text": "game"
+              }
+            ],
+            "text": "What is java",
+            "type": "Multiple Choice"
+          },
+          {
+            "options": [
+              {
+                "correct": false,
+                "text": "True"
+              },
+              {
+                "correct": true,
+                "text": "False"
+              }
+            ],
+            "text": "Html and css is part of backend",
+            "type": "True/False"
+          }
+        ],
+        "timeLimit": 5,
+        "title": "website "
+      },
+      "skills": [
+        "SQL",
+        "HTML/CSS",
+        "JavaScript"
+      ],
+      "startDate": 1748293200000,
+      "status": "completed",
+      "studentsRequired": 2,
+      "timestamp": 1747692450954,
+      "title": "website"
+    },
+    "-OQiwzue9v5LjkfNwmhq": {
+      "applicants": 3,
+      "category": "Cybersecurity",
+      "companyId": "2W0XvFsqWBZtIKby84fa3aBdTxJ2",
+      "compensationType": "Unpaid",
+      "completedAt": 1749301473943,
+      "completionReason": "Deadline reached",
+      "createdAt": 1747765690668,
+      "deadline": 1749243600000,
+      "description": "project",
+      "duration": "1-2 weeks",
+      "educationLevel": "Senior",
+      "finalAcceptedCount": 0,
+      "quiz": {
+        "instructions": "don't use ai",
+        "passingScore": 50,
+        "questions": [
+          {
+            "text": "what is cyber security",
+            "type": "Short Answer"
+          },
+          {
+            "options": [
+              {
+                "correct": true,
+                "text": "True"
+              },
+              {
+                "correct": false,
+                "text": "False"
+              }
+            ],
+            "text": "java is language",
+            "type": "True/False"
+          }
+        ],
+        "timeLimit": 5,
+        "title": "IQ test"
+      },
+      "skills": [
+        "Java",
+        "Python"
+      ],
+      "startDate": 1748379600000,
+      "status": "completed",
+      "studentsRequired": 3,
+      "timestamp": 1747765690294,
+      "title": "cyber security project"
+    },
+    "-OQj1NoRaUfMm_fo_ebu": {
+      "applicants": 2,
+      "category": "Web Development",
+      "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "compensationType": "Unpaid",
+      "completedAt": 1748694804220,
+      "completionReason": "Deadline reached",
+      "createdAt": 1747767103244,
+      "deadline": 1748552400000,
+      "description": "d",
+      "duration": "1-2 weeks",
+      "educationLevel": "Junior",
+      "finalAcceptedCount": 1,
+      "quiz": {
+        "instructions": "jsksk",
+        "passingScore": 60,
+        "questions": [
+          {
+            "options": [
+              {
+                "correct": false,
+                "text": "one"
+              },
+              {
+                "correct": true,
+                "text": "two"
+              }
+            ],
+            "text": "Q one",
+            "type": "Multiple Choice"
+          }
+        ],
+        "timeLimit": 2,
+        "title": "qquiz"
+      },
+      "skills": [
+        "C#"
+      ],
+      "startDate": 1747861200000,
+      "status": "completed",
+      "studentsRequired": 2,
+      "timestamp": 1747767100944,
+      "title": "quiztest"
+    },
+    "-OQjBdRgfjR_fXo0GOA1": {
+      "amount": 300,
+      "applicants": 3,
+      "category": "Web Development",
+      "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "compensationType": "Paid",
+      "completedAt": 1748850150785,
+      "completionReason": "Deadline reached",
+      "createdAt": 1747769792752,
+      "deadline": 1748811600000,
+      "description": "A project that tackles the creation of a website",
+      "duration": "1-2 weeks",
+      "educationLevel": "Junior",
+      "finalAcceptedCount": 0,
+      "location": "Remote",
+      "quiz": {
+        "instructions": "Take quiz to increase your chance of being accepted for the position.",
+        "passingScore": 60,
+        "questions": [
+          {
+            "options": [
+              {
+                "correct": true,
+                "text": "HTML"
+              },
+              {
+                "correct": false,
+                "text": "Python"
+              },
+              {
+                "correct": false,
+                "text": "Java"
+              }
+            ],
+            "text": "Which language is frontend?",
+            "type": "Multiple Choice"
+          },
+          {
+            "options": [
+              {
+                "correct": true,
+                "text": "JavaScript"
+              },
+              {
+                "correct": false,
+                "text": "CSS"
+              },
+              {
+                "correct": false,
+                "text": "HTML"
+              }
+            ],
+            "text": "Which language is used for animation in web development?",
+            "type": "Multiple Choice"
+          },
+          {
+            "options": [
+              {
+                "correct": true,
+                "text": "True"
+              },
+              {
+                "correct": false,
+                "text": "False"
+              }
+            ],
+            "text": "Bootstrap is used to make the website more responsive and interactive.",
+            "type": "True/False"
+          }
+        ],
+        "timeLimit": 5,
+        "title": "Web Quiz"
+      },
+      "skills": [
+        "JavaScript",
+        "HTML/CSS"
+      ],
+      "startDate": 1748034000000,
+      "status": "completed",
+      "studentsRequired": 3,
+      "timestamp": 1747769790489,
+      "title": "Web Development"
+    },
+    "-OQmE5ZheqvzB0Pv3qgE": {
+      "applicants": 4,
+      "category": "Web Development",
+      "companyId": "2W0XvFsqWBZtIKby84fa3aBdTxJ2",
+      "compensationType": "Unpaid",
+      "createdAt": 1747820768227,
+      "deadline": 1749675600000,
+      "description": "website",
+      "duration": "1-2 weeks",
+      "educationLevel": "Any",
+      "location": "Remote",
+      "skills": [
+        "HTML/CSS",
+        "SQL",
+        "React"
+      ],
+      "startDate": 1748552400000,
+      "status": "completed",
+      "studentsRequired": 4,
+      "timestamp": 1747820767895,
+      "title": "website"
+    },
+    "-OQnuqBxIN55NISgVamM": {
+      "applicants": 6,
+      "category": "Mobile Development",
+      "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "compensationType": "Unpaid",
+      "createdAt": 1747849012481,
+      "deadline": 1749848400000,
+      "description": "description",
+      "duration": "1-2 weeks",
+      "educationLevel": "Junior",
+      "location": "Remote",
+      "skills": [
+        "Java"
+      ],
+      "startDate": 1748638800000,
+      "status": "completed",
+      "studentsRequired": 6,
+      "timestamp": 1747849009125,
+      "title": "Project For Announce"
+    },
+    "-OQoAH_9YGhEKDC0rPmK": {
+      "applicants": 3,
+      "category": "Mobile Development",
+      "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "compensationType": "Unpaid",
+      "completedAt": 1748694804253,
+      "completionReason": "Deadline reached",
+      "createdAt": 1747853322981,
+      "deadline": 1748638800000,
+      "description": "description",
+      "duration": "1-2 weeks",
+      "educationLevel": "Junior",
+      "finalAcceptedCount": 0,
+      "location": "In Office",
+      "skills": [
+        "Java"
+      ],
+      "startDate": 1748034000000,
+      "status": "completed",
+      "studentsRequired": 3,
+      "timestamp": 1747853319663,
+      "title": "another project"
+    },
+    "-OQr9sl4sAzwpYotNQfq": {
+      "applicants": 3,
+      "category": "Web Development",
+      "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "compensationType": "Unpaid",
+      "createdAt": 1747903548881,
+      "deadline": 1749762000000,
+      "description": "h",
+      "duration": "1-2 weeks",
+      "educationLevel": "Senior",
+      "location": "In Office",
+      "skills": [
+        "C#"
+      ],
+      "startDate": 1748638800000,
+      "status": "completed",
+      "studentsRequired": 3,
+      "timestamp": 1747903548611,
+      "title": "bara project"
+    },
+    "-OQrA-Ty8IZENVHwtcJu": {
+      "applicants": 2,
+      "category": "Web Development",
+      "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "compensationType": "Unpaid",
+      "completedAt": 1749295903232,
+      "completionReason": "Deadline reached",
+      "createdAt": 1747903580459,
+      "deadline": 1749243600000,
+      "description": "h",
+      "duration": "1-2 weeks",
+      "educationLevel": "Junior",
+      "finalAcceptedCount": 1,
+      "location": "Remote",
+      "skills": [
+        "Ruby"
+      ],
+      "startDate": 1748638800000,
+      "status": "completed",
+      "studentsRequired": 5,
+      "timestamp": 1747903580216,
+      "title": "jowa project"
+    },
+    "-OQyD78NVyOZe5qN-xIz": {
+      "applicants": 1,
+      "category": "Mobile Development",
+      "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "compensationType": "Unpaid",
+      "completedAt": 1748694804274,
+      "completionReason": "Deadline reached",
+      "createdAt": 1748021838827,
+      "deadline": 1748466000000,
+      "description": "we hjjk",
+      "duration": "1-2 weeks",
+      "educationLevel": "Senior",
+      "finalAcceptedCount": 0,
+      "location": "In Office",
+      "skills": [
+        "HTML/CSS",
+        "C#"
+      ],
+      "startDate": 1747947600000,
+      "status": "completed",
+      "studentsRequired": 5,
+      "timestamp": 1748021838214,
+      "title": "website2"
+    },
+    "-ORHseViFA2Tv2z7wvWD": {
+      "applicants": 0,
+      "category": "Cybersecurity",
+      "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "compensationType": "Unpaid",
+      "createdAt": 1748368533952,
+      "deadline": 1752440400000,
+      "description": "project for cyber security",
+      "duration": "1-2 weeks",
+      "educationLevel": "Senior",
+      "location": "Office (Lebanon)",
+      "skills": [
+        "Java"
+      ],
+      "startDate": 1748725200000,
+      "status": "rejected",
+      "studentsRequired": 5,
+      "timestamp": 1748368539514,
+      "title": "cyber security project"
+    },
+    "-ORQ8ImiCwprsxQeMeJQ": {
+      "applicants": 0,
+      "category": "Mobile Development",
+      "companyId": "b05R7lo6t9MHeV3rdPyxhSd3tWz1",
+      "compensationType": "Unpaid",
+      "createdAt": 1748507115035,
+      "deadline": 1749762000000,
+      "description": "map of project",
+      "duration": "3-4 weeks",
+      "educationLevel": "Senior",
+      "location": "In Office",
+      "skills": [
+        "HTML/CSS",
+        "Ruby",
+        "C#"
+      ],
+      "startDate": 1748638800000,
+      "status": "rejected",
+      "studentsRequired": 5,
+      "timestamp": 1748507114241,
+      "title": "map project"
+    },
+    "-ORa3f4l3ROymnkXgJQU": {
+      "applicants": 3,
+      "category": "Mobile Development",
+      "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "compensationType": "Unpaid",
+      "completedAt": 1748952067259,
+      "completionReason": "Deadline reached",
+      "createdAt": 1748690449260,
+      "deadline": 1748898000000,
+      "description": "project",
+      "duration": "1-2 weeks",
+      "educationLevel": "Any",
+      "finalAcceptedCount": 1,
+      "location": "In Office",
+      "skills": [
+        "Python",
+        "HTML/CSS",
+        "React"
+      ],
+      "startDate": 1748725200000,
+      "status": "completed",
+      "studentsRequired": 2,
+      "timestamp": 1748690450717,
+      "title": "project"
+    },
+    "-ORg77suMwker1hAqWpt": {
+      "applicants": 2,
+      "category": "Web Development",
+      "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "compensationType": "Unpaid",
+      "createdAt": 1748792021069,
+      "deadline": 1751230800000,
+      "description": "project for talented and motivated student to develop an intelligent resume",
+      "duration": "3-4 weeks",
+      "educationLevel": "Any",
+      "location": "In Office",
+      "skills": [
+        "React",
+        "Node.js",
+        "JavaScript",
+        "HTML/CSS"
+      ],
+      "startDate": 1748898000000,
+      "status": "approved",
+      "studentsRequired": 4,
+      "timestamp": 1748792020788,
+      "title": "Ai project"
+    },
+    "-ORgPIkmoRf2xiQxxmiD": {
+      "applicants": 1,
+      "category": "Web Development",
+      "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "compensationType": "Unpaid",
+      "completedAt": 1748850150788,
+      "completionReason": "Deadline reached",
+      "createdAt": 1748796784121,
+      "deadline": 1748811600000,
+      "description": "ft",
+      "duration": "1-2 weeks",
+      "educationLevel": "Senior",
+      "finalAcceptedCount": 0,
+      "location": "Remote",
+      "skills": [
+        "HTML/CSS"
+      ],
+      "startDate": 1748725200000,
+      "status": "completed",
+      "studentsRequired": 2,
+      "timestamp": 1748796783390,
+      "title": "feedback test"
+    },
+    "-ORmGpfx3d6qLAeoqieM": {
+      "applicants": 2,
+      "category": "Mobile Development",
+      "companyId": "2W0XvFsqWBZtIKby84fa3aBdTxJ2",
+      "compensationType": "Unpaid",
+      "createdAt": 1748895227378,
+      "deadline": 1751230800000,
+      "description": "test",
+      "duration": "3-4 weeks",
+      "educationLevel": "Any",
+      "location": "In Office",
+      "skills": [
+        "Node.js",
+        "Python",
+        "Java"
+      ],
+      "startDate": 1749502800000,
+      "status": "approved",
+      "studentsRequired": 4,
+      "timestamp": 1748895225280,
+      "title": "test"
+    },
+    "-OS9VDro21T3faTissRP": {
+      "applicants": 2,
+      "category": "Mobile Development",
+      "companyId": "2W0XvFsqWBZtIKby84fa3aBdTxJ2",
+      "compensationType": "Unpaid",
+      "completedAt": 1749302064637,
+      "completionReason": "Positions filled",
+      "createdAt": 1749301653397,
+      "deadline": 1749416400000,
+      "description": "web development project",
+      "duration": "1-2 weeks",
+      "educationLevel": "Any",
+      "finalAcceptedCount": 2,
+      "location": "In Office",
+      "skills": [
+        "Python",
+        "Java",
+        "JavaScript"
+      ],
+      "startDate": 1749330000000,
+      "status": "completed",
+      "studentsRequired": 2,
+      "timestamp": 1749301656901,
+      "title": "project2"
+    }
+  },
+  "scheduled_deletions": {
+    "7V09Rq8Jc8disJdpUnhMxti2o9g2": {
+      "createdAt": "2025-06-09T18:46:35.365Z",
+      "scheduledFor": "2025-07-09T18:46:34.669Z",
+      "status": "pending",
+      "userId": "7V09Rq8Jc8disJdpUnhMxti2o9g2"
+    }
+  },
+  "settings": {
+    "-OSK07PlRRiWpS5T-lcB": {
+      "darkMode": false,
+      "emailNotifications": true,
+      "language": "English",
+      "notifications": true,
+      "pushNotifications": false,
+      "timezone": "UTC+0"
+    },
+    "1749481472112admin": {
+      "darkMode": false,
+      "emailNotifications": true,
+      "language": "English",
+      "notifications": true,
+      "pushNotifications": false,
+      "timezone": "UTC+0"
+    },
+    "7V09Rq8Jc8disJdpUnhMxti2o9g2": {
+      "darkMode": false,
+      "emailNotifications": true,
+      "language": "French",
+      "notifications": true,
+      "pushNotifications": true
+    },
+    "terms": "<!DOCTYPE html> <html lang=\"en\"> <head>     <meta charset=\"UTF-8\">     <title>InternLink - Terms and Conditions</title>     <style>         body {             font-family: Arial, sans-serif;             padding: 24px;             line-height: 1.6;             background-color: #f9f9f9;             color: #333;         }         h1, h2 {             color: #004080;         }         section {             margin-bottom: 24px;         }     </style> </head> <body>  <h1>InternLink – Terms and Conditions</h1> <p><strong>Last Updated:</strong> [Insert Date]</p>  <section>     <h2>1. Eligibility</h2>     <ul>         <li>You must be at least 16 years old to use InternLink.</li>         <li>Students must provide accurate academic and personal information.</li>         <li>Companies must provide valid business credentials.</li>     </ul> </section>  <section>     <h2>2. Account Registration</h2>     <ul>         <li>You are responsible for maintaining the confidentiality of your account credentials.</li>         <li>You agree to provide truthful, current, and complete information during registration.</li>         <li>You may not impersonate another person or organization.</li>     </ul> </section>  <section>     <h2>3. User Roles</h2>     <h3>a. Students</h3>     <ul>         <li>Can browse and apply to internships.</li>         <li>Must upload correct and truthful academic, personal, and professional details.</li>         <li>Applications are subject to approval or rejection by the company.</li>     </ul>     <h3>b. Companies</h3>     <ul>         <li>Can post internships, view applicants, and manage internship listings.</li>         <li>Are responsible for the accuracy and legality of posted internships.</li>         <li>Must not request or demand compensation from applicants unless legally compliant.</li>     </ul> </section>  <section>     <h2>4. Use of the Service</h2>     <p>You agree to use InternLink only for lawful purposes. You may not:</p>     <ul>         <li>Post false or misleading information.</li>         <li>Engage in harassment or abuse.</li>         <li>Violate intellectual property or privacy rights.</li>         <li>Exploit or harm minors.</li>     </ul> </section>  <section>     <h2>5. Content Ownership</h2>     <p>All content posted by users remains their intellectual property. By posting content, you grant InternLink a worldwide, non-exclusive license to use, reproduce, and display such content solely in connection with the Service.</p> </section>  <section>     <h2>6. Privacy</h2>     <p>InternLink collects and processes user data in accordance with its Privacy Policy. Sensitive data such as passwords and emails are stored securely. Users agree to the collection and use of information as described in our Privacy Policy.</p> </section>  <section>     <h2>7. Termination</h2>     <p>We reserve the right to suspend or terminate your account at our discretion if you violate these Terms. You may also delete your account at any time.</p> </section>  <section>     <h2>8. Limitation of Liability</h2>     <p>InternLink is not responsible for any loss or damage resulting from internship applications, communication, hiring decisions, or job performance. We do not guarantee internship availability or hiring outcomes.</p> </section>  <section>     <h2>9. Modifications</h2>     <p>We may update these Terms from time to time. Continued use of the Service after changes constitutes acceptance of the updated Terms.</p> </section>  <section>     <h2>10. Contact Us</h2>     <p>If you have any questions or concerns about these Terms, please contact us at <a href=\"mailto:support@internlink.com\">support@internlink.com</a>.</p> </section>  </body> </html>"
+  },
+  "student_feedback": {
+    "-ORfoqRt7OPHMAPRJ2QK": {
+      "comment": "One of a kind performance",
+      "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "companyLogoUrl": "https://i.ibb.co/tpgCPm6x/becc642588cc.jpg",
+      "companyName": "tech",
+      "projectId": "-OQj1NoRaUfMm_fo_ebu",
+      "projectTitle": "quiztest",
+      "rating": 5,
+      "studentId": "ltDtnyIumkUgsQfDRG8alJdhmvR2",
+      "timestamp": 1748786964408
+    },
+    "-OSLJHYe_ZEJMM4KKh_S": {
+      "comment": "Organized and speedy. One of the most efficient students I've been honored to work with.",
+      "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "companyLogoUrl": "https://i.ibb.co/tpgCPm6x/becc642588cc.jpg",
+      "companyName": "tech",
+      "projectId": "-OQnuqBxIN55NISgVamM",
+      "projectTitle": "Project For Announce",
+      "rating": 4,
+      "studentId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+      "timestamp": 1749499848263
+    }
+  },
+  "students": {
+    "studentId1": {
+      "status": "approved"
+    }
+  },
+  "user_activity": {
+    "2025-05-01": {
+      "count": 14
+    },
+    "2025-05-02": {
+      "count": 34
+    },
+    "2025-05-03": {
+      "count": 76
+    },
+    "2025-05-04": {
+      "count": 37
+    },
+    "2025-05-05": {
+      "count": 15
+    },
+    "2025-05-06": {
+      "count": 56
+    },
+    "2025-05-07": {
+      "count": 18
+    },
+    "2025-05-08": {
+      "count": 9
+    },
+    "2025-05-09": {
+      "count": 61
+    },
+    "2025-05-10": {
+      "count": 7
+    },
+    "2025-05-11": {
+      "count": 67
+    },
+    "2025-05-12": {
+      "count": 52
+    },
+    "2025-05-13": {
+      "count": 15
+    },
+    "2025-05-14": {
+      "count": 16
+    },
+    "2025-05-15": {
+      "count": 28
+    },
+    "2025-05-16": {
+      "count": 81
+    },
+    "2025-05-17": {
+      "count": 53
+    },
+    "2025-05-18": {
+      "count": 25
+    },
+    "2025-05-19": {
+      "count": 48
+    },
+    "2025-05-20": {
+      "count": 1
+    },
+    "2025-05-30": {
+      "count": 1
+    },
+    "2025-06-04": {
+      "count": 1
+    }
+  },
+  "user_reads": {
+    "2W0XvFsqWBZtIKby84fa3aBdTxJ2": {
+      "-OPPVqr7hgS8GbuxM0x6": true,
+      "-OPPYBSi2PEjKFUVGhl5": true,
+      "-OQ4q7M4TFTMt1YS-YSK": true,
+      "-OQ4s0snaE-aHzVF4uUg": true,
+      "-OQ75g6EKGLn4-f-pNoO": true
+    },
+    "D7baDaHRK1h7xzfshVY4vWzLtRj2": {
+      "-OPQFqHQxVwNusuJL669": true,
+      "-OR5urbyXu4vgWdWnpEp": 1748188633349,
+      "-ORACVayOPHJ2KFlZnJ9": 1748946245022,
+      "-ORAzTKu1se3RuoRdWAo": 1748946249803,
+      "-ORLuawG-zwwf-MU-Fnf": 1748441958438,
+      "-ORLwij-lvcL8G1ADUrr": 1748442465658,
+      "-ORa0HLTy_C-vEanAqzd": 1748690176629,
+      "-ORagUvfY2_9Ad3P5lya": 1748700949382
+    },
+    "aL94uVtFqcXRg3R2q6guTCgSoEC2": {
+      "-OPPVqr7hgS8GbuxM0x6": true,
+      "-OPPYBSi2PEjKFUVGhl5": true,
+      "-OQ4q7M4TFTMt1YS-YSK": true,
+      "-OQ4s0snaE-aHzVF4uUg": true,
+      "-OQ75g6EKGLn4-f-pNoO": true,
+      "-OQny2WGrVTNa_y0RCGX": true,
+      "-OQo0vCurNOn8pPrOwIQ": true,
+      "-OQo5ci_QRjCW6sNyGX1": true,
+      "-OQoAdez8jLKW97UqLvf": true,
+      "-OQrDfPMIaVddZHJzPrM": true,
+      "-OQrEy6O75wUVsGUb17Z": true,
+      "-OQrEyHBBonPQVGIF21q": true,
+      "-OQrJQFQckH2CKboXar5": true,
+      "-OQrPpsi1DF2KTKvjhZm": true,
+      "-OQrRnugHPIbV_320ma5": true,
+      "-OQrg75KMHjoK2nMLNEq": true,
+      "-OQxhMXWmH3JRR6xntEh": true,
+      "-OQxvve8rBccoSF054pi": true,
+      "-ORH0jdDDpNxcWqMhd86": true,
+      "-ORH1LCT9r6PHhTnPsST": true,
+      "-ORH22_DDUeCREeSRLSE": true,
+      "-ORHD54DLKlYFyCq-yji": true,
+      "-ORHTklVDictqb3lKAbn": true,
+      "-ORHlO8jKvSEFSXIkRQN": 1748448168100,
+      "-ORLMN8TZ0xeB1jfAxVn": 1748448167080
+    },
+    "az8MBRWUHYb6QiE0QBPBma582MX2": {
+      "-OR5urbyXu4vgWdWnpEp": 1748176253455,
+      "-ORF_SPJxWkWLtBtGKaS": 1748442371721,
+      "-ORH1eZRmzEMa41auXhO": 1748442322233,
+      "-ORHHONJChX5h5tYKPqE": 1748414288557,
+      "-ORLTr8c0XiZ1vo6hRVK": 1748433880599,
+      "-ORLq2frKhKb3_rgIdyW": 1748449072609,
+      "-ORLuV-tjoPFaPvWQPAg": 1748441752836,
+      "-ORLuawG-zwwf-MU-Fnf": 1748450333365,
+      "-ORLwij-lvcL8G1ADUrr": 1748458078503,
+      "-ORMsx7HBUxwOYXRzrih": 1748458080341,
+      "-OS9Wh6JnQRSsK2ZF64N": 1749494938484,
+      "-OSA4ALR7UyQP7TbXvWC": 1749494928933
+    },
+    "eZcBaSS6dnOWn12zl1AhySuRi0H3": {
+      "-OPPVqr7hgS8GbuxM0x6": true,
+      "-OPPYBSi2PEjKFUVGhl5": true,
+      "-OQ4q7M4TFTMt1YS-YSK": true,
+      "-OQ4s0snaE-aHzVF4uUg": true,
+      "-OQ75g6EKGLn4-f-pNoO": true
+    },
+    "fperhXwCeUWRAUlIWrMSFdCsWdG2": {
+      "-OPPVqr7hgS8GbuxM0x6": true,
+      "-OPPYBSi2PEjKFUVGhl5": true,
+      "-OQ4q7M4TFTMt1YS-YSK": true,
+      "-OQ4s0snaE-aHzVF4uUg": true,
+      "-OQ75g6EKGLn4-f-pNoO": true,
+      "-OQo5ci_QRjCW6sNyGX1": true,
+      "-OQoAdez8jLKW97UqLvf": true,
+      "-OQrDfPMIaVddZHJzPrM": true,
+      "-OQrEy6O75wUVsGUb17Z": true,
+      "-OQrEyHBBonPQVGIF21q": true,
+      "-OQrJQFQckH2CKboXar5": true,
+      "-OQrPpsi1DF2KTKvjhZm": true,
+      "-OQrRnugHPIbV_320ma5": true,
+      "-OQrg75KMHjoK2nMLNEq": true,
+      "-OQxhMXWmH3JRR6xntEh": true,
+      "-OQxvve8rBccoSF054pi": true,
+      "-ORH0jdDDpNxcWqMhd86": true,
+      "-ORH1LCT9r6PHhTnPsST": true,
+      "-ORH22_DDUeCREeSRLSE": true,
+      "-ORHD54DLKlYFyCq-yji": true,
+      "-ORHTklVDictqb3lKAbn": true,
+      "-ORHlO8jKvSEFSXIkRQN": true
+    }
+  },
+  "user_status": {
+    "-OSK07PlRRiWpS5T-lcB": {
+      "lastSeen": 1749478049808,
+      "online": false
+    },
+    "1749481472112admin": {
+      "lastSeen": 1749481472458,
+      "online": false
+    },
+    "2W0XvFsqWBZtIKby84fa3aBdTxJ2": {
+      "lastSeen": 1749304249343,
+      "online": false
+    },
+    "7V09Rq8Jc8disJdpUnhMxti2o9g2": {
+      "lastSeen": 1749730730516,
+      "online": true
+    },
+    "7V09Rq8Jc8disJdpUnhMxti2o9g2adddelete": {
+      "online": false
+    },
+    "ABC123def456GHI789": {
+      "online": false
+    },
+    "D7baDaHRK1h7xzfshVY4vWzLtRj2": {
+      "lastSeen": 1748893924242,
+      "online": false
+    },
+    "INp6RCBwBWS3hcpMBdUskNn5jgF3": {
+      "lastSeen": 1749493103091,
+      "online": true
+    },
+    "JjKsmDRPprWX79iQZJkWHGwObzR2": {
+      "lastSeen": 1749301971274,
+      "online": false
+    },
+    "SrQR2ebxcTSIFrIC7cXtcypiRUH2": {
+      "lastSeen": 1749724083151,
+      "online": true
+    },
+    "aL94uVtFqcXRg3R2q6guTCgSoEC2": {
+      "lastSeen": 1749714799358,
+      "online": false
+    },
+    "admin_1749721775575_ylvrdvu01e8": {
+      "online": false
+    },
+    "az8MBRWUHYb6QiE0QBPBma582MX2": {
+      "lastSeen": 1749896670716,
+      "online": false
+    },
+    "jBzQS4uYpbQVaB5ImR33eyeowhw2": {
+      "lastSeen": 1749489421489,
+      "online": true
+    },
+    "jEo4KCbCmFhhmEomU7m2bfhB5392": {
+      "lastSeen": 1749493087621,
+      "online": false
+    },
+    "ltDtnyIumkUgsQfDRG8alJdhmvR2": {
+      "lastSeen": 1748944557633,
+      "online": false
+    }
+  },
+  "users": {
+    "08cfjcoquRdwjMUPJXmb9D4MaQE3": {
+      "bio": "student in cs",
+      "degree": "bachelor",
+      "email": "nour@gmail.com",
+      "github": "",
+      "gpa": "3",
+      "gradyear": "2025",
+      "linkedin": "",
+      "location": "",
+      "major": "cs",
+      "name": "nour",
+      "phone": "81934314",
+      "role": "student",
+      "skills": "java,python",
+      "university": "iul",
+      "year": ""
+    },
+    "2W0XvFsqWBZtIKby84fa3aBdTxJ2": {
+      "address": "beirut",
+      "companyName": "company1",
+      "description": "technology company",
+      "email": "company1@gmail.com",
+      "industry": "Technology",
+      "linkedin": "",
+      "location": "remote",
+      "logoUrl": "https://i.ibb.co/bRFLx8rF/477ca362b03d.jpg",
+      "mission": "",
+      "name": "company1",
+      "notifications": true,
+      "phone": "81934314",
+      "role": "company",
+      "twitter": "",
+      "vision": "",
+      "website": ""
+    },
+    "7V09Rq8Jc8disJdpUnhMxti2o9g2": {
+      "email": "serrenava543@gmail.com",
+      "name": "serrenava",
+      "passwordLastChanged": "2025-06-09T18:25:51.792Z",
+      "reactivatedAt": "2025-06-12T11:07:44.292Z",
+      "reactivatedBy": "7V09Rq8Jc8disJdpUnhMxti2o9g2",
+      "role": "admin",
+      "scheduledDeletion": "2025-07-09T18:46:34.669Z",
+      "status": "active"
+    },
+    "8WNt0NVUXtaGuir9UGxJ5mKCK7n2": {
+      "deactivationTimestamp": 1746965542387,
+      "email": "tech3@gmail.com",
+      "name": "tech",
+      "notifications": true,
+      "role": "company",
+      "status": "active"
+    },
+    "ABC123def456GHI789": {
+      "deactivatedAt": "2025-06-12T09:50:30.304Z",
+      "deactivatedBy": "SrQR2ebxcTSIFrIC7cXtcypiRUH2",
+      "email": "admin@internlink.com",
+      "name": "AdminUser",
+      "role": "admin",
+      "status": "deactivated"
+    },
+    "D74ZTlT5iFUECRNdPNjU8snlVrf1": {
+      "email": "tech@gmail.com",
+      "name": "tech",
+      "role": "company"
+    },
+    "D7baDaHRK1h7xzfshVY4vWzLtRj2": {
+      "bio": "",
+      "degree": "bachelor",
+      "email": "Nourelzein92@gmail.com",
+      "fcmToken": "eFHpqOx8Rt2fQxEIWkbFsE:APA91bHO9o-CvQUzpbTzkRKg89YM7aZtVmsuGISCdjhmOxXAmJHvZZay5KMkHHKlhYfhN8JuZaf-asM1ge8Xdgy7skk7n4s6T1Gm0Z6jng_D1hmCVvr-QlQ",
+      "github": "",
+      "gpa": "3",
+      "gradyear": "2025",
+      "linkedin": "",
+      "location": "",
+      "logoUrl": "https://i.ibb.co/0jxPzfTY/af7d82cb9a5e.jpg",
+      "major": "",
+      "name": "Nour Elzein",
+      "notifications": true,
+      "phone": "81934314",
+      "role": "student",
+      "skills": "java,python,HTML,css",
+      "twitter": "",
+      "university": "iul",
+      "year": ""
+    },
+    "FKqRhhHpQmXNJltcAK1x68mXzVI3": {
+      "address": "v",
+      "description": "c",
+      "email": "techtest@gmail.com",
+      "industry": "G",
+      "linkedin": "b",
+      "location": "b",
+      "logoUrl": "https://i.ibb.co/WvXht3kN/6fd873b5cb33.png",
+      "mission": "cg",
+      "name": "tech",
+      "phone": "8",
+      "role": "company",
+      "twitter": "v",
+      "vision": "b",
+      "website": "c"
+    },
+    "HI6J88i5amYuutx3nXHOkcIOSfm1": {
+      "address": "lebanon",
+      "description": "technology company",
+      "email": "tech4@gmail.com",
+      "expertise": "Career Matching",
+      "industry": "Technology",
+      "linkedin": "",
+      "location": "lebanon",
+      "mission": "",
+      "name": "tecch",
+      "phone": "81934314",
+      "role": "company",
+      "twitter": "",
+      "vision": "",
+      "website": ""
+    },
+    "JjKsmDRPprWX79iQZJkWHGwObzR2": {
+      "bio": "iam student in cs",
+      "degree": "bachelor",
+      "email": "batoul@gmail.com",
+      "github": "",
+      "gpa": "3.8",
+      "gradyear": "2025",
+      "linkedin": "",
+      "name": "Batoul",
+      "phone": "81934314",
+      "role": "student",
+      "university": "iul"
+    },
+    "SrQR2ebxcTSIFrIC7cXtcypiRUH2": {
+      "email": "admin@gmail.com",
+      "name": "adminadmin",
+      "role": "admin"
+    },
+    "YovwZQfoH0hpyXJPmIeZCR8S0ch1": {
+      "email": "admin2@gmail.com",
+      "name": "admin2",
+      "role": "admin",
+      "status": "active"
+    },
+    "aL94uVtFqcXRg3R2q6guTCgSoEC2": {
+      "address": "beirut,lebanon",
+      "description": "technology",
+      "email": "tech5@gmail.com",
+      "expertise": "Career Matching",
+      "fcmToken": "eR2pTEx1Rtmh5AvgFaLmYK:APA91bGKbl84ZNX66vT_22thlOKxYomzPyNmH8YXDYpvc4ErxjAQqhTLfsc2nILhgt4n9Hu5gzltxx40IyPU5Wzvi5Y2kr9vNTPkrUxmc-S88yb65v2i1ow",
+      "industry": "technology",
+      "linkedin": "",
+      "location": "In Office",
+      "logoUrl": "https://i.ibb.co/tpgCPm6x/becc642588cc.jpg",
+      "mission": "",
+      "name": "tech",
+      "notifications": true,
+      "phone": "81934314",
+      "role": "company",
+      "twitter": "",
+      "vision": "",
+      "website": "tech5.com"
+    },
+    "admin_1749721775575_ylvrdvu01e8": {
+      "accountType": "pending_firebase_setup",
+      "createdAt": "2025-06-12T09:49:35.621Z",
+      "createdBy": "SrQR2ebxcTSIFrIC7cXtcypiRUH2",
+      "deactivatedAt": "2025-06-12T09:49:46.438Z",
+      "deactivatedBy": "SrQR2ebxcTSIFrIC7cXtcypiRUH2",
+      "email": "admin10@gmail.com",
+      "name": "admin",
+      "requiresPasswordSetup": true,
+      "role": "admin",
+      "status": "deactivated",
+      "temporaryPassword": "12345678"
+    },
+    "az8MBRWUHYb6QiE0QBPBma582MX2": {
+      "bio": "software engineer",
+      "cvUrl": "https://uc7ed0db09677cbfb23580cb8eb3.dl.dropboxusercontent.com/cd/0/get/Cqx1IbtDYPh9WpEbOKvKFNgZHkfhX6QZM2VhoPlwu8SfrWh0uubNrMgIpBulO2rHRYAyoO00dRcybkhOR10_nI5odDh6OswZmuDrc1J4EFU9dpliDSC-7ezbC-Dy7iovwqH3UV9dB6DzMfwe2QZNkXWx6WjM_HvGD0CzgMPPwJm5Pg/file",
+      "degree": "Computer Science",
+      "email": "reem1@gmail.com",
+      "fcmToken": "c4xdrPH1QrKML91G_AmaHb:APA91bE7-5ouhbxD0uXMrJqF-pzk49EXU0WyPZ8vyFnLVz0puT0t3Ozk-k3rGyEQM0yeYFDM_hDVnqgEQuGKVfU_lCWhTqBGyJUBetomMN8yw5zNLRjpLCY",
+      "github": "reemib3",
+      "gpa": "4",
+      "gradyear": "2025",
+      "linkedin": "reemmibrr",
+      "logoUrl": "https://i.ibb.co/YFMjg5w7/676b593d99cd.jpg",
+      "name": "reem",
+      "notifications": false,
+      "phone": "6",
+      "role": "student",
+      "skills": "java,python,html,css",
+      "twitter": "reemibr3",
+      "university": "IUL"
+    },
+    "b05R7lo6t9MHeV3rdPyxhSd3tWz1": {
+      "address": "Lebanon, beirut",
+      "description": "",
+      "email": "mapcompany@gmail.com",
+      "industry": "Technnology",
+      "linkedin": "",
+      "location": "In Office",
+      "mission": "",
+      "name": "mapcompany",
+      "phone": "81934314",
+      "role": "company",
+      "twitter": "",
+      "vision": "",
+      "website": ""
+    },
+    "eZcBaSS6dnOWn12zl1AhySuRi0H3": {
+      "address": "",
+      "description": "",
+      "email": "",
+      "expertise": "Career Matching, Skill Development",
+      "industry": "fdfh",
+      "linkedin": "",
+      "location": "",
+      "logoUrl": "https://i.imgur.com/wfOqSeX.jpeg",
+      "mission": "",
+      "name": "tech",
+      "phone": "",
+      "role": "company",
+      "twitter": "",
+      "vision": "",
+      "website": ""
+    },
+    "fperhXwCeUWRAUlIWrMSFdCsWdG2": {
+      "address": "",
+      "description": "edhhj",
+      "email": "company@gmail.com",
+      "industry": "",
+      "linkedin": "https://lnkd.in/job_preference",
+      "location": "remote",
+      "logoUrl": "https://i.ibb.co/YTX86qtX/477ca362b03d.jpg",
+      "mission": "",
+      "name": "company",
+      "notifications": true,
+      "phone": "81934314",
+      "role": "company",
+      "twitter": "",
+      "vision": "",
+      "website": ""
+    },
+    "jEo4KCbCmFhhmEomU7m2bfhB5392": {
+      "deactivatedAt": "2025-06-09T18:26:07.596Z",
+      "deactivatedBy": "7V09Rq8Jc8disJdpUnhMxti2o9g2",
+      "email": "noura10@gmail.com",
+      "emailLastChanged": "2025-06-09T18:18:04.045Z",
+      "emailRevertReason": "Firebase Auth does not allow email changes without verification",
+      "emailRevertedAt": "2025-06-09T18:14:00.604Z",
+      "firebaseUserId": "jEo4KCbCmFhhmEomU7m2bfhB5392",
+      "migratedAt": "2025-06-09T18:18:07.604Z",
+      "migratedFrom": "INp6RCBwBWS3hcpMBdUskNn5jgF3",
+      "migrationReason": "Email sync - Firebase required account migration",
+      "name": "Nour",
+      "passwordLastChanged": "2025-06-09T17:30:10.250Z",
+      "role": "admin",
+      "status": "deactivated",
+      "tempPassword": "Tempk7b605po!"
+    },
+    "ltDtnyIumkUgsQfDRG8alJdhmvR2": {
+      "bio": "student in cs",
+      "cvUrl": "https://uc05c98b0433de7847a3b1bfb0e4.dl.dropboxusercontent.com/cd/0/get/Cp9tSpNAywb9Ei41oYkS-AI0dp3F7qVYvw4ixyXzK-4HL1l90Rss89NzirJnU1shTSDUN89INbzYZrweucPOZ1BuF4LJPh7hcQI3dQ_h9KQTlC8YwhdqTqU0RUDPNo_QTKaq08qkJRjrRM5Zsvk9bLnwQwYFjgQ2Qo2_73aUNN4y3A/file",
+      "degree": "bachelor",
+      "email": "Nourelzein2@gmail.com",
+      "github": "",
+      "gpa": "3",
+      "gradyear": "2025",
+      "linkedin": "",
+      "logoUrl": "https://i.ibb.co/4RmLq6j0/bd576d9dc819.jpg",
+      "name": "Nour",
+      "notifications": false,
+      "phone": "81934314",
+      "role": "student",
+      "skills": "java,SQL, html, css",
+      "twitter": "",
+      "university": "iul"
+    }
+  }
+}
