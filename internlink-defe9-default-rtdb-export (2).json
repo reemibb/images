@@ -17,6 +17,20 @@
     }
   },
   "announcements_by_role": {
+    "admin": {
+      "-OSnLO_fpkplL8Bw-5UK": {
+        "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "createdBy": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "date": "2025-06-15 11:15:41",
+        "id": "-OSnLO_fpkplL8Bw-5UK",
+        "isRead": false,
+        "message": "A new project \"announce test project\" has been created by tech and needs approval.",
+        "projectId": "-OSnLOKM5DIXbfsriM_c",
+        "timestamp": 1749986944175,
+        "title": "New Project Created",
+        "type": "project_created"
+      }
+    },
     "company": {
       "-OPPYBSi2PEjKFUVGhl5": {
         "message": "...",
@@ -836,9 +850,9 @@
       "deletedBy": {
         "az8MBRWUHYb6QiE0QBPBma582MX2": true
       },
-      "lastMessage": "📷 Photo",
-      "lastMessageTime": 1748630464292,
-      "lastSenderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "lastMessage": "📎 file-sample_150kB.pdf",
+      "lastMessageTime": 1749995304325,
+      "lastSenderId": "az8MBRWUHYb6QiE0QBPBma582MX2",
       "participants": {
         "aL94uVtFqcXRg3R2q6guTCgSoEC2": true,
         "az8MBRWUHYb6QiE0QBPBma582MX2": true
@@ -1147,6 +1161,38 @@
           "status": "read",
           "text": "A message was deleted",
           "timestamp": 1748799115513,
+          "today": true,
+          "yesterday": false
+        },
+        "-OSnmLlgomFShQxVPxlQ": {
+          "dateHeader": "Today",
+          "fileName": "IMG_20250510_214342.jpg",
+          "fileSize": 144844,
+          "fileUrl": "https://i.ibb.co/Q7nztPH1/934f41ac6dcb.jpg",
+          "formattedDate": "Jun 15, 2025",
+          "formattedTime": "16:31",
+          "messageType": "image",
+          "receiverId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+          "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+          "status": "read",
+          "text": "IMG_20250510_214342.jpg",
+          "timestamp": 1749994270766,
+          "today": true,
+          "yesterday": false
+        },
+        "-OSnqI8nB8_QwjOEkOaE": {
+          "dateHeader": "Today",
+          "fileName": "file-sample_150kB.pdf",
+          "fileSize": 142786,
+          "fileUrl": "https://dl.dropboxusercontent.com/scl/fi/dt8m63em4p2mh8r0ea46f/1749995299868_file-sample_150kB.pdf?rlkey=cfayojjvpckcndrmo8lqzcmij&dl=0",
+          "formattedDate": "Jun 15, 2025",
+          "formattedTime": "16:48",
+          "messageType": "file",
+          "receiverId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+          "senderId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+          "status": "read",
+          "text": "file-sample_150kB.pdf",
+          "timestamp": 1749995304507,
           "today": true,
           "yesterday": false
         }
@@ -1520,6 +1566,17 @@
         "timestamp": 1748799113581,
         "title": "New message from reem",
         "type": "chat_message"
+      },
+      "-OSnqIEqSv8S3-k0vN79": {
+        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
+        "message": "Sent an attachment: file-sample_150kB.pdf",
+        "projectId": "-OQnuqBxIN55NISgVamM",
+        "read": true,
+        "senderId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "senderName": "reem",
+        "timestamp": 1749995304719,
+        "title": "New message from reem",
+        "type": "chat_message"
       }
     },
     "az8MBRWUHYb6QiE0QBPBma582MX2": {
@@ -1609,6 +1666,16 @@
         "timestamp": 1749311314535,
         "title": "student Announcemnt",
         "type": "announcement"
+      },
+      "-OSnmLrZlOsi_EKJaDPc": {
+        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
+        "message": "Sent a photo",
+        "read": true,
+        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "senderName": "tech",
+        "timestamp": 1749994270936,
+        "title": "New message from tech",
+        "type": "chat_message"
       }
     },
     "ltDtnyIumkUgsQfDRG8alJdhmvR2": {
@@ -2276,14 +2343,29 @@
       "studentsRequired": 2,
       "timestamp": 1749301656901,
       "title": "project2"
-    }
-  },
-  "scheduled_deletions": {
-    "7V09Rq8Jc8disJdpUnhMxti2o9g2": {
-      "createdAt": "2025-06-09T18:46:35.365Z",
-      "scheduledFor": "2025-07-09T18:46:34.669Z",
-      "status": "pending",
-      "userId": "7V09Rq8Jc8disJdpUnhMxti2o9g2"
+    },
+    "-OSnLOKM5DIXbfsriM_c": {
+      "amount": 300,
+      "applicants": 0,
+      "category": "Cybersecurity",
+      "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "compensationType": "Paid",
+      "createdAt": 1749986940676,
+      "createdBy": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "deadline": 1752094800000,
+      "description": "announcement for admin",
+      "duration": "1-2 weeks",
+      "educationLevel": "Any",
+      "location": "Remote",
+      "skills": [
+        "SQL",
+        "Ruby"
+      ],
+      "startDate": 1751058000000,
+      "status": "approved",
+      "studentsRequired": 5,
+      "timestamp": 1749986940360,
+      "title": "announce test project"
     }
   },
   "settings": {
@@ -2306,9 +2388,18 @@
     "7V09Rq8Jc8disJdpUnhMxti2o9g2": {
       "darkMode": false,
       "emailNotifications": true,
-      "language": "French",
+      "language": "English",
       "notifications": true,
       "pushNotifications": true
+    },
+    "GlTLKVKgGXgzDwc9ANRESa3UdHl1": {
+      "darkMode": false,
+      "emailFrequency": "immediate",
+      "emailNotifications": true,
+      "notifications": true,
+      "soundAlerts": true,
+      "systemEmails": false,
+      "weeklyDigest": false
     },
     "terms": "<!DOCTYPE html> <html lang=\"en\"> <head>     <meta charset=\"UTF-8\">     <title>InternLink - Terms and Conditions</title>     <style>         body {             font-family: Arial, sans-serif;             padding: 24px;             line-height: 1.6;             background-color: #f9f9f9;             color: #333;         }         h1, h2 {             color: #004080;         }         section {             margin-bottom: 24px;         }     </style> </head> <body>  <h1>InternLink – Terms and Conditions</h1> <p><strong>Last Updated:</strong> [Insert Date]</p>  <section>     <h2>1. Eligibility</h2>     <ul>         <li>You must be at least 16 years old to use InternLink.</li>         <li>Students must provide accurate academic and personal information.</li>         <li>Companies must provide valid business credentials.</li>     </ul> </section>  <section>     <h2>2. Account Registration</h2>     <ul>         <li>You are responsible for maintaining the confidentiality of your account credentials.</li>         <li>You agree to provide truthful, current, and complete information during registration.</li>         <li>You may not impersonate another person or organization.</li>     </ul> </section>  <section>     <h2>3. User Roles</h2>     <h3>a. Students</h3>     <ul>         <li>Can browse and apply to internships.</li>         <li>Must upload correct and truthful academic, personal, and professional details.</li>         <li>Applications are subject to approval or rejection by the company.</li>     </ul>     <h3>b. Companies</h3>     <ul>         <li>Can post internships, view applicants, and manage internship listings.</li>         <li>Are responsible for the accuracy and legality of posted internships.</li>         <li>Must not request or demand compensation from applicants unless legally compliant.</li>     </ul> </section>  <section>     <h2>4. Use of the Service</h2>     <p>You agree to use InternLink only for lawful purposes. You may not:</p>     <ul>         <li>Post false or misleading information.</li>         <li>Engage in harassment or abuse.</li>         <li>Violate intellectual property or privacy rights.</li>         <li>Exploit or harm minors.</li>     </ul> </section>  <section>     <h2>5. Content Ownership</h2>     <p>All content posted by users remains their intellectual property. By posting content, you grant InternLink a worldwide, non-exclusive license to use, reproduce, and display such content solely in connection with the Service.</p> </section>  <section>     <h2>6. Privacy</h2>     <p>InternLink collects and processes user data in accordance with its Privacy Policy. Sensitive data such as passwords and emails are stored securely. Users agree to the collection and use of information as described in our Privacy Policy.</p> </section>  <section>     <h2>7. Termination</h2>     <p>We reserve the right to suspend or terminate your account at our discretion if you violate these Terms. You may also delete your account at any time.</p> </section>  <section>     <h2>8. Limitation of Liability</h2>     <p>InternLink is not responsible for any loss or damage resulting from internship applications, communication, hiring decisions, or job performance. We do not guarantee internship availability or hiring outcomes.</p> </section>  <section>     <h2>9. Modifications</h2>     <p>We may update these Terms from time to time. Continued use of the Service after changes constitutes acceptance of the updated Terms.</p> </section>  <section>     <h2>10. Contact Us</h2>     <p>If you have any questions or concerns about these Terms, please contact us at <a href=\"mailto:support@internlink.com\">support@internlink.com</a>.</p> </section>  </body> </html>"
   },
@@ -2514,18 +2605,28 @@
       "online": false
     },
     "7V09Rq8Jc8disJdpUnhMxti2o9g2": {
-      "lastSeen": 1749730730516,
+      "lastSeen": 1750084762807,
       "online": true
     },
     "7V09Rq8Jc8disJdpUnhMxti2o9g2adddelete": {
       "online": false
     },
+    "8gDFBKufxfNHsuwNwP5mrwmskkB3": {
+      "online": false
+    },
     "ABC123def456GHI789": {
+      "online": false
+    },
+    "D74ZTlT5iFUECRNdPNjU8snlVrf1": {
       "online": false
     },
     "D7baDaHRK1h7xzfshVY4vWzLtRj2": {
       "lastSeen": 1748893924242,
       "online": false
+    },
+    "GlTLKVKgGXgzDwc9ANRESa3UdHl1": {
+      "lastSeen": 1750023477607,
+      "online": true
     },
     "INp6RCBwBWS3hcpMBdUskNn5jgF3": {
       "lastSeen": 1749493103091,
@@ -2536,18 +2637,22 @@
       "online": false
     },
     "SrQR2ebxcTSIFrIC7cXtcypiRUH2": {
-      "lastSeen": 1749724083151,
-      "online": true
+      "lastSeen": 1749998682758,
+      "loginTime": 1749998682758,
+      "online": false
     },
     "aL94uVtFqcXRg3R2q6guTCgSoEC2": {
-      "lastSeen": 1749714799358,
+      "lastSeen": 1750080267514,
       "online": false
     },
     "admin_1749721775575_ylvrdvu01e8": {
       "online": false
     },
     "az8MBRWUHYb6QiE0QBPBma582MX2": {
-      "lastSeen": 1749896670716,
+      "lastSeen": 1749996086797,
+      "online": false
+    },
+    "b05R7lo6t9MHeV3rdPyxhSd3tWz1": {
       "online": false
     },
     "jBzQS4uYpbQVaB5ImR33eyeowhw2": {
@@ -2555,8 +2660,10 @@
       "online": true
     },
     "jEo4KCbCmFhhmEomU7m2bfhB5392": {
+      "accountStatus": "active",
       "lastSeen": 1749493087621,
-      "online": false
+      "online": false,
+      "reactivatedAt": 1749980140866
     },
     "ltDtnyIumkUgsQfDRG8alJdhmvR2": {
       "lastSeen": 1748944557633,
@@ -2601,12 +2708,12 @@
     },
     "7V09Rq8Jc8disJdpUnhMxti2o9g2": {
       "email": "serrenava543@gmail.com",
+      "lastLogin": "2025-06-16T11:47:46.854Z",
       "name": "serrenava",
       "passwordLastChanged": "2025-06-09T18:25:51.792Z",
       "reactivatedAt": "2025-06-12T11:07:44.292Z",
       "reactivatedBy": "7V09Rq8Jc8disJdpUnhMxti2o9g2",
       "role": "admin",
-      "scheduledDeletion": "2025-07-09T18:46:34.669Z",
       "status": "active"
     },
     "8WNt0NVUXtaGuir9UGxJ5mKCK7n2": {
@@ -2617,18 +2724,34 @@
       "role": "company",
       "status": "active"
     },
-    "ABC123def456GHI789": {
-      "deactivatedAt": "2025-06-12T09:50:30.304Z",
-      "deactivatedBy": "SrQR2ebxcTSIFrIC7cXtcypiRUH2",
-      "email": "admin@internlink.com",
-      "name": "AdminUser",
-      "role": "admin",
-      "status": "deactivated"
+    "8gDFBKufxfNHsuwNwP5mrwmskkB3": {
+      "address": "hamra po box",
+      "deactivatedAt": "2025-06-16T11:50:24.962Z",
+      "deactivatedBy": "currentAdminId",
+      "deactivationReason": "Admin deactivation",
+      "description": "tech30 description",
+      "email": "tech30@gmail.com",
+      "industry": "Communication",
+      "legalDocsUrl": "https://www.dropbox.com/scl/fi/kv2o192l7pns2yjfztc1h/legal_docs_8gDFBKufxfNHsuwNwP5mrwmskkB3.pdf?rlkey=rqvbvtk1c7vn4f8slgdnx1twu&dl=0",
+      "linkedin": "tech30Co",
+      "location": "hamra, beirut",
+      "logoUrl": "https://i.ibb.co/r2njYwn7/d6b7a02ee86c.jpg",
+      "mission": "tech30 mission",
+      "name": "tech30",
+      "phone": "36975215",
+      "role": "company",
+      "status": "deactivated",
+      "twitter": "tech30_",
+      "vision": "tech30 vision",
+      "website": "tech30.com"
     },
     "D74ZTlT5iFUECRNdPNjU8snlVrf1": {
       "email": "tech@gmail.com",
       "name": "tech",
-      "role": "company"
+      "reactivatedAt": "2025-06-16T12:07:45.525Z",
+      "reactivatedBy": "currentAdminId",
+      "role": "company",
+      "status": "active"
     },
     "D7baDaHRK1h7xzfshVY4vWzLtRj2": {
       "bio": "",
@@ -2667,6 +2790,16 @@
       "vision": "b",
       "website": "c"
     },
+    "GlTLKVKgGXgzDwc9ANRESa3UdHl1": {
+      "email": "noura1@gmail.com",
+      "emailRevertedAt": "2025-06-15T14:46:21.027Z",
+      "lastLogin": "2025-06-15T14:47:08.517Z",
+      "name": "Noura",
+      "reactivatedAt": "2025-06-15T14:46:57.751Z",
+      "reactivatedBy": "7V09Rq8Jc8disJdpUnhMxti2o9g2",
+      "role": "admin",
+      "status": "active"
+    },
     "HI6J88i5amYuutx3nXHOkcIOSfm1": {
       "address": "lebanon",
       "description": "technology company",
@@ -2697,15 +2830,16 @@
       "university": "iul"
     },
     "SrQR2ebxcTSIFrIC7cXtcypiRUH2": {
+      "deactivatedAt": "2025-06-16T12:06:17.306Z",
+      "deactivatedBy": "currentAdminId",
+      "deactivationReason": "Admin deactivation",
       "email": "admin@gmail.com",
+      "lastLogin": "2025-06-15T14:44:42.757Z",
       "name": "adminadmin",
-      "role": "admin"
-    },
-    "YovwZQfoH0hpyXJPmIeZCR8S0ch1": {
-      "email": "admin2@gmail.com",
-      "name": "admin2",
+      "reactivatedAt": "2025-06-16T12:05:49.543Z",
+      "reactivatedBy": "currentAdminId",
       "role": "admin",
-      "status": "active"
+      "status": "deactivated"
     },
     "aL94uVtFqcXRg3R2q6guTCgSoEC2": {
       "address": "beirut,lebanon",
@@ -2726,22 +2860,11 @@
       "vision": "",
       "website": "tech5.com"
     },
-    "admin_1749721775575_ylvrdvu01e8": {
-      "accountType": "pending_firebase_setup",
-      "createdAt": "2025-06-12T09:49:35.621Z",
-      "createdBy": "SrQR2ebxcTSIFrIC7cXtcypiRUH2",
-      "deactivatedAt": "2025-06-12T09:49:46.438Z",
-      "deactivatedBy": "SrQR2ebxcTSIFrIC7cXtcypiRUH2",
-      "email": "admin10@gmail.com",
-      "name": "admin",
-      "requiresPasswordSetup": true,
-      "role": "admin",
-      "status": "deactivated",
-      "temporaryPassword": "12345678"
-    },
     "az8MBRWUHYb6QiE0QBPBma582MX2": {
       "bio": "software engineer",
-      "cvUrl": "https://uc7ed0db09677cbfb23580cb8eb3.dl.dropboxusercontent.com/cd/0/get/Cqx1IbtDYPh9WpEbOKvKFNgZHkfhX6QZM2VhoPlwu8SfrWh0uubNrMgIpBulO2rHRYAyoO00dRcybkhOR10_nI5odDh6OswZmuDrc1J4EFU9dpliDSC-7ezbC-Dy7iovwqH3UV9dB6DzMfwe2QZNkXWx6WjM_HvGD0CzgMPPwJm5Pg/file",
+      "cvFileName": "cv_az8MBRWUHYb6QiE0QBPBma582MX2_1750017270133.pdf",
+      "cvPath": "/cv_az8MBRWUHYb6QiE0QBPBma582MX2.pdf",
+      "cvUrl": "https://ucb1dea2f6bee4b55388051a7c99.dl.dropboxusercontent.com/cd/0/get/CrsdDSieCwHu747GhFwTzA5X_HoXfp3mF3JEdpfFnD7XcmkQzzd7Etacy18T7o_uI4gsoXxEmXQCj1b47ziaqwHZytN5mwYBTAwy3lRFbCy4qV9uOq7S6SKu-GhkpIluGm_CHor1uvMWeMD-aom5IYfUGb7BEj-DRUNkANUdJ35yig/file",
       "degree": "Computer Science",
       "email": "reem1@gmail.com",
       "fcmToken": "c4xdrPH1QrKML91G_AmaHb:APA91bE7-5ouhbxD0uXMrJqF-pzk49EXU0WyPZ8vyFnLVz0puT0t3Ozk-k3rGyEQM0yeYFDM_hDVnqgEQuGKVfU_lCWhTqBGyJUBetomMN8yw5zNLRjpLCY",
@@ -2760,6 +2883,9 @@
     },
     "b05R7lo6t9MHeV3rdPyxhSd3tWz1": {
       "address": "Lebanon, beirut",
+      "deactivatedAt": "2025-06-16T12:06:50.267Z",
+      "deactivatedBy": "currentAdminId",
+      "deactivationReason": "Admin deactivation",
       "description": "",
       "email": "mapcompany@gmail.com",
       "industry": "Technnology",
@@ -2768,7 +2894,10 @@
       "mission": "",
       "name": "mapcompany",
       "phone": "81934314",
+      "reactivatedAt": "2025-06-16T12:05:21.038Z",
+      "reactivatedBy": "currentAdminId",
       "role": "company",
+      "status": "deactivated",
       "twitter": "",
       "vision": "",
       "website": ""
@@ -2806,23 +2935,6 @@
       "twitter": "",
       "vision": "",
       "website": ""
-    },
-    "jEo4KCbCmFhhmEomU7m2bfhB5392": {
-      "deactivatedAt": "2025-06-09T18:26:07.596Z",
-      "deactivatedBy": "7V09Rq8Jc8disJdpUnhMxti2o9g2",
-      "email": "noura10@gmail.com",
-      "emailLastChanged": "2025-06-09T18:18:04.045Z",
-      "emailRevertReason": "Firebase Auth does not allow email changes without verification",
-      "emailRevertedAt": "2025-06-09T18:14:00.604Z",
-      "firebaseUserId": "jEo4KCbCmFhhmEomU7m2bfhB5392",
-      "migratedAt": "2025-06-09T18:18:07.604Z",
-      "migratedFrom": "INp6RCBwBWS3hcpMBdUskNn5jgF3",
-      "migrationReason": "Email sync - Firebase required account migration",
-      "name": "Nour",
-      "passwordLastChanged": "2025-06-09T17:30:10.250Z",
-      "role": "admin",
-      "status": "deactivated",
-      "tempPassword": "Tempk7b605po!"
     },
     "ltDtnyIumkUgsQfDRG8alJdhmvR2": {
       "bio": "student in cs",
