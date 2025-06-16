@@ -28,6 +28,7 @@ import com.bumptech.glide.load.engine.GlideException;
 import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
 import com.google.android.material.appbar.MaterialToolbar;
+import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.textfield.TextInputEditText;
@@ -217,29 +218,22 @@ public class StudentChatActivity extends AppCompatActivity {
 
     }
     private void showAttachmentOptions() {
-        String[] options = {
-                "📷 Send Image",
-                "📄 Send Document",
-                "📁 Send File"
-        };
+        View view = getLayoutInflater().inflate(R.layout.layout_attachment_options, null);
+        BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(this);
+        bottomSheetDialog.setContentView(view);
 
-        new AlertDialog.Builder(this)
-                .setTitle("Send Attachment")
-                .setItems(options, (dialog, which) -> {
-                    switch (which) {
-                        case 0:
-                            fileAttachmentHelper.pickImage();
-                            break;
-                        case 1:
-                            fileAttachmentHelper.pickDocument();
-                            break;
-                        case 2:
-                            fileAttachmentHelper.pickFile();
-                            break;
-                    }
-                })
-                .setNegativeButton("Cancel", null)
-                .show();
+        // Setup click listeners
+        view.findViewById(R.id.image_option).setOnClickListener(v -> {
+            fileAttachmentHelper.pickImage();
+            bottomSheetDialog.dismiss();
+        });
+
+        view.findViewById(R.id.file_option).setOnClickListener(v -> {
+            fileAttachmentHelper.pickFile();
+            bottomSheetDialog.dismiss();
+        });
+
+        bottomSheetDialog.show();
     }
 
     @Override
