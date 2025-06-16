@@ -160,11 +160,43 @@ public class StudentProfileActivity extends AppCompatActivity {
         });
         viewBtn.setOnClickListener(v -> {
             if (cvUrl != null && !cvUrl.isEmpty()) {
-                Intent intent = new Intent(StudentProfileActivity.this, PdfViewerActivity.class);
-                intent.putExtra("pdf_url", cvUrl);
-                startActivity(intent);
+                // Log the URL for debugging
+                Log.d("StudentProfile", "Opening PDF URL: " + cvUrl);
+
+                // Verify the URL is accessible
+                OkHttpClient client = new OkHttpClient();
+                Request request = new Request.Builder()
+                        .url(cvUrl)
+                        .head()  // Only check headers, don't download content
+                        .build();
+
+                client.newCall(request).enqueue(new Callback() {
+                    @Override
+                    public void onFailure(@NonNull Call call, @NonNull IOException e) {
+                        runOnUiThread(() -> {
+                            Toast.makeText(StudentProfileActivity.this,
+                                    "Cannot access PDF: Link may have expired", Toast.LENGTH_LONG).show();
+                        });
+                    }
+
+                    @Override
+                    public void onResponse(@NonNull Call call, @NonNull Response response) throws IOException {
+                        if (response.isSuccessful()) {
+                            runOnUiThread(() -> {
+                                Intent intent = new Intent(StudentProfileActivity.this, PdfViewerActivity.class);
+                                intent.putExtra("pdf_url", cvUrl);
+                                startActivity(intent);
+                            });
+                        } else {
+                            runOnUiThread(() -> {
+                                Toast.makeText(StudentProfileActivity.this,
+                                        "PDF link is no longer valid. Please re-upload.", Toast.LENGTH_LONG).show();
+                            });
+                        }
+                    }
+                });
             } else {
-                Toast.makeText(this, "No CV uploaded", Toast.LENGTH_SHORT).show();
+                Toast.makeText(StudentProfileActivity.this, "No CV uploaded", Toast.LENGTH_SHORT).show();
             }
         });
         generateCvBtn.setOnClickListener(v -> {
