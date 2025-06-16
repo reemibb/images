@@ -29,6 +29,20 @@
         "timestamp": 1749986944175,
         "title": "New Project Created",
         "type": "project_created"
+      },
+      "-OStcFyHL_rumjrQhiFO": {
+        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
+        "createdBy": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "creatorName": "reem",
+        "date": "2025-06-16 16:44:47",
+        "issueId": "-OStcFpnmqcrRcizRwL2",
+        "issueType": "BUG",
+        "message": "Files aren't being delivered.",
+        "reportedUserId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "reportedUserName": "tech",
+        "status": "unread",
+        "title": "🐛 New Bug Issue",
+        "type": "new_issue"
       }
     },
     "company": {
@@ -562,6 +576,22 @@
         "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
         "timestamp": 1749714737792,
         "title": "Interview Scheduled"
+      },
+      "-OSuBnrrCT8b6jh9Pamf": {
+        "category": "disciplinary_action",
+        "createdBy": "7V09Rq8Jc8disJdpUnhMxti2o9g2",
+        "createdByName": "serrenava543@gmail.com",
+        "id": "-OSuBnrrCT8b6jh9Pamf",
+        "message": "You have received a warning regarding your behavior in the system. Please review our community guidelines and maintain professional conduct. This warning is related to a report submitted against you.",
+        "priority": "high",
+        "read": false,
+        "reportId": "-OStWcz3jj1Be3DdpTKY",
+        "severity": "warning",
+        "targetUserId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "targetUserName": "reem",
+        "timestamp": "2025-06-16T19:24:27.580Z",
+        "title": "Warning Notice",
+        "type": "warning"
       }
     },
     "students": {
@@ -1283,7 +1313,113 @@
       "timestamp": 1749302176701
     }
   },
+  "issues": {
+    "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2": {
+      "-OStWcz3jj1Be3DdpTKY": {
+        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
+        "createdBy": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "creatorName": "tech",
+        "description": "Files aren't being delivered.",
+        "lastAction": "warn_user",
+        "lastActionBy": "7V09Rq8Jc8disJdpUnhMxti2o9g2",
+        "lastActionTimestamp": "2025-06-16T19:24:26.524Z",
+        "lastUpdated": "2025-06-16T19:24:04.908Z",
+        "reportedUserId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "reportedUserName": "reem",
+        "status": "under_review",
+        "timestamp": "2025-06-16 16:15:51",
+        "type": "BUG"
+      },
+      "-OSt_MfPIjZ-FE2dxPtC": {
+        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
+        "createdBy": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "creatorName": "reem",
+        "description": "Block Feature",
+        "reportedUserId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "reportedUserName": "tech",
+        "status": "open",
+        "timestamp": "2025-06-16 16:32:08",
+        "type": "FEATURE_REQUEST"
+      },
+      "-OStcFpnmqcrRcizRwL2": {
+        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
+        "createdBy": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "creatorName": "reem",
+        "description": "Files aren't being delivered.",
+        "lastAction": "resolve_report",
+        "lastActionBy": "7V09Rq8Jc8disJdpUnhMxti2o9g2",
+        "lastActionTimestamp": "2025-06-16T18:00:04.855Z",
+        "lastUpdated": "2025-06-16T18:16:09.673Z",
+        "reportedUserId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "reportedUserName": "tech",
+        "resolution": "the user is blocked",
+        "status": "pending",
+        "timestamp": "2025-06-16 16:44:47",
+        "type": "BUG"
+      }
+    }
+  },
   "notifications": {
+    "-OStxVd6CCXkVKjRGxyO": {
+      "message": "You have received a warning regarding your behavior. Please review our community guidelines and maintain professional conduct.",
+      "read": false,
+      "reportId": "-OStWcz3jj1Be3DdpTKY",
+      "severity": "warning",
+      "timestamp": "2025-06-16T18:17:36.682Z",
+      "title": "Warning Notice",
+      "type": "warning",
+      "userId": "az8MBRWUHYb6QiE0QBPBma582MX2"
+    },
+    "-OStxViZQn5tAZLpK0ms": {
+      "message": "A warning has been sent to the reported user regarding your complaint.",
+      "read": false,
+      "reportId": "-OStWcz3jj1Be3DdpTKY",
+      "severity": "info",
+      "timestamp": "2025-06-16T18:17:37.031Z",
+      "title": "Action Taken on Your Report",
+      "type": "report_action_taken",
+      "userId": "aL94uVtFqcXRg3R2q6guTCgSoEC2"
+    },
+    "-OSu1qjTWBqoWr2Lypez": {
+      "message": "You have received a warning regarding your behavior. Please review our community guidelines and maintain professional conduct.",
+      "read": false,
+      "reportId": "-OStWcz3jj1Be3DdpTKY",
+      "severity": "warning",
+      "timestamp": "2025-06-16T18:40:57.906Z",
+      "title": "Warning Notice",
+      "type": "warning",
+      "userId": "az8MBRWUHYb6QiE0QBPBma582MX2"
+    },
+    "-OSu1qor3wKWnN2BzGV9": {
+      "message": "A warning has been sent to the reported user regarding your complaint.",
+      "read": false,
+      "reportId": "-OStWcz3jj1Be3DdpTKY",
+      "severity": "info",
+      "timestamp": "2025-06-16T18:40:58.251Z",
+      "title": "Action Taken on Your Report",
+      "type": "report_action_taken",
+      "userId": "aL94uVtFqcXRg3R2q6guTCgSoEC2"
+    },
+    "-OSuBngvAKTpWew8vEp4": {
+      "message": "You have received a warning regarding your behavior. Please review our community guidelines and maintain professional conduct.",
+      "read": false,
+      "reportId": "-OStWcz3jj1Be3DdpTKY",
+      "severity": "warning",
+      "timestamp": "2025-06-16T19:24:26.880Z",
+      "title": "Warning Notice",
+      "type": "warning",
+      "userId": "az8MBRWUHYb6QiE0QBPBma582MX2"
+    },
+    "-OSuBnmKYal40r3UHEF9": {
+      "message": "A warning has been sent to the reported user regarding your complaint.",
+      "read": false,
+      "reportId": "-OStWcz3jj1Be3DdpTKY",
+      "severity": "info",
+      "timestamp": "2025-06-16T19:24:27.226Z",
+      "title": "Action Taken on Your Report",
+      "type": "report_action_taken",
+      "userId": "aL94uVtFqcXRg3R2q6guTCgSoEC2"
+    },
     "08cfjcoquRdwjMUPJXmb9D4MaQE3": {
       "-OSA44m5nrRDMpui2NAz": {
         "message": "qwertyuij",
@@ -2368,6 +2504,65 @@
       "title": "announce test project"
     }
   },
+  "reportActions": {
+    "-OStxVYdXEuZkBMF39S2": {
+      "actionType": "warn_user",
+      "id": "-OStxVYdXEuZkBMF39S2",
+      "notes": "Dear [Reem ]\n\nWe have received a report regarding your recent interaction on the InternLink platform. After careful review, we found that your behavior may have violated our community standards and professional conduct policy.\n\nSpecifically, the issue reported was: [Insert issue type, e.g., “Lack of Communication” / “Unprofessional Behavior”].\n\nWe are issuing this as a formal warning. Please be aware that repeated reports or further violations may result in suspension or removal from the platform.\n\nWe encourage all users to maintain respectful, timely, and professional interactions at all times.\n\nIf you believe this warning was issued in error or would like to clarify your position, please respond within 48 hours.\n\nThank you for your cooperation.\n\n— InternLink Admin Team",
+      "reportId": "-OStWcz3jj1Be3DdpTKY",
+      "severity": "medium",
+      "takenBy": "7V09Rq8Jc8disJdpUnhMxti2o9g2",
+      "takenByName": "serrenava543@gmail.com",
+      "targetUserId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+      "timestamp": "2025-06-16T18:17:36.332Z"
+    },
+    "-OSu1qe-K32xdwTKCgQt": {
+      "actionDescription": "Warning sent to user for policy violation",
+      "actionType": "warn_user",
+      "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
+      "date": "16/06/2025",
+      "id": "-OSu1qe-K32xdwTKCgQt",
+      "newStatus": "under_review",
+      "notes": "Dear [Reem ]\n\nWe have received a report regarding your recent interaction on the InternLink platform. After careful review, we found that your behavior may have violated our community standards and professional conduct policy.\n\nSpecifically, the issue reported was: [Insert issue type, e.g., “Lack of Communication” / “Unprofessional Behavior”].\n\nWe are issuing this as a formal warning. Please be aware that repeated reports or further violations may result in suspension or removal from the platform.\n\nWe encourage all users to maintain respectful, timely, and professional interactions at all times.\n\nIf you believe this warning was issued in error or would like to clarify your position, please respond within 48 hours.\n\nThank you for your cooperation.\n\n— InternLink Admin Team",
+      "previousStatus": "pending",
+      "reportId": "-OStWcz3jj1Be3DdpTKY",
+      "reporterId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "reporterName": "tech",
+      "reporterRole": "company",
+      "severity": "medium",
+      "takenBy": "7V09Rq8Jc8disJdpUnhMxti2o9g2",
+      "takenByName": "serrenava543@gmail.com",
+      "takenByRole": "admin",
+      "targetUserId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+      "targetUserName": "reem",
+      "targetUserRole": "student",
+      "time": "21:40:57",
+      "timestamp": "2025-06-16T18:40:57.556Z"
+    },
+    "-OSuBnbMDccV1aEn00Nf": {
+      "actionDescription": "Warning sent to user for policy violation",
+      "actionType": "warn_user",
+      "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
+      "date": "16/06/2025",
+      "id": "-OSuBnbMDccV1aEn00Nf",
+      "newStatus": "under_review",
+      "notes": "Dear [Reem ]\n\nWe have received a report regarding your recent interaction on the InternLink platform. After careful review, we found that your behavior may have violated our community standards and professional conduct policy.\n\nSpecifically, the issue reported was: [Insert issue type, e.g., “Lack of Communication” / “Unprofessional Behavior”].\n\nWe are issuing this as a formal warning. Please be aware that repeated reports or further violations may result in suspension or removal from the platform.\n\nWe encourage all users to maintain respectful, timely, and professional interactions at all times.\n\nIf you believe this warning was issued in error or would like to clarify your position, please respond within 48 hours.\n\nThank you for your cooperation.\n\n— InternLink Admin Team\n",
+      "previousStatus": "pending",
+      "reportId": "-OStWcz3jj1Be3DdpTKY",
+      "reporterId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "reporterName": "tech",
+      "reporterRole": "company",
+      "severity": "medium",
+      "takenBy": "7V09Rq8Jc8disJdpUnhMxti2o9g2",
+      "takenByName": "serrenava543@gmail.com",
+      "takenByRole": "admin",
+      "targetUserId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+      "targetUserName": "reem",
+      "targetUserRole": "student",
+      "time": "22:24:26",
+      "timestamp": "2025-06-16T19:24:26.524Z"
+    }
+  },
   "settings": {
     "-OSK07PlRRiWpS5T-lcB": {
       "darkMode": false,
@@ -2605,7 +2800,7 @@
       "online": false
     },
     "7V09Rq8Jc8disJdpUnhMxti2o9g2": {
-      "lastSeen": 1750084762807,
+      "lastSeen": 1750092008501,
       "online": true
     },
     "7V09Rq8Jc8disJdpUnhMxti2o9g2adddelete": {
@@ -2642,14 +2837,14 @@
       "online": false
     },
     "aL94uVtFqcXRg3R2q6guTCgSoEC2": {
-      "lastSeen": 1750080267514,
+      "lastSeen": 1750090597566,
       "online": false
     },
     "admin_1749721775575_ylvrdvu01e8": {
       "online": false
     },
     "az8MBRWUHYb6QiE0QBPBma582MX2": {
-      "lastSeen": 1749996086797,
+      "lastSeen": 1750092737285,
       "online": false
     },
     "b05R7lo6t9MHeV3rdPyxhSd3tWz1": {
@@ -2708,7 +2903,7 @@
     },
     "7V09Rq8Jc8disJdpUnhMxti2o9g2": {
       "email": "serrenava543@gmail.com",
-      "lastLogin": "2025-06-16T11:47:46.854Z",
+      "lastLogin": "2025-06-16T16:35:20.419Z",
       "name": "serrenava",
       "passwordLastChanged": "2025-06-09T18:25:51.792Z",
       "reactivatedAt": "2025-06-12T11:07:44.292Z",
