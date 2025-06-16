@@ -1,28 +1,40 @@
 package com.example.internlink;
 
 import android.annotation.SuppressLint;
-import android.net.Uri;
 import android.os.Bundle;
+import android.view.MenuItem;
+import android.view.View;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.ProgressBar;
 import android.widget.Toast;
-import android.util.Log;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 public class PdfViewerActivity extends AppCompatActivity {
 
     private WebView webView;
-    private static final String TAG = "PdfViewerActivity";
+    private ProgressBar progressBar;
 
     @SuppressLint("SetJavaScriptEnabled")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        webView = new WebView(this);
-        setContentView(webView);
+        setContentView(R.layout.activity_pdf_viewer);
+
+        // Initialize toolbar
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            getSupportActionBar().setTitle("CV Viewer");
+        }
+
+        webView = findViewById(R.id.webView);
+        progressBar = findViewById(R.id.progressBar);
 
         String pdfUrl = getIntent().getStringExtra("pdf_url");
         if (pdfUrl == null || pdfUrl.isEmpty()) {
@@ -31,43 +43,60 @@ public class PdfViewerActivity extends AppCompatActivity {
             return;
         }
 
-        Log.d(TAG, "Attempting to load PDF URL: " + pdfUrl);
+        // Google Docs Viewer wrapped around the PDF URL
+        String googleViewerUrl = "https://docs.google.com/gview?embedded=true&url=" + pdfUrl;
 
-        // Encode the URL properly
-        String encodedPdfUrl = Uri.encode(pdfUrl);
-        String googleViewerUrl = "https://docs.google.com/gview?embedded=true&url=" + encodedPdfUrl;
+        setupWebView();
+        webView.loadUrl(googleViewerUrl);
+    }
 
-        Log.d(TAG, "Google Viewer URL: " + googleViewerUrl);
-
+    @SuppressLint("SetJavaScriptEnabled")
+    private void setupWebView() {
         WebSettings settings = webView.getSettings();
         settings.setJavaScriptEnabled(true);
         settings.setBuiltInZoomControls(true);
         settings.setDisplayZoomControls(false);
-        settings.setDomStorageEnabled(true);
         settings.setLoadWithOverviewMode(true);
         settings.setUseWideViewPort(true);
 
         webView.setWebViewClient(new WebViewClient() {
             @Override
             public void onPageFinished(WebView view, String url) {
-                super.onPageFinished(view, url);
-                Log.d(TAG, "Page finished loading: " + url);
-            }
-
-            @Override
-            public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {
-                Log.e(TAG, "WebView error: " + description);
-                Toast.makeText(PdfViewerActivity.this, "Error loading PDF: " + description, Toast.LENGTH_LONG).show();
+                progressBar.setVisibility(View.GONE);
             }
         });
 
-        webView.setWebChromeClient(new WebChromeClient());
-        webView.loadUrl(googleViewerUrl);
+        webView.setWebChromeClient(new WebChromeClient() {
+            @Override
+            public void onProgressChanged(WebView view, int newProgress) {
+                progressBar.setProgress(newProgress);
+            }
+        });
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            onBackPressed();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     @Override
     public void onBackPressed() {
-        if (webView.canGoBack()) webView.goBack();
-        else super.onBackPressed();
+        if (webView.canGoBack()) {
+            webView.goBack();
+        } else {
+            super.onBackPressed();
+        }
+    }
+
+    @Override
+    protected void onDestroy() {
+        if (webView != null) {
+            webView.destroy();
+        }
+        super.onDestroy();
     }
 }
