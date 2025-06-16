@@ -691,8 +691,8 @@ public class ChatActivity extends AppCompatActivity {
             } else if (itemId == R.id.menu_clear_chat) {
                 clearChat();
                 return true;
-            } else if (itemId == R.id.menu_block_user) {
-                blockUser();
+            } else if (itemId == R.id.menu_report_issue) {
+                reportIssue();
                 return true;
             }
 
@@ -737,9 +737,54 @@ public class ChatActivity extends AppCompatActivity {
                 .show();
     }
 
-    private void blockUser() {
-        // Implementation to block user
-        Toast.makeText(this, "Block user feature", Toast.LENGTH_SHORT).show();
+    private void reportIssue() {
+        androidx.appcompat.app.AlertDialog.Builder builder = new androidx.appcompat.app.AlertDialog.Builder(this);
+        builder.setTitle("Report Issue")
+                .setMessage("What type of issue would you like to report?")
+                .setItems(new String[]{
+                        "🚫 Inappropriate behavior",
+                        "📧 Spam messages",
+                        "🔒 Privacy concerns",
+                        "🐛 Technical issue",
+                        "❓ Other"
+                }, (dialog, which) -> {
+                    String issueType = "";
+                    switch (which) {
+                        case 0: issueType = "Inappropriate behavior"; break;
+                        case 1: issueType = "Spam messages"; break;
+                        case 2: issueType = "Privacy concerns"; break;
+                        case 3: issueType = "Technical issue"; break;
+                        case 4: issueType = "Other"; break;
+                    }
+
+                    // Create report in Firebase
+                    createIssueReport(issueType);
+                })
+                .setNegativeButton("Cancel", null)
+                .show();
+    }
+    private void createIssueReport(String issueType) {
+        DatabaseReference reportsRef = FirebaseDatabase.getInstance()
+                .getReference("reports");
+
+        String reportId = reportsRef.push().getKey();
+        if (reportId == null) return;
+
+        Map<String, Object> report = new HashMap<>();
+        report.put("reporterId", currentUserId);
+        report.put("reportedUserId", chatWithId);
+        report.put("chatId", chatId);
+        report.put("issueType", issueType);
+        report.put("timestamp", ServerValue.TIMESTAMP);
+        report.put("status", "pending");
+
+        reportsRef.child(reportId).setValue(report)
+                .addOnSuccessListener(aVoid -> {
+                    Toast.makeText(this, "Report submitted successfully. We'll review it shortly.", Toast.LENGTH_LONG).show();
+                })
+                .addOnFailureListener(e -> {
+                    Toast.makeText(this, "Failed to submit report", Toast.LENGTH_SHORT).show();
+                });
     }
 
     private String getLastSeenText(long timestamp) {
