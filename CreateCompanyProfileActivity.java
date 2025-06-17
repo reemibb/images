@@ -104,7 +104,7 @@ public class CreateCompanyProfileActivity extends AppCompatActivity {
 
         uploadLogo.setOnClickListener(v -> imagePickerLauncher.launch("image/*"));
         btnUploadLegalDocs.setOnClickListener(v -> {
-            pdfPickerLauncher.launch("legalDocs/pdf");
+            pdfPickerLauncher.launch("application/pdf");
         });
 
         btnSubmit.setOnClickListener(v -> {
@@ -135,12 +135,12 @@ public class CreateCompanyProfileActivity extends AppCompatActivity {
             InputStream inputStream = getContentResolver().openInputStream(uri);
             byte[] pdfBytes = getBytes(inputStream);
 
-            RequestBody requestBody = RequestBody.create(MediaType.parse("legalDocs/octet-stream"), pdfBytes);
+            RequestBody requestBody = RequestBody.create(MediaType.parse("application/octet-stream"), pdfBytes);
 
             Request request = new Request.Builder()
                     .url("https://content.dropboxapi.com/2/files/upload")
                     .addHeader("Authorization", "Bearer " + DROPBOX_ACCESS_TOKEN)
-                    .addHeader("Content-Type", "legalDocs/octet-stream")
+                    .addHeader("Content-Type", "application/octet-stream")
                     .addHeader("Dropbox-API-Arg", "{\"path\": \"/legal_docs_"+ userId +".pdf\", \"mode\": \"overwrite\", \"autorename\": true, \"mute\": false}")
                     .post(requestBody)
                     .build();
@@ -178,14 +178,14 @@ public class CreateCompanyProfileActivity extends AppCompatActivity {
         OkHttpClient client = new OkHttpClient();
 
         RequestBody body = RequestBody.create(
-                MediaType.parse("legalDocs/json"),
+                MediaType.parse("application/json"),
                 "{\"path\": \"" + path + "\", \"settings\": {\"requested_visibility\": \"public\"}}"
         );
 
         Request request = new Request.Builder()
                 .url("https://api.dropboxapi.com/2/sharing/create_shared_link_with_settings")
                 .addHeader("Authorization", "Bearer " + DROPBOX_ACCESS_TOKEN)
-                .addHeader("Content-Type", "legalDocs/json")
+                .addHeader("Content-Type", "application/json")
                 .post(body)
                 .build();
 
