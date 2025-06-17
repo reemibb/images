@@ -1,5 +1,6 @@
 package com.example.internlink;
 
+
 import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.app.NotificationChannel;
@@ -44,12 +45,17 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.google.firebase.firestore.util.Util;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
+import java.util.TimeZone;
 
 public class CompanyHomeActivity extends AppCompatActivity implements
         NavigationView.OnNavigationItemSelectedListener,
@@ -464,9 +470,13 @@ public class CompanyHomeActivity extends AppCompatActivity implements
     @Override
     protected void onResume() {
         super.onResume();
+        BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
         // Automatically refresh data when returning to activity
         if (!isRefreshing) {
             refreshAllData();
+        }
+        if (bottomNav != null) {
+            bottomNav.setSelectedItemId(R.id.navigation_home);
         }
         setupUnreadMessagesBadge();
     }
@@ -1387,7 +1397,7 @@ public class CompanyHomeActivity extends AppCompatActivity implements
         List<DataSnapshot> allAnnouncements = new ArrayList<>();
 
         ValueEventListenerCollector collector = new ValueEventListenerCollector(2, allAnnouncements, () -> {
-            processAndDisplayRecentAnnouncements(allAnnouncements);
+            processAndDisplayRecentAnnouncements((DataSnapshot) allAnnouncements);
             if (isRefreshing) {
                 onRefreshTaskCompleted();
             }
@@ -1433,57 +1443,75 @@ public class CompanyHomeActivity extends AppCompatActivity implements
         }
     }
 
-    private void processAndDisplayRecentAnnouncements(List<DataSnapshot> allAnnouncements) {
-        List<AnnouncementItem> announcementList = new ArrayList<>();
+    private void processAndDisplayRecentAnnouncements(DataSnapshot snapshot) {
+        try {
+            for (DataSnapshot announcementSnap : snapshot.getChildren()) {
+                try {
+                    String id = announcementSnap.getKey();
+                    String title = announcementSnap.child("title").getValue(String.class);
+                    String message = announcementSnap.child("message").getValue(String.class);
 
-        for (DataSnapshot snap : allAnnouncements) {
-            String title = snap.child("title").getValue(String.class);
-            String message = snap.child("message").getValue(String.class);
-            Long timestamp = snap.child("timestamp").getValue(Long.class);
-            if (title != null && message != null && timestamp != null) {
-                announcementList.add(new AnnouncementItem(title, message, timestamp));
+                    // Safe timestamp conversion
+                    long timestamp = getTimestampFromSnapshot(announcementSnap.child("timestamp"));
+
+                    // Create your announcement object or process the data as needed
+                    // Example:
+                    Announcement announcement = new Announcement();
+                    announcement.setId(id);
+                    announcement.setTitle(title);
+                    announcement.setBody(message);
+                    announcement.setTimestamp(timestamp);
+                    announcement.setDate(formatTimestamp(timestamp));
+
+                    // Add to your list or process further
+                    // announcements.add(announcement);
+
+                } catch (Exception e) {
+                    Log.e("CompanyHome", "Error processing individual announcement: " + e.getMessage());
+                    continue; // Skip this announcement but continue processing others
+                }
             }
+        } catch (Exception e) {
+            Log.e("CompanyHome", "Error in processAndDisplayRecentAnnouncements: " + e.getMessage());
         }
+    }
+    private long getTimestampFromSnapshot(DataSnapshot timestampSnap) {
+        if (!timestampSnap.exists()) return 0;
 
-        Collections.sort(announcementList, (a1, a2) -> Long.compare(a2.timestamp, a1.timestamp));
+        try {
+            Object value = timestampSnap.getValue();
+            if (value == null) return 0;
 
-        List<AnnouncementItem> topThree = announcementList.subList(0, Math.min(3, announcementList.size()));
-
-        LinearLayout feedLayout = findViewById(R.id.notification_feed_container);
-        if (feedLayout != null) {
-            feedLayout.removeAllViews();
-
-            for (AnnouncementItem item : topThree) {
-                View view = LayoutInflater.from(this).inflate(R.layout.item_notification, feedLayout, false);
-                TextView notificationText = view.findViewById(R.id.notification_text);
-                TextView notificationTime = view.findViewById(R.id.notification_time);
-
-                if (notificationText != null) {
-                    notificationText.setText(item.title + ": " + item.message);
-                }
-
-                long now = System.currentTimeMillis();
-                long diffMillis = now - item.timestamp;
-
-                String timeAgo;
-                long hours = diffMillis / (1000 * 60 * 60);
-                if (hours < 24) {
-                    timeAgo = hours + " hours ago";
+            if (value instanceof Long) {
+                return (Long) value;
+            } else if (value instanceof Double) {
+                return ((Double) value).longValue();
+            } else if (value instanceof String) {
+                String timestampStr = (String) value;
+                if (timestampStr.contains("T")) {
+                    // ISO 8601 format
+                    SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'", Locale.US);
+                    sdf.setTimeZone(TimeZone.getTimeZone("UTC"));
+                    Date date = sdf.parse(timestampStr);
+                    return date != null ? date.getTime() : 0;
                 } else {
-                    long days = hours / 24;
-                    if (days < 30) {
-                        timeAgo = days + (days == 1 ? " day ago" : " days ago");
-                    } else {
-                        long months = days / 30;
-                        timeAgo = months + (months == 1 ? " month ago" : " months ago");
-                    }
+                    // Try parsing as numeric string
+                    return Long.parseLong(timestampStr);
                 }
-
-                if (notificationTime != null) {
-                    notificationTime.setText(timeAgo);
-                }
-                feedLayout.addView(view);
             }
+        } catch (Exception e) {
+            Log.e("CompanyHome", "Error converting timestamp: " + timestampSnap.getValue(), e);
+        }
+        return 0;
+    }
+    private String formatTimestamp(long timestamp) {
+        if (timestamp <= 0) return "Unknown date";
+        try {
+            SimpleDateFormat sdf = new SimpleDateFormat("MMM d, yyyy", Locale.US);
+            return sdf.format(new Date(timestamp));
+        } catch (Exception e) {
+            Log.e("CompanyHome", "Error formatting timestamp: " + timestamp, e);
+            return "Unknown date";
         }
     }
 
@@ -1694,10 +1722,6 @@ public class CompanyHomeActivity extends AppCompatActivity implements
             intent = new Intent(this, CompanyHelpCenterActivity.class);
             startActivity(intent);
         } else if (id == R.id.nav_logout) {
-            FirebaseAuth.getInstance().signOut();
-            Intent logoutIntent = new Intent(this, LoginActivity.class);
-            logoutIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-            startActivity(logoutIntent);
             finish();
         }
 
