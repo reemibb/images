@@ -621,12 +621,28 @@ public class ScheduleActivity extends AppCompatActivity {
                 .getReference("applications")
                 .child(applicant.getApplicationId());
 
+        // Check if interview was scheduled
+        boolean hadInterview = applicant.getInterviewDate() != null && applicant.getInterviewTime() != null;
+
         Map<String, Object> updates = new HashMap<>();
         updates.put("status", newStatus);
         updates.put("lastUpdated", System.currentTimeMillis());
+        // Clear interview details
+        updates.put("interviewDate", null);
+        updates.put("interviewTime", null);
+        updates.put("interviewMode", null);
+        updates.put("interviewMethod", null);
+        updates.put("interviewLocation", null);
+        updates.put("interviewNotes", null);
+        updates.put("zoomLink", null);
 
         applicationRef.updateChildren(updates)
                 .addOnSuccessListener(aVoid -> {
+                    // Create cancellation announcement if interview was scheduled
+                    if (hadInterview) {
+                        createInterviewCancellationAnnouncement(applicant);
+                    }
+
                     Toast.makeText(this, applicant.getName() + " removed from shortlist", Toast.LENGTH_SHORT).show();
 
                     // Remove from local list
@@ -637,6 +653,7 @@ public class ScheduleActivity extends AppCompatActivity {
                     Toast.makeText(this, "Failed to update status", Toast.LENGTH_SHORT).show();
                 });
     }
+
 
     private void createInterviewUpdateAnnouncement(ShortlistedApplicant applicant) {
         DatabaseReference announcementsRef = FirebaseDatabase.getInstance()
@@ -740,4 +757,55 @@ public class ScheduleActivity extends AppCompatActivity {
             }
         });
     }
+    private void createInterviewCancellationAnnouncement(ShortlistedApplicant applicant) {
+        String companyId = FirebaseAuth.getInstance().getCurrentUser().getUid();
+        DatabaseReference announcementsRef = FirebaseDatabase.getInstance()
+                .getReference("announcements_by_role").child("student");
+        DatabaseReference companyRef = FirebaseDatabase.getInstance()
+                .getReference("users").child(companyId);
+
+        companyRef.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot companySnapshot) {
+                String companyName = companySnapshot.child("name").getValue(String.class);
+
+                StringBuilder messageBuilder = new StringBuilder();
+                messageBuilder.append("❌ Your interview for \"").append(applicant.getProjectTitle())
+                        .append("\" with \"").append(companyName)
+                        .append("\" has been cancelled. Your application is now under review.\n\n")
+                        .append("Cancelled Interview Details:\n")
+                        .append("📆 Date: ").append(applicant.getInterviewDate()).append("\n")
+                        .append("⏰ Time: ").append(applicant.getInterviewTime()).append("\n")
+                        .append("🌐 Mode: ").append(applicant.getInterviewMode())
+                        .append("\n\n[View Status]");
+
+                Map<String, Object> announceData = new HashMap<>();
+                announceData.put("title", "Interview Cancelled");
+                announceData.put("message", messageBuilder.toString());
+                announceData.put("timestamp", System.currentTimeMillis());
+                announceData.put("applicant_status", "Under Review");
+                announceData.put("recipientId", applicant.getUserId());        // Original field
+                announceData.put("studentId", applicant.getUserId());          // Additional student ID field
+                announceData.put("projectId", applicant.getProjectId());       // Project ID
+                announceData.put("companyId", companyId);                      // Company ID
+                announceData.put("type", "interview_cancelled");               // Specific type
+                announceData.put("cancelledDate", applicant.getInterviewDate()); // Previous date
+                announceData.put("cancelledTime", applicant.getInterviewTime()); // Previous time
+                announceData.put("cancelledMode", applicant.getInterviewMode()); // Previous mode
+                announceData.put("date", new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault()).format(new Date()));
+                announceData.put("actionBy", companyId);
+                announceData.put("actionTimestamp", System.currentTimeMillis());
+
+                announcementsRef.push().setValue(announceData)
+                        .addOnSuccessListener(aVoid -> Log.d("InterviewCancellation", "Announcement created successfully"))
+                        .addOnFailureListener(e -> Log.e("InterviewCancellation", "Failed to create announcement", e));
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+                Log.e("InterviewCancellation", "Failed to fetch company name", error.toException());
+            }
+        });
+    }
+
 }
