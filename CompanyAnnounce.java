@@ -242,6 +242,7 @@ public class CompanyAnnounce extends AppCompatActivity implements AnnouncementAd
             }
         });
     }
+
     private void loadWarningAnnouncements(DataSnapshot readsSnapshot, String userId) {
         DatabaseReference warningsRef = FirebaseDatabase.getInstance()
                 .getReference("announcements_by_role")
