@@ -632,6 +632,7 @@ public class ScheduleActivity extends AppCompatActivity {
                 .getReference("announcements_by_role").child("student");
         DatabaseReference companyRef = FirebaseDatabase.getInstance()
                 .getReference("users").child(FirebaseAuth.getInstance().getCurrentUser().getUid());
+        String companyId = FirebaseAuth.getInstance().getCurrentUser().getUid();
 
         companyRef.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
@@ -649,13 +650,28 @@ public class ScheduleActivity extends AppCompatActivity {
                 announceData.put("message", message);
                 announceData.put("timestamp", System.currentTimeMillis());
                 announceData.put("applicant_status", "Shortlisted");
-                announceData.put("recipientId", applicant.getUserId());
+                announceData.put("recipientId", applicant.getUserId());      // Original field
+                announceData.put("studentId", applicant.getUserId());        // Additional student ID field
+                announceData.put("projectId", applicant.getProjectId());     // Project ID
+                announceData.put("companyId", companyId);                    // Company ID
+                announceData.put("type", "interview_updated");               // Announcement type
+                announceData.put("interviewDate", applicant.getInterviewDate());
+                announceData.put("interviewTime", applicant.getInterviewTime());
+                announceData.put("interviewMode", applicant.getInterviewMode());
+                announceData.put("interviewLocation", applicant.getInterviewLocation());
+                announceData.put("date", new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault()).format(new Date()));
+                announceData.put("actionBy", companyId);                     // Who made the update
+                announceData.put("actionTimestamp", System.currentTimeMillis());
 
-                announcementsRef.push().setValue(announceData);
+                announcementsRef.push().setValue(announceData)
+                        .addOnSuccessListener(aVoid -> Log.d("InterviewUpdate", "Announcement created successfully"))
+                        .addOnFailureListener(e -> Log.e("InterviewUpdate", "Failed to create announcement", e));
             }
 
             @Override
-            public void onCancelled(@NonNull DatabaseError error) {}
+            public void onCancelled(@NonNull DatabaseError error) {
+                Log.e("InterviewUpdate", "Failed to fetch company name", error.toException());
+            }
         });
     }
 }
