@@ -128,6 +128,59 @@
         "title": "New Application Received",
         "type": "application"
       }
+    },
+    "student": {
+      "-OT1nzWdhZdNnuB5ovYG": {
+        "applicant_status": "Shortlisted",
+        "message": "📅 Your interview details for \"another project\" with \"tech\" have been updated.\n\n📆 Date: June 28, 2025\n⏰ Time: 01:45 PM\n🌐 Mode: Online\n\n[View Details]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1750246357040,
+        "title": "Interview Details Updated"
+      },
+      "-OT1o15tK6zyZFDaIOV9": {
+        "applicant_status": "Shortlisted",
+        "message": "🔔 Reminder: You have an upcoming interview for \"another project\" with \"tech\".\n\n📆 Date: June 28, 2025\n⏰ Time: 01:45 PM\n🌐 Mode: Online\n📍 Location: Chat\n\n[View Details]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1750246367616,
+        "title": "Interview Reminder"
+      },
+      "-OT1o4W9SUyDkoW9vvsX": {
+        "applicant_status": "Accepted",
+        "message": "🎉 Congratulations! You have been accepted for \"another project\" at \"tech\".\n\nWe look forward to having you join our team!\n\n[View Details]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1750246381585,
+        "title": "Application Accepted"
+      },
+      "-OT1o6BwNXU8T-52NpdJ": {
+        "applicant_status": "Rejected",
+        "message": "We regret to inform you that your application for \"feedback test\" at \"tech\" was not successful.\n\nThank you for your interest in our organization. We encourage you to apply for future opportunities.\n\n[View Details]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1750246388483,
+        "title": "Application Status Update"
+      },
+      "-OT1p9EKOsEEruY9QNDG": {
+        "applicant_status": "Shortlisted",
+        "interviewMethod": "Chat",
+        "interviewType": "Online",
+        "message": "📅 Your interview for \"tech31\" with \"tech31\" is scheduled on June 20, 2025 at 02:37 PM.\n\n📱 Interview Type: Online (Chat)\n💬 Please be available for chat at the scheduled time.\n\n[View Details]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1750246663068,
+        "title": "Interview Scheduled"
+      },
+      "-OT1pGg0Hjp-wq8lS9gx": {
+        "applicant_status": "Accepted",
+        "message": "🎉 Congratulations! Your application for \"tech31\" at \"tech31\" has been accepted.\n\n[View Details]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1750246693576,
+        "title": "Application Accepted"
+      },
+      "-OT1pIetSLboLmyqSlkX": {
+        "applicant_status": "Rejected",
+        "message": "😔 Your application for \"tech31\" at \"tech31\" has been reviewed. Better luck next time!\n\n[View Other Opportunities]",
+        "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "timestamp": 1750246701696,
+        "title": "Application Rejected"
+      }
     }
   },
   "applications": {
@@ -231,16 +284,16 @@
     "-ORH224R7u5DbzWkUIfx": {
       "appliedDate": 1748354478064,
       "companyId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
-      "interviewDate": "June 12, 2025",
+      "interviewDate": "June 28, 2025",
       "interviewLocation": "Chat",
       "interviewMethod": "Chat",
       "interviewMode": "Online",
       "interviewTime": "01:45 PM",
       "interviewType": "Online",
-      "lastUpdated": 1749714567103,
+      "lastUpdated": 1750246381144,
       "projectId": "-OQoAH_9YGhEKDC0rPmK",
       "reapplication": false,
-      "status": "Shortlisted",
+      "status": "Accepted",
       "userId": "az8MBRWUHYb6QiE0QBPBma582MX2",
       "zoomLink": ""
     },
@@ -317,10 +370,10 @@
       "interviewMethod": "Chat",
       "interviewTime": "10:55 AM",
       "interviewType": "Online",
-      "lastUpdated": 1749714736971,
+      "lastUpdated": 1750246388071,
       "projectId": "-ORgPIkmoRf2xiQxxmiD",
       "reapplication": false,
-      "status": "Shortlisted",
+      "status": "Rejected",
       "userId": "az8MBRWUHYb6QiE0QBPBma582MX2",
       "zoomLink": ""
     },
@@ -369,11 +422,17 @@
     "-OT1NH7EYkQ3qtOHlgSe": {
       "appliedDate": 1750239093179,
       "companyId": "2JKFbvee63c5SUwi4Qc4MriB2Y22",
-      "lastUpdated": 1750239093181,
+      "interviewDate": "June 20, 2025",
+      "interviewLocation": "",
+      "interviewMethod": "Chat",
+      "interviewTime": "02:37 PM",
+      "interviewType": "Online",
+      "lastUpdated": 1750246700903,
       "projectId": "-OT1N6vf3neW5yO1fj28",
       "reapplication": false,
-      "status": "Pending",
-      "userId": "az8MBRWUHYb6QiE0QBPBma582MX2"
+      "status": "Rejected",
+      "userId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+      "zoomLink": ""
     }
   },
   "categories": {
