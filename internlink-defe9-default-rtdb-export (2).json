@@ -44,189 +44,89 @@
         "status": "unread",
         "title": "🐛 New Bug Issue",
         "type": "new_issue"
+      },
+      "-OSycmsp6sVBnrXqcdqV": {
+        "companyId": "2JKFbvee63c5SUwi4Qc4MriB2Y22",
+        "createdBy": "2JKFbvee63c5SUwi4Qc4MriB2Y22",
+        "date": "2025-06-17 19:05:12",
+        "id": "-OSycmsp6sVBnrXqcdqV",
+        "isRead": true,
+        "legalDocsUrl": "https://www.dropbox.com/scl/fi/8duvk94xc72sh460op1vd/legal_docs_2JKFbvee63c5SUwi4Qc4MriB2Y22.pdf?rlkey=vgy3gbyuf1w7ezm2w1sdkz6na&dl=0",
+        "message": "A new company \"tech31\" has registered and needs legal documents verification.",
+        "timestamp": 1750176313381,
+        "title": "New Company Registration",
+        "type": "company_registration"
+      },
+      "-OT1DxOVmrxNdce1_Sdp": {
+        "companyId": "2JKFbvee63c5SUwi4Qc4MriB2Y22",
+        "createdBy": "2JKFbvee63c5SUwi4Qc4MriB2Y22",
+        "date": "2025-06-15 11:15:41",
+        "id": "-OT1DxOVmrxNdce1_Sdp",
+        "isRead": false,
+        "message": "A new project \"tech31\" has been created by tech31 and needs approval.",
+        "projectId": "-OT1DxI82QBh5BIqY8oC",
+        "timestamp": 1750236649594,
+        "title": "New Project Created",
+        "type": "project_created"
+      },
+      "-OT1FKTKZB3JnXv13acP": {
+        "companyId": "2JKFbvee63c5SUwi4Qc4MriB2Y22",
+        "createdBy": "2JKFbvee63c5SUwi4Qc4MriB2Y22",
+        "date": "2025-06-15 11:15:41",
+        "id": "-OT1FKTKZB3JnXv13acP",
+        "isRead": false,
+        "message": "A new project \"tech31\" has been created by tech31 and needs approval.",
+        "projectId": "-OT1FKN1pLCsGEnDGGBE",
+        "timestamp": 1750237010480,
+        "title": "New Project Created",
+        "type": "project_created"
+      },
+      "-OT1JdqRylLp1laSEh5f": {
+        "companyId": "2JKFbvee63c5SUwi4Qc4MriB2Y22",
+        "createdBy": "2JKFbvee63c5SUwi4Qc4MriB2Y22",
+        "date": "2025-06-15 11:15:41",
+        "id": "-OT1JdqRylLp1laSEh5f",
+        "isRead": false,
+        "message": "A new project \"texh31\" has been created by tech31 and needs approval.",
+        "projectId": "-OT1Jdi2GqAeG8Q1XLje",
+        "timestamp": 1750238142213,
+        "title": "New Project Created",
+        "type": "project_created"
+      },
+      "-OT1LZhouZDghFGWl3LZ": {
+        "companyId": "2JKFbvee63c5SUwi4Qc4MriB2Y22",
+        "createdBy": "2JKFbvee63c5SUwi4Qc4MriB2Y22",
+        "date": "2025-06-15 11:15:41",
+        "id": "-OT1LZhouZDghFGWl3LZ",
+        "isRead": false,
+        "message": "A new project \"tech31\" has been created by tech31 and needs approval.",
+        "projectId": "-OT1LZ_HwXTYcvPvmA7F",
+        "timestamp": 1750238645438,
+        "title": "New Project Created",
+        "type": "project_created"
+      },
+      "-OT1N70vkm1_bZkkH_oE": {
+        "companyId": "2JKFbvee63c5SUwi4Qc4MriB2Y22",
+        "createdBy": "2JKFbvee63c5SUwi4Qc4MriB2Y22",
+        "date": "2025-06-15 11:15:41",
+        "id": "-OT1N70vkm1_bZkkH_oE",
+        "isRead": false,
+        "message": "A new project \"tech31\" has been created by tech31 and needs approval.",
+        "projectId": "-OT1N6vf3neW5yO1fj28",
+        "timestamp": 1750239052195,
+        "title": "New Project Created",
+        "type": "project_created"
       }
     },
     "company": {
-      "-OPPYBSi2PEjKFUVGhl5": {
-        "message": "...",
-        "timestamp": 1746349638699,
-        "title": "Company Announcement"
-      },
-      "-OQ4q7M4TFTMt1YS-YSK": {
-        "message": "hello",
-        "timestamp": 1747076025640,
-        "title": "maintenance"
-      },
-      "-OQ4s0snaE-aHzVF4uUg": {
-        "message": "ahahah",
-        "timestamp": 1747076523404,
-        "title": "rayaha"
-      },
-      "-OQ75g6EKGLn4-f-pNoO": {
-        "message": "j ktyxtk",
-        "timestamp": 1747113920942,
-        "title": "igoviv"
-      },
-      "-OQo5ci_QRjCW6sNyGX1": {
-        "message": "reem has just applied to your project \"another project\".",
-        "timestamp": 1747852099720,
-        "title": "New Application Received"
-      },
-      "-OQoAdez8jLKW97UqLvf": {
-        "message": "reem has just applied to your project \"another project\".\n\n[View Applicants]",
-        "timestamp": 1747853414274,
-        "title": "New Application Received"
-      },
-      "-OQrDfPMIaVddZHJzPrM": {
-        "message": "reem has just applied to your project \"Project For Announce\".\n\n[View Applicants]",
-        "timestamp": 1747904542513,
-        "title": "New Application Received"
-      },
-      "-OQrEy6O75wUVsGUb17Z": {
-        "message": "reem has just applied to your project \"Project For Announce\".\n\n[View Applicants]",
-        "timestamp": 1747904881267,
-        "title": "New Application Received"
-      },
-      "-OQrEyHBBonPQVGIF21q": {
-        "message": "reem has just applied to your project \"Project For Announce\".\n\n[View Applicants]",
-        "timestamp": 1747904881958,
-        "title": "New Application Received"
-      },
-      "-OQrJQFQckH2CKboXar5": {
-        "message": "reem has just applied to your project \"Project For Announce\".\n\n[View Applicants]",
-        "timestamp": 1747906049268,
-        "title": "New Application Received"
-      },
-      "-OQrPpsi1DF2KTKvjhZm": {
-        "message": "reem has just applied to your project \"Project For Announce\".\n\n[View Applicants]",
-        "timestamp": 1747907731143,
-        "title": "New Application Received"
-      },
-      "-OQrRnugHPIbV_320ma5": {
-        "message": "reem has just applied to your project \"another project\".\n\n[View Applicants]",
-        "timestamp": 1747908247362,
-        "title": "New Application Received"
-      },
-      "-OQrg75KMHjoK2nMLNEq": {
-        "message": "reem has just applied to your project \"bara project\".\n\n[View Applicants]",
-        "timestamp": 1747912262179,
-        "title": "New Application Received"
-      },
-      "-OQxhMXWmH3JRR6xntEh": {
-        "message": "Nour Elzein has just applied to your project \"bara project\".\n\n[View Applicants]",
-        "timestamp": 1748013250729,
-        "title": "New Application Received"
-      },
-      "-OQxvve8rBccoSF054pi": {
-        "message": "Nour Elzein has just applied to your project \"website\".\n\n[View Applicants]",
-        "timestamp": 1748017068606,
-        "title": "New Application Received"
-      },
-      "-ORH0jdDDpNxcWqMhd86": {
-        "message": "reem has just applied to your project \"website\".\n\n[View Applicants]",
-        "timestamp": 1748354136291,
-        "title": "New Application Received"
-      },
-      "-ORH1LCT9r6PHhTnPsST": {
-        "message": "reem has just applied to your project \"bara project\".\n\n[View Applicants]",
-        "timestamp": 1748354294259,
-        "title": "New Application Received"
-      },
-      "-ORH22_DDUeCREeSRLSE": {
-        "message": "reem has just applied to your project \"another project\".\n\n[View Applicants]",
-        "timestamp": 1748354480099,
-        "title": "New Application Received"
-      },
-      "-ORHD54DLKlYFyCq-yji": {
-        "message": "reem has just applied to your project \"website\".\n\n[View Applicants]",
-        "timestamp": 1748357373925,
-        "title": "New Application Received"
-      },
-      "-ORHTklVDictqb3lKAbn": {
-        "message": "Nour Elzein has just applied to your project \"jowa project\".\n\n[View Applicants]",
-        "timestamp": 1748361735954,
-        "title": "New Application Received"
-      },
-      "-ORHlO8jKvSEFSXIkRQN": {
-        "message": "Nour Elzein has just applied to your project \"website2\".\n\n[View Applicants]",
-        "timestamp": 1748366623902,
-        "title": "New Application Received"
-      },
-      "-ORLMN8TZ0xeB1jfAxVn": {
-        "message": "ajajaj",
-        "timestamp": 1748426919040,
-        "title": "Company"
-      },
-      "-ORa4DrnZtpwFmk2B_0K": {
-        "message": "Nour Elzein has just applied to your project \"project\".\n\n[View Applicants]",
-        "timestamp": 1748690585990,
-        "title": "New Application Received"
-      },
-      "-ORa4hKTRiRO3YiOVK5a": {
-        "message": "Nour has just applied to your project \"project\".\n\n[View Applicants]",
-        "timestamp": 1748690710769,
-        "title": "New Application Received"
-      },
-      "-ORa51ZXe0EKvctNiPe7": {
-        "message": "Batoul has just applied to your project \"project\".\n\n[View Applicants]",
-        "timestamp": 1748690797749,
-        "title": "New Application Received"
-      },
-      "-ORbMnD9X_cAy2zDI1dM": {
-        "message": "Batoul has just applied to your project \"jowa project\".\n\n[View Applicants]",
-        "timestamp": 1748712237370,
-        "title": "New Application Received"
-      },
-      "-ORgP_F_R1pXi3cg-qND": {
-        "message": "reem has just applied to your project \"feedback test\".\n\n[View Applicants]",
-        "timestamp": 1748796855112,
-        "title": "New Application Received"
-      },
-      "-ORmH3sRC2RQ3_XPhT_J": {
-        "message": "Nour Elzein has just applied to your project \"test\".\n\n[View Applicants]",
-        "timestamp": 1748895287829,
-        "title": "New Application Received"
-      },
-      "-ORpF0kfaO3jaMMmt1Zd": {
-        "message": "Nour has just applied to your project \"test\".\n\n[View Applicants]",
-        "timestamp": 1748945083481,
-        "title": "New Application Received"
-      },
-      "-OS9VrI_90JeOMyFdq6x": {
-        "message": "Batoul has just applied to your project \"project2\".\n\n[View Applicants]",
-        "timestamp": 1749301806857,
-        "title": "New Application Received"
-      },
-      "-OS9WcaK_8BhNPJ8rCm7": {
-        "message": "Nour Elzein has just applied to your project \"project2\".\n\n[View Applicants]",
-        "timestamp": 1749302008758,
-        "title": "New Application Received"
-      },
-      "-OSKfD_DFk-CVNGD3HGm": {
-        "message": "reem has just applied to your project \"Ai project\".\n\n[View Applicants]",
-        "timestamp": 1749489083541,
-        "title": "New Application Received"
-      },
-      "-OSKfEgfROOT6v_YCfoY": {
-        "message": "reem has just applied to your project \"Ai project\".\n\n[View Applicants]",
-        "timestamp": 1749489088114,
-        "title": "New Application Received"
-      },
-      "-OSyQHuU3uarNoCCbstx": {
-        "category": "disciplinary_action",
-        "createdBy": "7V09Rq8Jc8disJdpUnhMxti2o9g2",
-        "createdByName": "serrenava543@gmail.com",
-        "id": "-OSyQHuU3uarNoCCbstx",
-        "message": "You have received a warning regarding your behavior in the system. Please review our community guidelines and maintain professional conduct. This warning is related to a report submitted against you.",
-        "priority": "high",
+      "-OT1NHRVPk4D8hDFsf4y": {
+        "companyId": "2JKFbvee63c5SUwi4Qc4MriB2Y22",
+        "message": "reem has just applied to your project \"tech31\".\n\n[View Applicants]",
+        "projectId": "-OT1N6vf3neW5yO1fj28",
         "read": false,
-        "reportId": "-OStcFpnmqcrRcizRwL2",
-        "severity": "warning",
-        "targetUserId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "targetUserName": "tech",
-        "timestamp": "2025-06-17T15:06:14.700Z",
-        "title": "Warning Notice",
-        "type": "warning"
+        "timestamp": 1750239094477,
+        "title": "New Application Received",
+        "type": "application"
       }
     },
     "student": {
@@ -854,6 +754,15 @@
       "reapplication": false,
       "status": "Accepted",
       "userId": "D7baDaHRK1h7xzfshVY4vWzLtRj2"
+    },
+    "-OT1NH7EYkQ3qtOHlgSe": {
+      "appliedDate": 1750239093179,
+      "companyId": "2JKFbvee63c5SUwi4Qc4MriB2Y22",
+      "lastUpdated": 1750239093181,
+      "projectId": "-OT1N6vf3neW5yO1fj28",
+      "reapplication": false,
+      "status": "Pending",
+      "userId": "az8MBRWUHYb6QiE0QBPBma582MX2"
     }
   },
   "categories": {
@@ -1379,658 +1288,6 @@
         "status": "under_review",
         "timestamp": "2025-06-16 16:44:47",
         "type": "BUG"
-      }
-    }
-  },
-  "notifications": {
-    "-OStxVd6CCXkVKjRGxyO": {
-      "message": "You have received a warning regarding your behavior. Please review our community guidelines and maintain professional conduct.",
-      "read": false,
-      "reportId": "-OStWcz3jj1Be3DdpTKY",
-      "severity": "warning",
-      "timestamp": "2025-06-16T18:17:36.682Z",
-      "title": "Warning Notice",
-      "type": "warning",
-      "userId": "az8MBRWUHYb6QiE0QBPBma582MX2"
-    },
-    "-OStxViZQn5tAZLpK0ms": {
-      "message": "A warning has been sent to the reported user regarding your complaint.",
-      "read": false,
-      "reportId": "-OStWcz3jj1Be3DdpTKY",
-      "severity": "info",
-      "timestamp": "2025-06-16T18:17:37.031Z",
-      "title": "Action Taken on Your Report",
-      "type": "report_action_taken",
-      "userId": "aL94uVtFqcXRg3R2q6guTCgSoEC2"
-    },
-    "-OSu1qjTWBqoWr2Lypez": {
-      "message": "You have received a warning regarding your behavior. Please review our community guidelines and maintain professional conduct.",
-      "read": false,
-      "reportId": "-OStWcz3jj1Be3DdpTKY",
-      "severity": "warning",
-      "timestamp": "2025-06-16T18:40:57.906Z",
-      "title": "Warning Notice",
-      "type": "warning",
-      "userId": "az8MBRWUHYb6QiE0QBPBma582MX2"
-    },
-    "-OSu1qor3wKWnN2BzGV9": {
-      "message": "A warning has been sent to the reported user regarding your complaint.",
-      "read": false,
-      "reportId": "-OStWcz3jj1Be3DdpTKY",
-      "severity": "info",
-      "timestamp": "2025-06-16T18:40:58.251Z",
-      "title": "Action Taken on Your Report",
-      "type": "report_action_taken",
-      "userId": "aL94uVtFqcXRg3R2q6guTCgSoEC2"
-    },
-    "-OSuBngvAKTpWew8vEp4": {
-      "message": "You have received a warning regarding your behavior. Please review our community guidelines and maintain professional conduct.",
-      "read": false,
-      "reportId": "-OStWcz3jj1Be3DdpTKY",
-      "severity": "warning",
-      "timestamp": "2025-06-16T19:24:26.880Z",
-      "title": "Warning Notice",
-      "type": "warning",
-      "userId": "az8MBRWUHYb6QiE0QBPBma582MX2"
-    },
-    "-OSuBnmKYal40r3UHEF9": {
-      "message": "A warning has been sent to the reported user regarding your complaint.",
-      "read": false,
-      "reportId": "-OStWcz3jj1Be3DdpTKY",
-      "severity": "info",
-      "timestamp": "2025-06-16T19:24:27.226Z",
-      "title": "Action Taken on Your Report",
-      "type": "report_action_taken",
-      "userId": "aL94uVtFqcXRg3R2q6guTCgSoEC2"
-    },
-    "-OSuEmFxdZ4vXu71PhDd": {
-      "message": "You have received a warning regarding your behavior. Please review our community guidelines and maintain professional conduct.",
-      "read": false,
-      "reportId": "-OSt_MfPIjZ-FE2dxPtC",
-      "severity": "warning",
-      "timestamp": "2025-06-16T19:37:27.426Z",
-      "title": "Warning Notice",
-      "type": "warning",
-      "userId": "aL94uVtFqcXRg3R2q6guTCgSoEC2"
-    },
-    "-OSuEmLMBGyj6GzpYnMf": {
-      "message": "A warning has been sent to the reported user regarding your complaint.",
-      "read": false,
-      "reportId": "-OSt_MfPIjZ-FE2dxPtC",
-      "severity": "info",
-      "timestamp": "2025-06-16T19:37:27.773Z",
-      "title": "Action Taken on Your Report",
-      "type": "report_action_taken",
-      "userId": "az8MBRWUHYb6QiE0QBPBma582MX2"
-    },
-    "-OSuOgFMUrUKOpx-WjSW": {
-      "message": "Your report has been reviewed and resolved by our administration team.",
-      "read": false,
-      "reportId": "-OStWcz3jj1Be3DdpTKY",
-      "severity": "success",
-      "timestamp": "2025-06-16T20:20:44.206Z",
-      "title": "Your Report Has Been Resolved",
-      "type": "report_resolved",
-      "userId": "aL94uVtFqcXRg3R2q6guTCgSoEC2"
-    },
-    "-OSuPHCJc_yPVCIN8-ub": {
-      "message": "Your account has been temporarily deactivated for 1 days due to violation of community guidelines. You will not be able to access the system during this period.",
-      "read": false,
-      "reportId": "-OStWcz3jj1Be3DdpTKY",
-      "severity": "error",
-      "timestamp": "2025-06-16T20:23:19.655Z",
-      "title": "Account Temporarily Deactivated",
-      "type": "account_deactivated",
-      "userId": "az8MBRWUHYb6QiE0QBPBma582MX2"
-    },
-    "-OSuPHHjcREo1gbALbR8": {
-      "message": "The reported user's account has been temporarily deactivated for 1 days.",
-      "read": false,
-      "reportId": "-OStWcz3jj1Be3DdpTKY",
-      "severity": "success",
-      "timestamp": "2025-06-16T20:23:20.002Z",
-      "title": "Action Taken on Your Report",
-      "type": "report_action_taken",
-      "userId": "aL94uVtFqcXRg3R2q6guTCgSoEC2"
-    },
-    "-OSuPNw3Sba2vghp_51q": {
-      "message": "Your account has been temporarily deactivated for 1 days due to violation of community guidelines. You will not be able to access the system during this period.",
-      "read": false,
-      "reportId": "-OStWcz3jj1Be3DdpTKY",
-      "severity": "error",
-      "timestamp": "2025-06-16T20:23:47.222Z",
-      "title": "Account Temporarily Deactivated",
-      "type": "account_deactivated",
-      "userId": "az8MBRWUHYb6QiE0QBPBma582MX2"
-    },
-    "-OSuPO0V-qNAnHF4WYr0": {
-      "message": "The reported user's account has been temporarily deactivated for 1 days.",
-      "read": false,
-      "reportId": "-OStWcz3jj1Be3DdpTKY",
-      "severity": "success",
-      "timestamp": "2025-06-16T20:23:47.570Z",
-      "title": "Action Taken on Your Report",
-      "type": "report_action_taken",
-      "userId": "aL94uVtFqcXRg3R2q6guTCgSoEC2"
-    },
-    "-OSuPjcjA1hp12y5fehQ": {
-      "message": "Your account has been temporarily deactivated for 7 days due to violation of community guidelines. You will not be able to access the system during this period.",
-      "read": false,
-      "reportId": "-OSt_MfPIjZ-FE2dxPtC",
-      "severity": "error",
-      "timestamp": "2025-06-16T20:25:20.193Z",
-      "title": "Account Temporarily Deactivated",
-      "type": "account_deactivated",
-      "userId": "aL94uVtFqcXRg3R2q6guTCgSoEC2"
-    },
-    "-OSuPjiBtt5I_AqC04jT": {
-      "message": "The reported user's account has been temporarily deactivated for 7 days.",
-      "read": false,
-      "reportId": "-OSt_MfPIjZ-FE2dxPtC",
-      "severity": "success",
-      "timestamp": "2025-06-16T20:25:20.542Z",
-      "title": "Action Taken on Your Report",
-      "type": "report_action_taken",
-      "userId": "az8MBRWUHYb6QiE0QBPBma582MX2"
-    },
-    "-OSuTd5dLOj9O-s1D_gs": {
-      "message": "Your account has been temporarily deactivated for 1 days due to violation of community guidelines. You will not be able to access the system during this period.",
-      "read": false,
-      "reportId": "-OSt_MfPIjZ-FE2dxPtC",
-      "severity": "error",
-      "timestamp": "2025-06-16T20:42:22.011Z",
-      "title": "Account Temporarily Deactivated",
-      "type": "account_deactivated",
-      "userId": "aL94uVtFqcXRg3R2q6guTCgSoEC2"
-    },
-    "-OSuTdB2W9IJhWkjcSct": {
-      "message": "The reported user's account has been temporarily deactivated for 1 days.",
-      "read": false,
-      "reportId": "-OSt_MfPIjZ-FE2dxPtC",
-      "severity": "success",
-      "timestamp": "2025-06-16T20:42:22.357Z",
-      "title": "Action Taken on Your Report",
-      "type": "report_action_taken",
-      "userId": "az8MBRWUHYb6QiE0QBPBma582MX2"
-    },
-    "-OSyQHj4yWAg2OvQ6NRx": {
-      "message": "You have received a warning regarding your behavior. Please review our community guidelines and maintain professional conduct.",
-      "read": false,
-      "reportId": "-OStcFpnmqcrRcizRwL2",
-      "severity": "warning",
-      "timestamp": "2025-06-17T15:06:13.970Z",
-      "title": "Warning Notice",
-      "type": "warning",
-      "userId": "aL94uVtFqcXRg3R2q6guTCgSoEC2"
-    },
-    "-OSyQHokr24eTZ00zDDt": {
-      "message": "A warning has been sent to the reported user regarding your complaint.",
-      "read": false,
-      "reportId": "-OStcFpnmqcrRcizRwL2",
-      "severity": "info",
-      "timestamp": "2025-06-17T15:06:14.333Z",
-      "title": "Action Taken on Your Report",
-      "type": "report_action_taken",
-      "userId": "az8MBRWUHYb6QiE0QBPBma582MX2"
-    },
-    "08cfjcoquRdwjMUPJXmb9D4MaQE3": {
-      "-OSA44m5nrRDMpui2NAz": {
-        "message": "qwertyuij",
-        "read": false,
-        "timestamp": 1749311314535,
-        "title": "student Announcemnt",
-        "type": "announcement"
-      }
-    },
-    "2W0XvFsqWBZtIKby84fa3aBdTxJ2": {
-      "-OS9WHa031XG5-7Igfki": {
-        "chatId": "2W0XvFsqWBZtIKby84fa3aBdTxJ2_JjKsmDRPprWX79iQZJkWHGwObzR2",
-        "message": "hello",
-        "projectId": "-OS9VDro21T3faTissRP",
-        "read": false,
-        "senderId": "JjKsmDRPprWX79iQZJkWHGwObzR2",
-        "senderName": "Batoul",
-        "timestamp": 1749301931080,
-        "title": "New message from Batoul",
-        "type": "chat_message"
-      }
-    },
-    "D7baDaHRK1h7xzfshVY4vWzLtRj2": {
-      "-ORLU4KqnqCSCZ26v0PY": {
-        "chatId": "D7baDaHRK1h7xzfshVY4vWzLtRj2_aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "message": "Hello",
-        "read": true,
-        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "senderName": "tech",
-        "timestamp": 1748428937708,
-        "title": "New message from tech",
-        "type": "chat_message"
-      },
-      "-ORPpk_tcaIcyItM5N9j": {
-        "chatId": "D7baDaHRK1h7xzfshVY4vWzLtRj2_aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "message": "Hello",
-        "read": true,
-        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "senderName": "tech",
-        "timestamp": 1748501990625,
-        "title": "New message from tech",
-        "type": "chat_message"
-      },
-      "-OR_gbTcGFbLm4dIkhDn": {
-        "chatId": "D7baDaHRK1h7xzfshVY4vWzLtRj2_aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "message": "Hello",
-        "read": true,
-        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "senderName": "tech",
-        "timestamp": 1748684143598,
-        "title": "New message from tech",
-        "type": "chat_message"
-      },
-      "-OR_jcoNpO9UFLSEBnyQ": {
-        "chatId": "D7baDaHRK1h7xzfshVY4vWzLtRj2_aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "message": "*",
-        "read": true,
-        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "senderName": "tech",
-        "timestamp": 1748684935435,
-        "title": "New message from tech",
-        "type": "chat_message"
-      },
-      "-OR_ng15fI_dxG21bRIb": {
-        "chatId": "D7baDaHRK1h7xzfshVY4vWzLtRj2_aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "message": "1",
-        "read": true,
-        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "senderName": "tech",
-        "timestamp": 1748685997136,
-        "title": "New message from tech",
-        "type": "chat_message"
-      },
-      "-OR_pKX4ISRkdY_DHNBr": {
-        "chatId": "D7baDaHRK1h7xzfshVY4vWzLtRj2_aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "message": "1",
-        "read": true,
-        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "senderName": "tech",
-        "timestamp": 1748686429284,
-        "title": "New message from tech",
-        "type": "chat_message"
-      },
-      "-ORmHMjnQkVtrEa3yS4R": {
-        "chatId": "2W0XvFsqWBZtIKby84fa3aBdTxJ2_D7baDaHRK1h7xzfshVY4vWzLtRj2",
-        "message": "Hello",
-        "read": false,
-        "senderId": "2W0XvFsqWBZtIKby84fa3aBdTxJ2",
-        "senderName": "company1",
-        "timestamp": 1748895367228,
-        "title": "New message from company1",
-        "type": "chat_message"
-      },
-      "-OSA44m5nrRDMpui2NB-": {
-        "message": "qwertyuij",
-        "read": false,
-        "timestamp": 1749311314535,
-        "title": "student Announcemnt",
-        "type": "announcement"
-      }
-    },
-    "JjKsmDRPprWX79iQZJkWHGwObzR2": {
-      "-OS9WFSD4w3pF3fNxara": {
-        "chatId": "2W0XvFsqWBZtIKby84fa3aBdTxJ2_JjKsmDRPprWX79iQZJkWHGwObzR2",
-        "message": "Hello",
-        "read": false,
-        "senderId": "2W0XvFsqWBZtIKby84fa3aBdTxJ2",
-        "senderName": "company1",
-        "timestamp": 1749301923061,
-        "title": "New message from company1",
-        "type": "chat_message"
-      },
-      "-OSA44m5nrRDMpui2NB0": {
-        "message": "qwertyuij",
-        "read": false,
-        "timestamp": 1749311314535,
-        "title": "student Announcemnt",
-        "type": "announcement"
-      }
-    },
-    "aL94uVtFqcXRg3R2q6guTCgSoEC2": {
-      "-ORKz3gZpY8Cspx8Jk73": {
-        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
-        "message": "Hello",
-        "projectId": "-OQoAH_9YGhEKDC0rPmK",
-        "read": true,
-        "senderId": "az8MBRWUHYb6QiE0QBPBma582MX2",
-        "senderName": "reem",
-        "timestamp": 1748420547906,
-        "title": "New message from reem",
-        "type": "chat_message"
-      },
-      "-ORKz5MF5c4gJETRej9G": {
-        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
-        "message": "Thank you",
-        "projectId": "-OQoAH_9YGhEKDC0rPmK",
-        "read": true,
-        "senderId": "az8MBRWUHYb6QiE0QBPBma582MX2",
-        "senderName": "reem",
-        "timestamp": 1748420554714,
-        "title": "New message from reem",
-        "type": "chat_message"
-      },
-      "-ORLV5Lh67qEz6cEZGHL": {
-        "chatId": "D7baDaHRK1h7xzfshVY4vWzLtRj2_aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "message": "Hi",
-        "projectId": "-OQr9sl4sAzwpYotNQfq",
-        "read": true,
-        "senderId": "D7baDaHRK1h7xzfshVY4vWzLtRj2",
-        "senderName": "Nour Elzein",
-        "timestamp": 1748429203918,
-        "title": "New message from Nour Elzein",
-        "type": "chat_message"
-      },
-      "-ORPpoFgLcdN_R9HyJVf": {
-        "chatId": "D7baDaHRK1h7xzfshVY4vWzLtRj2_aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "message": "Hello",
-        "projectId": "-OQrA-Ty8IZENVHwtcJu",
-        "read": true,
-        "senderId": "D7baDaHRK1h7xzfshVY4vWzLtRj2",
-        "senderName": "Nour Elzein",
-        "timestamp": 1748502006146,
-        "title": "New message from Nour Elzein",
-        "type": "chat_message"
-      },
-      "-ORRZOV8O6kjWUOdOhsF": {
-        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
-        "message": "Test",
-        "projectId": "-OQnuqBxIN55NISgVamM",
-        "read": true,
-        "senderId": "az8MBRWUHYb6QiE0QBPBma582MX2",
-        "senderName": "reem",
-        "timestamp": 1748530994224,
-        "title": "New message from reem",
-        "type": "chat_message"
-      },
-      "-ORV9mdT-eVgbqI6w4bp": {
-        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
-        "message": "Hi",
-        "projectId": "-OQnuqBxIN55NISgVamM",
-        "read": true,
-        "senderId": "az8MBRWUHYb6QiE0QBPBma582MX2",
-        "senderName": "reem",
-        "timestamp": 1748591390845,
-        "title": "New message from reem",
-        "type": "chat_message"
-      },
-      "-ORX0of_R2-XxWGOH21V": {
-        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
-        "message": "Hii",
-        "read": true,
-        "senderId": "az8MBRWUHYb6QiE0QBPBma582MX2",
-        "senderName": "reem",
-        "timestamp": 1748622593781,
-        "title": "New message from reem",
-        "type": "chat_message"
-      },
-      "-ORX8pzL5Y40cY0gW-yw": {
-        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
-        "message": "Hello",
-        "read": true,
-        "senderId": "az8MBRWUHYb6QiE0QBPBma582MX2",
-        "senderName": "reem",
-        "timestamp": 1748624696636,
-        "title": "New message from reem",
-        "type": "chat_message"
-      },
-      "-ORXk3JjAd1-SVH5yw3h": {
-        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
-        "message": "Wow amar",
-        "projectId": "-OQnuqBxIN55NISgVamM",
-        "read": true,
-        "senderId": "az8MBRWUHYb6QiE0QBPBma582MX2",
-        "senderName": "reem",
-        "timestamp": 1748634716744,
-        "title": "New message from reem",
-        "type": "chat_message"
-      },
-      "-ORY16oh0H2byVbuFViF": {
-        "chatId": "D7baDaHRK1h7xzfshVY4vWzLtRj2_aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "message": "Hii",
-        "projectId": "-OQrA-Ty8IZENVHwtcJu",
-        "read": true,
-        "senderId": "D7baDaHRK1h7xzfshVY4vWzLtRj2",
-        "senderName": "Nour Elzein",
-        "timestamp": 1748639449355,
-        "title": "New message from Nour Elzein",
-        "type": "chat_message"
-      },
-      "-OR_o0tUTdTkzBTx5kTv": {
-        "chatId": "D7baDaHRK1h7xzfshVY4vWzLtRj2_aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "message": "2",
-        "projectId": "-OQhRIxcOBB8ClB7gWJc",
-        "read": true,
-        "senderId": "D7baDaHRK1h7xzfshVY4vWzLtRj2",
-        "senderName": "Nour Elzein",
-        "timestamp": 1748686086823,
-        "title": "New message from Nour Elzein",
-        "type": "chat_message"
-      },
-      "-OR_oJ8BvFbh5Uv3WtCn": {
-        "chatId": "D7baDaHRK1h7xzfshVY4vWzLtRj2_aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "message": "W",
-        "read": true,
-        "senderId": "D7baDaHRK1h7xzfshVY4vWzLtRj2",
-        "senderName": "Nour Elzein",
-        "timestamp": 1748686161563,
-        "title": "New message from Nour Elzein",
-        "type": "chat_message"
-      },
-      "-OR_qW8qPp298PWzOIJa": {
-        "chatId": "D7baDaHRK1h7xzfshVY4vWzLtRj2_aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "message": "Hello",
-        "projectId": "-OQhRIxcOBB8ClB7gWJc",
-        "read": true,
-        "senderId": "D7baDaHRK1h7xzfshVY4vWzLtRj2",
-        "senderName": "Nour Elzein",
-        "timestamp": 1748686739118,
-        "title": "New message from Nour Elzein",
-        "type": "chat_message"
-      },
-      "-OR_qWqzKRw5DEdoFiyy": {
-        "chatId": "D7baDaHRK1h7xzfshVY4vWzLtRj2_aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "message": "1",
-        "projectId": "-OQhRIxcOBB8ClB7gWJc",
-        "read": true,
-        "senderId": "D7baDaHRK1h7xzfshVY4vWzLtRj2",
-        "senderName": "Nour Elzein",
-        "timestamp": 1748686741916,
-        "title": "New message from Nour Elzein",
-        "type": "chat_message"
-      },
-      "-ORgYBGpN8-xeW-1XNtC": {
-        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
-        "message": "Test",
-        "projectId": "-OQnuqBxIN55NISgVamM",
-        "read": true,
-        "senderId": "az8MBRWUHYb6QiE0QBPBma582MX2",
-        "senderName": "reem",
-        "timestamp": 1748799113581,
-        "title": "New message from reem",
-        "type": "chat_message"
-      },
-      "-OSnqIEqSv8S3-k0vN79": {
-        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
-        "message": "Sent an attachment: file-sample_150kB.pdf",
-        "projectId": "-OQnuqBxIN55NISgVamM",
-        "read": true,
-        "senderId": "az8MBRWUHYb6QiE0QBPBma582MX2",
-        "senderName": "reem",
-        "timestamp": 1749995304719,
-        "title": "New message from reem",
-        "type": "chat_message"
-      }
-    },
-    "az8MBRWUHYb6QiE0QBPBma582MX2": {
-      "-ORFcIqsY1LAWxaGkg_U": {
-        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
-        "message": "Hello",
-        "read": true,
-        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "senderName": "tech",
-        "timestamp": 1748330695147,
-        "title": "New message from tech",
-        "type": "chat_message"
-      },
-      "-ORFgTUpGB6mB5WpqQL0": {
-        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
-        "message": "Sent a photo",
-        "read": true,
-        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "senderName": "tech",
-        "timestamp": 1748331787759,
-        "title": "New message from tech",
-        "type": "chat_message"
-      },
-      "-ORFgZZz-XAYL0s4gnzn": {
-        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
-        "message": "Sent an attachment: cv_az8MBRWUHYb6QiE0QBPBma582MX2.pdf",
-        "read": true,
-        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "senderName": "tech",
-        "timestamp": 1748331812857,
-        "title": "New message from tech",
-        "type": "chat_message"
-      },
-      "-ORPzQ1AJYlPQErAuzxu": {
-        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
-        "message": "Hello",
-        "read": true,
-        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "senderName": "tech",
-        "timestamp": 1748504526495,
-        "title": "New message from tech",
-        "type": "chat_message"
-      },
-      "-ORQIpbhDE5NjqN08ujH": {
-        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
-        "message": "Test",
-        "read": true,
-        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "senderName": "tech",
-        "timestamp": 1748509875531,
-        "title": "New message from tech",
-        "type": "chat_message"
-      },
-      "-ORXUqW46TmXtelBCP0Z": {
-        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
-        "message": "Sent a photo",
-        "read": true,
-        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "senderName": "tech",
-        "timestamp": 1748630465558,
-        "title": "New message from tech",
-        "type": "chat_message"
-      },
-      "-ORXV2XanVX4g7QnaDlq": {
-        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
-        "message": "Sent a photo",
-        "read": true,
-        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "senderName": "tech",
-        "timestamp": 1748630518976,
-        "title": "New message from tech",
-        "type": "chat_message"
-      },
-      "-ORXV5EBitnick9L2ipY": {
-        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
-        "message": "Sent a photo",
-        "read": true,
-        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "senderName": "tech",
-        "timestamp": 1748630530016,
-        "title": "New message from tech",
-        "type": "chat_message"
-      },
-      "-OSA44m6BuBQkSPz4GNo": {
-        "message": "qwertyuij",
-        "read": false,
-        "timestamp": 1749311314535,
-        "title": "student Announcemnt",
-        "type": "announcement"
-      },
-      "-OSnmLrZlOsi_EKJaDPc": {
-        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
-        "message": "Sent a photo",
-        "read": true,
-        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "senderName": "tech",
-        "timestamp": 1749994270936,
-        "title": "New message from tech",
-        "type": "chat_message"
-      }
-    },
-    "ltDtnyIumkUgsQfDRG8alJdhmvR2": {
-      "-ORHHQnVx_3aIEQtuKl5": {
-        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_ltDtnyIumkUgsQfDRG8alJdhmvR2",
-        "message": "Hello",
-        "read": true,
-        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "senderName": "tech",
-        "timestamp": 1748358512936,
-        "title": "New message from tech",
-        "type": "chat_message"
-      },
-      "-ORHHT9F0_FLWfC-rP_4": {
-        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_ltDtnyIumkUgsQfDRG8alJdhmvR2",
-        "message": "Hello",
-        "read": true,
-        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "senderName": "tech",
-        "timestamp": 1748358522585,
-        "title": "New message from tech",
-        "type": "chat_message"
-      },
-      "-ORHHUKEVydUPL1SIqSd": {
-        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_ltDtnyIumkUgsQfDRG8alJdhmvR2",
-        "message": "How are you",
-        "read": true,
-        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "senderName": "tech",
-        "timestamp": 1748358527404,
-        "title": "New message from tech",
-        "type": "chat_message"
-      },
-      "-ORHHbkgTXNO7HRGPLMh": {
-        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_ltDtnyIumkUgsQfDRG8alJdhmvR2",
-        "message": "Hi",
-        "read": true,
-        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "senderName": "tech",
-        "timestamp": 1748358561959,
-        "title": "New message from tech",
-        "type": "chat_message"
-      },
-      "-ORHHcc9HOr6aoURlW0N": {
-        "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_ltDtnyIumkUgsQfDRG8alJdhmvR2",
-        "message": "Hi",
-        "read": true,
-        "senderId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
-        "senderName": "tech",
-        "timestamp": 1748358565393,
-        "title": "New message from tech",
-        "type": "chat_message"
-      },
-      "-OSA44m6BuBQkSPz4GNp": {
-        "message": "qwertyuij",
-        "read": false,
-        "timestamp": 1749311314535,
-        "title": "student Announcemnt",
-        "type": "announcement"
-      },
-      "-OSA4ARztMd231DcrV5p": {
-        "message": "jnjnj",
-        "read": false,
-        "timestamp": 1749311338143,
-        "title": "cttfj",
-        "type": "announcement"
       }
     }
   },
@@ -2655,6 +1912,28 @@
       "studentsRequired": 5,
       "timestamp": 1749986940360,
       "title": "announce test project"
+    },
+    "-OT1N6vf3neW5yO1fj28": {
+      "amount": 300,
+      "applicants": 1,
+      "category": "Mobile Development",
+      "companyId": "2JKFbvee63c5SUwi4Qc4MriB2Y22",
+      "compensationType": "Paid",
+      "createdAt": 1750239051886,
+      "createdBy": "2JKFbvee63c5SUwi4Qc4MriB2Y22",
+      "deadline": 1752267600000,
+      "description": "fhjcuj",
+      "duration": "1-2 weeks",
+      "educationLevel": "Senior",
+      "location": "Remote",
+      "skills": [
+        "Java"
+      ],
+      "startDate": 1751058000000,
+      "status": "approved",
+      "studentsRequired": 3,
+      "timestamp": 1750239051357,
+      "title": "tech31"
     }
   },
   "reportActions": {
@@ -3090,13 +2369,16 @@
       "lastSeen": 1749481472458,
       "online": false
     },
+    "2JKFbvee63c5SUwi4Qc4MriB2Y22": {
+      "online": false
+    },
     "2W0XvFsqWBZtIKby84fa3aBdTxJ2": {
       "lastSeen": 1749304249343,
       "online": false
     },
     "7V09Rq8Jc8disJdpUnhMxti2o9g2": {
-      "lastSeen": 1750172754959,
-      "loginTime": 1750172754959,
+      "lastSeen": 1750232886885,
+      "loginTime": 1750232886885,
       "online": true
     },
     "7V09Rq8Jc8disJdpUnhMxti2o9g2adddelete": {
@@ -3133,7 +2415,7 @@
       "online": false
     },
     "aL94uVtFqcXRg3R2q6guTCgSoEC2": {
-      "lastSeen": 1750090597566,
+      "lastSeen": 1750225486631,
       "online": false
     },
     "admin_1749721775575_ylvrdvu01e8": {
@@ -3179,6 +2461,25 @@
       "university": "iul",
       "year": ""
     },
+    "2JKFbvee63c5SUwi4Qc4MriB2Y22": {
+      "address": "beirut po box",
+      "description": "tech31 description",
+      "email": "tech31@gmail.com",
+      "industry": "Communication",
+      "legalDocsUrl": "https://www.dropbox.com/scl/fi/8duvk94xc72sh460op1vd/legal_docs_2JKFbvee63c5SUwi4Qc4MriB2Y22.pdf?rlkey=vgy3gbyuf1w7ezm2w1sdkz6na&dl=0",
+      "linkedin": "tech31_31",
+      "location": "beirut",
+      "mission": "tech31 mission",
+      "name": "tech31",
+      "phone": "56963258",
+      "reactivatedAt": "2025-06-18T08:49:44.816Z",
+      "reactivatedBy": "currentAdminId",
+      "role": "company",
+      "status": "active",
+      "twitter": "tech31_",
+      "vision": "tech31 vision",
+      "website": "tech31.com"
+    },
     "2W0XvFsqWBZtIKby84fa3aBdTxJ2": {
       "address": "beirut",
       "companyName": "company1",
@@ -3199,7 +2500,7 @@
     },
     "7V09Rq8Jc8disJdpUnhMxti2o9g2": {
       "email": "serrenava543@gmail.com",
-      "lastLogin": "2025-06-17T15:05:54.958Z",
+      "lastLogin": "2025-06-18T07:48:06.884Z",
       "name": "serrenava",
       "passwordLastChanged": "2025-06-09T18:25:51.792Z",
       "reactivatedAt": "2025-06-12T11:07:44.292Z",
