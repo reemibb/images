@@ -110,7 +110,7 @@
         "createdBy": "2JKFbvee63c5SUwi4Qc4MriB2Y22",
         "date": "2025-06-15 11:15:41",
         "id": "-OT1N70vkm1_bZkkH_oE",
-        "isRead": false,
+        "isRead": true,
         "message": "A new project \"tech31\" has been created by tech31 and needs approval.",
         "projectId": "-OT1N6vf3neW5yO1fj28",
         "timestamp": 1750239052195,
@@ -127,6 +127,22 @@
         "timestamp": 1750239094477,
         "title": "New Application Received",
         "type": "application"
+      },
+      "-OT2dbz0m3dFNj9x0Yz3": {
+        "category": "disciplinary_action",
+        "createdBy": "7V09Rq8Jc8disJdpUnhMxti2o9g2",
+        "createdByName": "serrenava543@gmail.com",
+        "id": "-OT2dbz0m3dFNj9x0Yz3",
+        "message": "help",
+        "priority": "high",
+        "read": false,
+        "reportId": "-OSt_MfPIjZ-FE2dxPtC",
+        "severity": "warning",
+        "targetUserId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+        "targetUserName": "tech",
+        "timestamp": "2025-06-18T15:26:55.697Z",
+        "title": "Warning Notice",
+        "type": "warning"
       }
     },
     "student": {
@@ -180,6 +196,22 @@
         "recipientId": "az8MBRWUHYb6QiE0QBPBma582MX2",
         "timestamp": 1750246701696,
         "title": "Application Rejected"
+      },
+      "-OT2cXMQZuIMSQc57UjY": {
+        "category": "disciplinary_action",
+        "createdBy": "7V09Rq8Jc8disJdpUnhMxti2o9g2",
+        "createdByName": "serrenava543@gmail.com",
+        "id": "-OT2cXMQZuIMSQc57UjY",
+        "message": "You have received a warning regarding your behavior in the system. Please review our community guidelines and maintain professional conduct. This warning is related to a report submitted against you.",
+        "priority": "high",
+        "read": false,
+        "reportId": "-OStWcz3jj1Be3DdpTKY",
+        "severity": "warning",
+        "targetUserId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+        "targetUserName": "reem",
+        "timestamp": "2025-06-18T15:22:10.539Z",
+        "title": "Warning Notice",
+        "type": "warning"
       }
     }
   },
@@ -916,14 +948,14 @@
         "createdBy": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
         "creatorName": "tech",
         "description": "Files aren't being delivered.",
-        "lastAction": "ban_user",
+        "lastAction": "warn_user",
         "lastActionBy": "7V09Rq8Jc8disJdpUnhMxti2o9g2",
-        "lastActionTimestamp": "2025-06-16T20:23:46.525Z",
+        "lastActionTimestamp": "2025-06-18T15:22:08.955Z",
         "lastUpdated": "2025-06-16T20:46:43.031Z",
         "reportedUserId": "az8MBRWUHYb6QiE0QBPBma582MX2",
         "reportedUserName": "reem",
         "resolution": "User account deactivated for 1 days",
-        "status": "pending",
+        "status": "under_review",
         "timestamp": "2025-06-16 16:15:51",
         "type": "BUG"
       },
@@ -932,14 +964,14 @@
         "createdBy": "az8MBRWUHYb6QiE0QBPBma582MX2",
         "creatorName": "reem",
         "description": "Block Feature",
-        "lastAction": "ban_user",
+        "lastAction": "warn_user",
         "lastActionBy": "7V09Rq8Jc8disJdpUnhMxti2o9g2",
-        "lastActionTimestamp": "2025-06-16T20:42:21.314Z",
+        "lastActionTimestamp": "2025-06-18T15:26:54.158Z",
         "lastUpdated": "2025-06-16T20:46:40.922Z",
         "reportedUserId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
         "reportedUserName": "tech",
         "resolution": "User account deactivated for 1 days",
-        "status": "pending",
+        "status": "under_review",
         "timestamp": "2025-06-16 16:32:08",
         "type": "FEATURE_REQUEST"
       },
@@ -959,6 +991,48 @@
         "timestamp": "2025-06-16 16:44:47",
         "type": "BUG"
       }
+    }
+  },
+  "notifications": {
+    "-OT2cXAbmbjwcx4nomhX": {
+      "message": "You have received a warning regarding your behavior. Please review our community guidelines and maintain professional conduct.",
+      "read": false,
+      "reportId": "-OStWcz3jj1Be3DdpTKY",
+      "severity": "warning",
+      "timestamp": "2025-06-18T15:22:09.783Z",
+      "title": "Warning Notice",
+      "type": "warning",
+      "userId": "az8MBRWUHYb6QiE0QBPBma582MX2"
+    },
+    "-OT2cXH0P5zBdafu26e2": {
+      "message": "A warning has been sent to the reported user regarding your complaint.",
+      "read": false,
+      "reportId": "-OStWcz3jj1Be3DdpTKY",
+      "severity": "info",
+      "timestamp": "2025-06-18T15:22:10.193Z",
+      "title": "Action Taken on Your Report",
+      "type": "report_action_taken",
+      "userId": "aL94uVtFqcXRg3R2q6guTCgSoEC2"
+    },
+    "-OT2dbn3LzII8LYeO3iv": {
+      "message": "You have received a warning regarding your behavior. Please review our community guidelines and maintain professional conduct.",
+      "read": false,
+      "reportId": "-OSt_MfPIjZ-FE2dxPtC",
+      "severity": "warning",
+      "timestamp": "2025-06-18T15:26:54.932Z",
+      "title": "Warning Notice",
+      "type": "warning",
+      "userId": "aL94uVtFqcXRg3R2q6guTCgSoEC2"
+    },
+    "-OT2dbsce4WNC2366aHE": {
+      "message": "A warning has been sent to the reported user regarding your complaint.",
+      "read": false,
+      "reportId": "-OSt_MfPIjZ-FE2dxPtC",
+      "severity": "info",
+      "timestamp": "2025-06-18T15:26:55.288Z",
+      "title": "Action Taken on Your Report",
+      "type": "report_action_taken",
+      "userId": "az8MBRWUHYb6QiE0QBPBma582MX2"
     }
   },
   "projects": {
@@ -1804,6 +1878,52 @@
       "targetUserRole": "company",
       "time": "18:06:13",
       "timestamp": "2025-06-17T15:06:13.227Z"
+    },
+    "-OT2cWyfpSim13eXthnm": {
+      "actionDescription": "Warning sent to user for policy violation",
+      "actionType": "warn_user",
+      "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
+      "date": "18/06/2025",
+      "id": "-OT2cWyfpSim13eXthnm",
+      "newStatus": "under_review",
+      "notes": "warning",
+      "previousStatus": "pending",
+      "reportId": "-OStWcz3jj1Be3DdpTKY",
+      "reporterId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "reporterName": "tech",
+      "reporterRole": "company",
+      "severity": "medium",
+      "takenBy": "7V09Rq8Jc8disJdpUnhMxti2o9g2",
+      "takenByName": "serrenava543@gmail.com",
+      "takenByRole": "admin",
+      "targetUserId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+      "targetUserName": "reem",
+      "targetUserRole": "student",
+      "time": "18:22:08",
+      "timestamp": "2025-06-18T15:22:08.955Z"
+    },
+    "-OT2dbayi2hTK5NK4Ml7": {
+      "actionDescription": "Warning sent to user for policy violation",
+      "actionType": "warn_user",
+      "chatId": "aL94uVtFqcXRg3R2q6guTCgSoEC2_az8MBRWUHYb6QiE0QBPBma582MX2",
+      "date": "18/06/2025",
+      "id": "-OT2dbayi2hTK5NK4Ml7",
+      "newStatus": "under_review",
+      "notes": "help",
+      "previousStatus": "pending",
+      "reportId": "-OSt_MfPIjZ-FE2dxPtC",
+      "reporterId": "az8MBRWUHYb6QiE0QBPBma582MX2",
+      "reporterName": "reem",
+      "reporterRole": "student",
+      "severity": "medium",
+      "takenBy": "7V09Rq8Jc8disJdpUnhMxti2o9g2",
+      "takenByName": "serrenava543@gmail.com",
+      "takenByRole": "admin",
+      "targetUserId": "aL94uVtFqcXRg3R2q6guTCgSoEC2",
+      "targetUserName": "tech",
+      "targetUserRole": "company",
+      "time": "18:26:54",
+      "timestamp": "2025-06-18T15:26:54.158Z"
     }
   },
   "settings": {
@@ -1985,7 +2105,10 @@
       "-ORHD54DLKlYFyCq-yji": true,
       "-ORHTklVDictqb3lKAbn": true,
       "-ORHlO8jKvSEFSXIkRQN": 1748448168100,
-      "-ORLMN8TZ0xeB1jfAxVn": 1748448167080
+      "-ORLMN8TZ0xeB1jfAxVn": 1748448167080,
+      "-OSA44_ZTJ2xVValypcD": 1750271849727,
+      "-OSA4ALR7UyQP7TbXvWC": 1750271742137,
+      "-OT2dbz0m3dFNj9x0Yz3": 1750271544241
     },
     "az8MBRWUHYb6QiE0QBPBma582MX2": {
       "-OR5urbyXu4vgWdWnpEp": 1748176253455,
@@ -2000,7 +2123,9 @@
       "-ORMsx7HBUxwOYXRzrih": 1748458080341,
       "-OS9Wh6JnQRSsK2ZF64N": 1749494938484,
       "-OSA4ALR7UyQP7TbXvWC": 1749494928933,
-      "-OSuBnrrCT8b6jh9Pamf": 1750103458409
+      "-OSuBnrrCT8b6jh9Pamf": 1750103458409,
+      "-OT1pIetSLboLmyqSlkX": 1750253345900,
+      "-OT2cXMQZuIMSQc57UjY": 1750260555163
     },
     "eZcBaSS6dnOWn12zl1AhySuRi0H3": {
       "-OPPVqr7hgS8GbuxM0x6": true,
@@ -2032,6 +2157,9 @@
       "-ORHD54DLKlYFyCq-yji": true,
       "-ORHTklVDictqb3lKAbn": true,
       "-ORHlO8jKvSEFSXIkRQN": true
+    },
+    "sOAb7Auds0PdzA9XM6IFrwcObZA2": {
+      "-OPPVqr7hgS8GbuxM0x6": 1750253199024
     }
   },
   "user_status": {
@@ -2051,8 +2179,7 @@
       "online": false
     },
     "7V09Rq8Jc8disJdpUnhMxti2o9g2": {
-      "lastSeen": 1750232886885,
-      "loginTime": 1750232886885,
+      "lastSeen": 1750269985430,
       "online": true
     },
     "7V09Rq8Jc8disJdpUnhMxti2o9g2adddelete": {
@@ -2174,7 +2301,7 @@
     },
     "7V09Rq8Jc8disJdpUnhMxti2o9g2": {
       "email": "serrenava543@gmail.com",
-      "lastLogin": "2025-06-18T07:48:06.884Z",
+      "lastLogin": "2025-06-18T18:06:21.517Z",
       "name": "serrenava",
       "passwordLastChanged": "2025-06-09T18:25:51.792Z",
       "reactivatedAt": "2025-06-12T11:07:44.292Z",
@@ -2318,7 +2445,7 @@
       "expertise": "Career Matching",
       "fcmToken": "eR2pTEx1Rtmh5AvgFaLmYK:APA91bGKbl84ZNX66vT_22thlOKxYomzPyNmH8YXDYpvc4ErxjAQqhTLfsc2nILhgt4n9Hu5gzltxx40IyPU5Wzvi5Y2kr9vNTPkrUxmc-S88yb65v2i1ow",
       "industry": "technology",
-      "lastWarning": "2025-06-17T15:06:13.600Z",
+      "lastWarning": "2025-06-18T15:26:54.575Z",
       "linkedin": "",
       "location": "In Office",
       "logoUrl": "https://i.ibb.co/tpgCPm6x/becc642588cc.jpg",
@@ -2331,7 +2458,7 @@
       "status": "active",
       "twitter": "",
       "vision": "",
-      "warnings": 1,
+      "warnings": 2,
       "website": "tech5.com"
     },
     "az8MBRWUHYb6QiE0QBPBma582MX2": {
@@ -2349,6 +2476,7 @@
       "github": "reemib3",
       "gpa": "4",
       "gradyear": "2025",
+      "lastWarning": "2025-06-18T15:22:09.372Z",
       "linkedin": "reemmibrr",
       "logoUrl": "https://i.ibb.co/YFMjg5w7/676b593d99cd.jpg",
       "name": "reem",
@@ -2361,7 +2489,8 @@
       "skills": "java,python,html,css",
       "status": "active",
       "twitter": "reemibr3",
-      "university": "IUL"
+      "university": "IUL",
+      "warnings": 1
     },
     "b05R7lo6t9MHeV3rdPyxhSd3tWz1": {
       "address": "Lebanon, beirut",
@@ -2434,6 +2563,19 @@
       "role": "student",
       "skills": "java,SQL, html, css",
       "twitter": "",
+      "university": "iul"
+    },
+    "sOAb7Auds0PdzA9XM6IFrwcObZA2": {
+      "bio": "bio",
+      "degree": "cs",
+      "email": "reem2@gmail.com",
+      "github": "",
+      "gpa": "3.5",
+      "gradyear": "2025",
+      "linkedin": "",
+      "name": "reemib",
+      "phone": "58214369",
+      "role": "student",
       "university": "iul"
     }
   }
