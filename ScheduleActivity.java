@@ -535,6 +535,11 @@ public class ScheduleActivity extends AppCompatActivity {
                         .addOnSuccessListener(aVoid -> {
                             Toast.makeText(ScheduleActivity.this, "✅ Interview updated!", Toast.LENGTH_SHORT).show();
 
+                            // Check if this is a reschedule (had previous date/time)
+                            boolean isReschedule = applicant.getInterviewDate() != null &&
+                                    applicant.getInterviewTime() != null;
+
+                            // Update local data
                             applicant.setInterviewDate(date.isEmpty() ? null : date);
                             applicant.setInterviewTime(time.isEmpty() ? null : time);
                             applicant.setInterviewMode(mode.isEmpty() ? "Pending" : mode);
@@ -545,7 +550,13 @@ public class ScheduleActivity extends AppCompatActivity {
                             applicant.setInterviewStatus(status);
 
                             if (adapter != null) adapter.notifyDataSetChanged();
-                            createInterviewUpdateAnnouncement(applicant);
+
+                            // Create appropriate announcement
+                            if (isReschedule) {
+                                createRescheduleAnnouncement(applicant, date, time, mode, location);
+                            } else {
+                                createInterviewUpdateAnnouncement(applicant);
+                            }
                         })
                         .addOnFailureListener(e -> {
                             Toast.makeText(ScheduleActivity.this, "❌ Failed to update interview", Toast.LENGTH_SHORT).show();
@@ -671,6 +682,61 @@ public class ScheduleActivity extends AppCompatActivity {
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
                 Log.e("InterviewUpdate", "Failed to fetch company name", error.toException());
+            }
+        });
+    }
+    private void createRescheduleAnnouncement(ShortlistedApplicant applicant, String newDate, String newTime, String mode, String location) {
+        String companyId = FirebaseAuth.getInstance().getCurrentUser().getUid();
+        DatabaseReference announcementsRef = FirebaseDatabase.getInstance()
+                .getReference("announcements_by_role").child("student");
+        DatabaseReference companyRef = FirebaseDatabase.getInstance()
+                .getReference("users").child(companyId);
+
+        companyRef.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot companySnapshot) {
+                String companyName = companySnapshot.child("name").getValue(String.class);
+
+                StringBuilder messageBuilder = new StringBuilder();
+                messageBuilder.append("📅 Your interview for \"").append(applicant.getProjectTitle())
+                        .append("\" with \"").append(companyName)
+                        .append("\" has been rescheduled.\n\n")
+                        .append("Previous Schedule:\n")
+                        .append("📆 Date: ").append(applicant.getInterviewDate()).append("\n")
+                        .append("⏰ Time: ").append(applicant.getInterviewTime()).append("\n\n")
+                        .append("New Schedule:\n")
+                        .append("📆 Date: ").append(newDate).append("\n")
+                        .append("⏰ Time: ").append(newTime).append("\n")
+                        .append("🌐 Mode: ").append(mode).append("\n\n[View Details]");
+
+                Map<String, Object> announceData = new HashMap<>();
+                announceData.put("title", "Interview Rescheduled");
+                announceData.put("message", messageBuilder.toString());
+                announceData.put("timestamp", System.currentTimeMillis());
+                announceData.put("applicant_status", "Shortlisted");
+                announceData.put("recipientId", applicant.getUserId());      // Original field
+                announceData.put("studentId", applicant.getUserId());        // Additional student ID field
+                announceData.put("projectId", applicant.getProjectId());     // Project ID
+                announceData.put("companyId", companyId);                    // Company ID
+                announceData.put("type", "interview_rescheduled");           // Specific type
+                announceData.put("interviewDate", newDate);                  // New date
+                announceData.put("interviewTime", newTime);                  // New time
+                announceData.put("previousDate", applicant.getInterviewDate()); // Old date
+                announceData.put("previousTime", applicant.getInterviewTime()); // Old time
+                announceData.put("interviewMode", mode);
+                announceData.put("interviewLocation", location);
+                announceData.put("date", new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault()).format(new Date()));
+                announceData.put("actionBy", companyId);
+                announceData.put("actionTimestamp", System.currentTimeMillis());
+
+                announcementsRef.push().setValue(announceData)
+                        .addOnSuccessListener(aVoid -> Log.d("InterviewReschedule", "Announcement created successfully"))
+                        .addOnFailureListener(e -> Log.e("InterviewReschedule", "Failed to create announcement", e));
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+                Log.e("InterviewReschedule", "Failed to fetch company name", error.toException());
             }
         });
     }
