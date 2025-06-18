@@ -1249,7 +1249,6 @@ public class MyApplicants extends AppCompatActivity implements EnhancedApplicant
                     public void onDataChange(@NonNull DataSnapshot projectSnapshot) {
                         String projectTitle = projectSnapshot.child("title").getValue(String.class);
 
-                        // Build detailed message based on interview type
                         StringBuilder messageBuilder = new StringBuilder();
                         messageBuilder.append("📅 Your interview for \"").append(projectTitle)
                                 .append("\" with \"").append(companyName)
@@ -1277,9 +1276,15 @@ public class MyApplicants extends AppCompatActivity implements EnhancedApplicant
                         announceData.put("message", messageBuilder.toString());
                         announceData.put("timestamp", System.currentTimeMillis());
                         announceData.put("applicant_status", "Shortlisted");
-                        announceData.put("recipientId", applicant.getUserId());
+                        announceData.put("recipientId", applicant.getUserId());  // Student's ID
+                        announceData.put("studentId", applicant.getUserId());    // Additional student ID field
                         announceData.put("interviewType", interviewType);
                         announceData.put("interviewMethod", interviewMethod);
+                        announceData.put("projectId", projectId);               // Project ID
+                        announceData.put("companyId", companyId);               // Company ID
+                        announceData.put("interviewDate", date);                // Interview date
+                        announceData.put("interviewTime", time);                // Interview time
+                        announceData.put("type", "interview_scheduled");        // Announcement type
 
                         announcementsRef.push().setValue(announceData)
                                 .addOnSuccessListener(aVoid -> android.util.Log.d("Announcement", "Created successfully"))
