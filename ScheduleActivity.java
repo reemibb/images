@@ -262,7 +262,6 @@ public class ScheduleActivity extends AppCompatActivity {
         String zoomLink = appSnapshot.child("zoomLink").getValue(String.class);
 
         String interviewNotes = appSnapshot.child("interviewNotes").getValue(String.class);
-        
 
         if (userId != null && projectId != null) {
             DatabaseReference usersRef = FirebaseDatabase.getInstance().getReference("users");
