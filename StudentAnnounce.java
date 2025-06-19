@@ -99,16 +99,21 @@ public class StudentAnnounce extends AppCompatActivity implements AnnouncementAd
             @Override public void afterTextChanged(Editable s) {}
         });
 
+        // Replace the existing chipGroup.setOnCheckedChangeListener with this:
         chipGroup.setOnCheckedChangeListener((group, checkedId) -> {
             Chip chip = findViewById(checkedId);
             if (chip != null) {
                 String chipText = chip.getText().toString();
-                if (chipText.equalsIgnoreCase("Earliest")) {
-                    sortAnnouncementsByDate(true);
-                } else if (chipText.equalsIgnoreCase("Latest")) {
-                    sortAnnouncementsByDate(false);
-                } else {
-                    adapter.filterChip(chipText);
+                switch (chipText.toLowerCase()) {
+                    case "earliest":
+                        adapter.sortByDate(true);  // true for ascending (earliest first)
+                        break;
+                    case "latest":
+                        adapter.sortByDate(false); // false for descending (latest first)
+                        break;
+                    default:
+                        adapter.filterChip(chipText); // for All/Read/Unread filters
+                        break;
                 }
             }
         });
