@@ -129,6 +129,15 @@
                             app:chipBackgroundColor="@color/chip_state_color"
                             app:chipStrokeColor="@color/blue_500"
                             app:chipStrokeWidth="1dp" />
+                        <com.google.android.material.chip.Chip
+                            android:id="@+id/chip_warning"
+                            style="@style/Widget.Material3.Chip.Filter"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Warnings"
+                            app:chipBackgroundColor="@color/chip_state_color"
+                            app:chipStrokeColor="@color/blue_500"
+                            app:chipStrokeWidth="1dp" />
                     </com.google.android.material.chip.ChipGroup>
                 </HorizontalScrollView>
             </LinearLayout>
