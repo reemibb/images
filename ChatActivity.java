@@ -1,5 +1,6 @@
 package com.example.internlink;
 
+import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -47,6 +48,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
+import java.util.TimeZone;
 
 import javax.annotation.Nullable;
 
@@ -680,22 +682,11 @@ public class ChatActivity extends AppCompatActivity {
         popup.getMenuInflater().inflate(R.menu.menu_chat_options, popup.getMenu());
 
         popup.setOnMenuItemClickListener(item -> {
-            int itemId = item.getItemId();
-
-            if (itemId == R.id.menu_view_profile) {
-                viewStudentProfile();
-                return true;
-            } else if (itemId == R.id.menu_schedule_interview) {
-                scheduleInterview();
-                return true;
-            } else if (itemId == R.id.menu_clear_chat) {
-                clearChat();
-                return true;
-            } else if (itemId == R.id.menu_report_issue) {
-                reportIssue();
+            if (item.getItemId() == R.id.menu_create_issue) {
+                showIssueTypeSelector();
                 return true;
             }
-
+            // Handle other menu items
             return false;
         });
 
@@ -763,6 +754,127 @@ public class ChatActivity extends AppCompatActivity {
                 .setNegativeButton("Cancel", null)
                 .show();
     }
+    private void showIssueTypeSelector() {
+        BottomSheetDialog dialog = new BottomSheetDialog(this);
+        View view = getLayoutInflater().inflate(R.layout.layout_issue_type_selector, null);
+        dialog.setContentView(view);
+
+        RecyclerView rvIssueTypes = view.findViewById(R.id.rv_issue_types);
+        rvIssueTypes.setLayoutManager(new LinearLayoutManager(this));
+
+        IssueTypeAdapter adapter = new IssueTypeAdapter(issueType -> {
+            // Handle issue type selection
+            createIssue(issueType);
+            dialog.dismiss();
+        });
+
+        rvIssueTypes.setAdapter(adapter);
+        dialog.show();
+    }
+
+    private void createIssue(IssueType issueType) {
+        // Show a dialog to get issue description
+        androidx.appcompat.app.AlertDialog.Builder builder = new androidx.appcompat.app.AlertDialog.Builder(this);
+        View view = getLayoutInflater().inflate(R.layout.layout_issue_description, null);
+        TextInputEditText etDescription = view.findViewById(R.id.et_description);
+
+        builder.setTitle(issueType.getEmoji() + " New " + issueType.getLabel())
+                .setView(view)
+                .setPositiveButton("Create", (dialog, which) -> {
+                    String description = etDescription.getText().toString().trim();
+                    if (description.isEmpty()) {
+                        Toast.makeText(this, "Please add a description", Toast.LENGTH_SHORT).show();
+                        return;
+                    }
+
+                    DatabaseReference issuesRef = FirebaseDatabase.getInstance()
+                            .getReference("issues").child(chatId);
+
+                    String issueId = issuesRef.push().getKey();
+                    if (issueId == null) return;
+
+                    // First get current user's name
+                    DatabaseReference currentUserRef = FirebaseDatabase.getInstance()
+                            .getReference("users").child(currentUserId);
+
+                    currentUserRef.addListenerForSingleValueEvent(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(@NonNull DataSnapshot snapshot) {
+                            String creatorName = snapshot.child("name").getValue(String.class);
+                            if (creatorName == null) creatorName = "Unknown User";
+
+                            // Get current UTC timestamp in YYYY-MM-DD HH:MM:SS format
+                            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.US);
+                            sdf.setTimeZone(TimeZone.getTimeZone("UTC"));
+                            String currentTimestamp = sdf.format(new Date());
+
+                            Map<String, Object> issue = new HashMap<>();
+                            issue.put("type", issueType.name());
+                            issue.put("description", description);
+                            issue.put("createdBy", currentUserId);
+                            issue.put("creatorName", creatorName);
+                            issue.put("timestamp", currentTimestamp);
+                            issue.put("status", "pending");
+                            issue.put("chatId", chatId);
+                            issue.put("reportedUserId", chatWithId);
+                            issue.put("reportedUserName", chatWithName);
+
+                            String finalCreatorName = creatorName;
+                            issuesRef.child(issueId).setValue(issue)
+                                    .addOnSuccessListener(aVoid -> {
+                                        // Create notification for admins about new issue
+                                        createIssueNotification(issueId, issueType, finalCreatorName, currentTimestamp, description);
+
+                                        Toast.makeText(ChatActivity.this,
+                                                issueType.getEmoji() + " Issue created successfully",
+                                                Toast.LENGTH_SHORT).show();
+                                    })
+                                    .addOnFailureListener(e -> {
+                                        Toast.makeText(ChatActivity.this,
+                                                "Failed to create issue: " + e.getMessage(),
+                                                Toast.LENGTH_SHORT).show();
+                                        android.util.Log.e("ChatActivity", "Error creating issue", e);
+                                    });
+                        }
+
+                        @Override
+                        public void onCancelled(@NonNull DatabaseError error) {
+                            Toast.makeText(ChatActivity.this,
+                                    "Failed to create issue: Could not get user information",
+                                    Toast.LENGTH_SHORT).show();
+                        }
+                    });
+                })
+                .setNegativeButton("Cancel", null)
+                .show();
+    }
+    private void createIssueNotification(String issueId, IssueType issueType, String creatorName, String timestamp, String description) {
+        DatabaseReference notificationsRef = FirebaseDatabase.getInstance()
+                .getReference("announcements_by_role").child("admin");
+
+        String notificationId = notificationsRef.push().getKey();
+        if (notificationId == null) return;
+
+        Map<String, Object> notification = new HashMap<>();
+        notification.put("type", "new_issue");
+        notification.put("issueId", issueId);
+        notification.put("issueType", issueType.name());
+        notification.put("chatId", chatId);
+        notification.put("createdBy", currentUserId);
+        notification.put("creatorName", creatorName);
+        notification.put("reportedUserId", chatWithId);
+        notification.put("reportedUserName", chatWithName);
+        notification.put("date", timestamp);
+        notification.put("status", "unread");
+        notification.put("title", issueType.getEmoji() + " New " + issueType.getLabel() + " Issue");
+        notification.put("message", description); // Using the actual description as the message
+
+        notificationsRef.child(notificationId).setValue(notification)
+                .addOnFailureListener(e -> {
+                    android.util.Log.e("ChatActivity", "Error creating issue notification", e);
+                });
+    }
+
     private void createIssueReport(String issueType) {
         DatabaseReference reportsRef = FirebaseDatabase.getInstance()
                 .getReference("reports");
