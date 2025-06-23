@@ -663,9 +663,63 @@ public class ShortlistedApplicantsAdapter extends RecyclerView.Adapter<Shortlist
                     .setPositiveButton("Reject", (dialog, which) -> {
                         // Update status in Firebase
                         updateApplicantStatus(applicant, "Rejected");
+                        // Create rejection announcement
+                        createRejectionAnnouncement(applicant);
                     })
                     .setNegativeButton("Cancel", null)
                     .show();
+        }
+
+        private void createRejectionAnnouncement(ShortlistedApplicant applicant) {
+            // Get reference to announcements for students
+            DatabaseReference announcementsRef = FirebaseDatabase.getInstance()
+                    .getReference("announcements_by_role").child("student");
+
+            // Get company name for the announcement
+            DatabaseReference companyRef = FirebaseDatabase.getInstance()
+                    .getReference("users")
+                    .child(FirebaseAuth.getInstance().getCurrentUser().getUid());
+
+            companyRef.addListenerForSingleValueEvent(new ValueEventListener() {
+                @Override
+                public void onDataChange(@NonNull DataSnapshot companySnapshot) {
+                    String companyName = companySnapshot.child("name").getValue(String.class);
+
+                    // Create announcement message
+                    String message = "We regret to inform you that your application for \"" + applicant.getProjectTitle() +
+                            "\" at \"" + companyName + "\" was not successful.\n\n" +
+                            "Thank you for your interest in our organization. We encourage you to apply for future opportunities.\n\n" +
+                            "[View Details]";
+
+                    // Create announcement data
+                    Map<String, Object> announceData = new HashMap<>();
+                    announceData.put("title", "Application Status Update");
+                    announceData.put("message", message);
+                    announceData.put("timestamp", System.currentTimeMillis());
+                    announceData.put("applicant_status", "Rejected");
+                    announceData.put("recipientId", applicant.getUserId());  // Include student's ID
+
+                    // Save the announcement
+                    announcementsRef.push().setValue(announceData)
+                            .addOnSuccessListener(aVoid -> {
+                                Toast.makeText(activity,
+                                        "✅ Status notification sent to " + applicant.getName(),
+                                        Toast.LENGTH_SHORT).show();
+                            })
+                            .addOnFailureListener(e -> {
+                                Toast.makeText(activity,
+                                        "❌ Failed to send status notification",
+                                        Toast.LENGTH_SHORT).show();
+                            });
+                }
+
+                @Override
+                public void onCancelled(@NonNull DatabaseError error) {
+                    Toast.makeText(activity,
+                            "❌ Failed to send status notification",
+                            Toast.LENGTH_SHORT).show();
+                }
+            });
         }
 
         private void updateApplicantStatus(ShortlistedApplicant applicant, String newStatus) {
