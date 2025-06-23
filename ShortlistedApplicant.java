@@ -15,15 +15,6 @@ public class ShortlistedApplicant {
     private String interviewNotes;
     private String interviewStatus;
     private String interviewMethod;
-    private boolean firstInterviewCompleted;
-    private boolean secondInterviewScheduled;
-    private String secondInterviewDate;
-    private String secondInterviewTime;
-    private String secondInterviewMode;
-    private String secondInterviewLocation;
-    private String secondInterviewNotes;
-    private String interviewRound; // "first" or "second"
-    private String finalDecision;
 
     public ShortlistedApplicant() {}
 
@@ -73,99 +64,6 @@ public class ShortlistedApplicant {
 
     public String getInterviewStatus() { return interviewStatus; }
     public void setInterviewStatus(String interviewStatus) { this.interviewStatus = interviewStatus; }
-    public boolean isFirstInterviewCompleted() {
-        return firstInterviewCompleted;
-    }
-
-    public void setFirstInterviewCompleted(boolean firstInterviewCompleted) {
-        this.firstInterviewCompleted = firstInterviewCompleted;
-    }
-
-    public boolean isSecondInterviewScheduled() {
-        return secondInterviewScheduled;
-    }
-
-    public void setSecondInterviewScheduled(boolean secondInterviewScheduled) {
-        this.secondInterviewScheduled = secondInterviewScheduled;
-    }
-
-    public String getSecondInterviewDate() {
-        return secondInterviewDate;
-    }
-
-    public void setSecondInterviewDate(String secondInterviewDate) {
-        this.secondInterviewDate = secondInterviewDate;
-    }
-
-    public String getSecondInterviewTime() {
-        return secondInterviewTime;
-    }
-
-    public void setSecondInterviewTime(String secondInterviewTime) {
-        this.secondInterviewTime = secondInterviewTime;
-    }
-
-    public String getSecondInterviewMode() {
-        return secondInterviewMode;
-    }
-
-    public void setSecondInterviewMode(String secondInterviewMode) {
-        this.secondInterviewMode = secondInterviewMode;
-    }
-
-    public String getSecondInterviewLocation() {
-        return secondInterviewLocation;
-    }
-
-    public void setSecondInterviewLocation(String secondInterviewLocation) {
-        this.secondInterviewLocation = secondInterviewLocation;
-    }
-
-    public String getSecondInterviewNotes() {
-        return secondInterviewNotes;
-    }
-
-    public void setSecondInterviewNotes(String secondInterviewNotes) {
-        this.secondInterviewNotes = secondInterviewNotes;
-    }
-
-    public String getInterviewRound() {
-        return interviewRound;
-    }
-
-    public void setInterviewRound(String interviewRound) {
-        this.interviewRound = interviewRound;
-    }
-
-    public String getFinalDecision() {
-        return finalDecision;
-    }
-
-    public void setFinalDecision(String finalDecision) {
-        this.finalDecision = finalDecision;
-    }
-
-    // Helper method to get current interview details based on round
-    public String getCurrentInterviewDate() {
-        if ("second".equals(interviewRound) && secondInterviewDate != null) {
-            return secondInterviewDate;
-        }
-        return getInterviewDate();
-    }
-
-    public String getCurrentInterviewTime() {
-        if ("second".equals(interviewRound) && secondInterviewTime != null) {
-            return secondInterviewTime;
-        }
-        return getInterviewTime();
-    }
-
-    public String getCurrentInterviewLocation() {
-        if ("second".equals(interviewRound) && secondInterviewLocation != null) {
-            return secondInterviewLocation;
-        }
-        return getInterviewLocation();
-    }
 
     // Helper methods
     public String getFormattedDegree() {
