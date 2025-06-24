@@ -1625,6 +1625,9 @@ public class StudentHomeActivity extends AppCompatActivity
     @Override
     protected void onResume() {
         super.onResume();
+        if (bottomNavigationView != null) {
+            bottomNavigationView.setSelectedItemId(R.id.navigation_home);
+        }
         setupNotificationBell();
         setupDynamicTips();
         setupUnreadMessagesBadge();
