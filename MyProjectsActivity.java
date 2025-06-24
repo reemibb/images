@@ -46,6 +46,7 @@ public class MyProjectsActivity extends AppCompatActivity {
     private List<Project> filteredProjects = new ArrayList<>();
     private ChipGroup selectedFiltersChipGroup;
     private LinearLayout emptyStateView;
+    private MaterialButton createNewButton;
 
     private final List<String> selectedFilters = new ArrayList<>();
 
@@ -74,6 +75,13 @@ public class MyProjectsActivity extends AppCompatActivity {
         txtProjectsCount = findViewById(R.id.txt_projects_count);
         emptyStateView = findViewById(R.id.empty_state);
         searchEditText = findViewById(R.id.search_edit_text);
+        createNewButton = findViewById(R.id.createNew);
+
+        // Add the click listener right here
+        createNewButton.setOnClickListener(v -> {
+            Intent intent = new Intent(MyProjectsActivity.this, CreateProject.class);
+            startActivity(intent);
+        });
     }
     private void setupSearchFunctionality() {
         searchEditText.addTextChangedListener(new TextWatcher() {
